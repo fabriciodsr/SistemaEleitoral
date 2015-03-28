@@ -16,7 +16,7 @@ namespace SistemaEleitoral
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmVotacao());
+            Application.Run(new frmMenu());
         }
     }
 }
