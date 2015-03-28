@@ -1,0 +1,10 @@
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\bin\Debug\SistemaEleitoral.exe.config
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\bin\Debug\SistemaEleitoral.exe
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\bin\Debug\SistemaEleitoral.pdb
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.csprojResolveAssemblyReference.cache
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.frmVotacao.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.Properties.Resources.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.csproj.GenerateResource.Cache
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.exe
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.pdb
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.frmMenu.resources
