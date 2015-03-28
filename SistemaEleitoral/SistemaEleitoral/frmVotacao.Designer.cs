@@ -42,6 +42,7 @@
             this.btnCorrige = new System.Windows.Forms.Button();
             this.btnBranco = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnNumero1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblNomeCandidato = new System.Windows.Forms.Label();
             this.lblCargo = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@
             this.lblNumero = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtNumero = new System.Windows.Forms.TextBox();
-            this.btnNumero1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -271,6 +271,23 @@
             this.panel1.Size = new System.Drawing.Size(328, 428);
             this.panel1.TabIndex = 15;
             // 
+            // btnNumero1
+            // 
+            this.btnNumero1.BackColor = System.Drawing.Color.Black;
+            this.btnNumero1.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.btnNumero1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
+            this.btnNumero1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnNumero1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNumero1.ForeColor = System.Drawing.Color.White;
+            this.btnNumero1.Location = new System.Drawing.Point(30, 34);
+            this.btnNumero1.Margin = new System.Windows.Forms.Padding(1);
+            this.btnNumero1.Name = "btnNumero1";
+            this.btnNumero1.Size = new System.Drawing.Size(75, 51);
+            this.btnNumero1.TabIndex = 15;
+            this.btnNumero1.Text = "1";
+            this.btnNumero1.UseVisualStyleBackColor = false;
+            this.btnNumero1.Click += new System.EventHandler(this.btnNumero1_Click_1);
+            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -340,22 +357,6 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(55, 31);
             this.txtNumero.TabIndex = 1;
-            // 
-            // btnNumero1
-            // 
-            this.btnNumero1.BackColor = System.Drawing.Color.Black;
-            this.btnNumero1.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.btnNumero1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
-            this.btnNumero1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnNumero1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNumero1.ForeColor = System.Drawing.Color.White;
-            this.btnNumero1.Location = new System.Drawing.Point(30, 34);
-            this.btnNumero1.Margin = new System.Windows.Forms.Padding(1);
-            this.btnNumero1.Name = "btnNumero1";
-            this.btnNumero1.Size = new System.Drawing.Size(75, 51);
-            this.btnNumero1.TabIndex = 15;
-            this.btnNumero1.Text = "1";
-            this.btnNumero1.UseVisualStyleBackColor = false;
             // 
             // frmVotacao
             // 

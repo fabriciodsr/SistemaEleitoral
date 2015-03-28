@@ -35,11 +35,6 @@ namespace SistemaEleitoral
             txtNumero.Text = "";
         }
 
-        private void btnNumero1_Click(object sender, EventArgs e)
-        {
-            txtNumero.Text = txtNumero.Text + "1";
-        }
-
         private void btnNumero2_Click(object sender, EventArgs e)
         {
             txtNumero.Text = txtNumero.Text + "2";
@@ -83,6 +78,11 @@ namespace SistemaEleitoral
         private void btnNumero0_Click(object sender, EventArgs e)
         {
             txtNumero.Text = txtNumero.Text + "0";
+        }
+
+        private void btnNumero1_Click_1(object sender, EventArgs e)
+        {
+            txtNumero.Text = txtNumero.Text + "1";
         }
     }
 }
