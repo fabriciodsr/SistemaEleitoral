@@ -23,5 +23,26 @@ namespace SistemaEleitoral
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void candidatoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroCandidato frm = new frmCadastroCandidato();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void eleitorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroEleitor frm = new frmCadastroEleitor();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void mesárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroMesario frm = new frmCadastroMesario();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

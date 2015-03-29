@@ -47,6 +47,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCadastroCandidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroCandidato.Designer.cs">
+      <DependentUpon>frmCadastroCandidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroEleitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroEleitor.Designer.cs">
+      <DependentUpon>frmCadastroEleitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroMesario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroMesario.Designer.cs">
+      <DependentUpon>frmCadastroMesario.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +79,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCadastroCandidato.resx">
+      <DependentUpon>frmCadastroCandidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroEleitor.resx">
+      <DependentUpon>frmCadastroEleitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroMesario.resx">
+      <DependentUpon>frmCadastroMesario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
