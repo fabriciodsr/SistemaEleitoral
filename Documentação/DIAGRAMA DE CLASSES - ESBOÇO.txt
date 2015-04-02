@@ -1,0 +1,13 @@
+ELEITORES (*matrícula, nome, CPF, identidade, endereço, bairro, cidade, cep, estado, e-mail, data de nascimento, Tel fixo, Tel Cel, sexo, BOOLEAN VOTO)
+
+CANDIDATO (*matrícula, nome, CPF, identidade, endereço, bairro, cidade, cep, estado, e-mail, data de nascimento, Tel fixo, Tel Cel, sexo, imagem e carrega os cargos cadastrados previamente no sistema para seleção. voto
+
+MESÁRIO (*matrícula, nome, CPF, identidade, endereço, bairro, cidade, cep, estado, e-mail, data de nascimento, Tel fixo, Tel Cel, sexo, login e senha;
+
+USUÁRIO ()
+
+ADMIN ()
+
+CARGO (id_cargo, descrição e mandato. O sistema carrega também uma relação de turmas e cursos para relacionar ao cargo cadastrado;
+
+TURMA (id_turma, descrição, ano)
