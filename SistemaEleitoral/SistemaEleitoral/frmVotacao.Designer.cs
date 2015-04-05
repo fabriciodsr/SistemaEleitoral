@@ -40,18 +40,18 @@
             this.btnNumero0 = new System.Windows.Forms.Button();
             this.btnConfirma = new System.Windows.Forms.Button();
             this.btnCorrige = new System.Windows.Forms.Button();
-            this.btnBranco = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnNumero1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tb_2 = new System.Windows.Forms.TextBox();
             this.tb_1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblNomeCandidato = new System.Windows.Forms.Label();
             this.lblCargo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.rtb_Nome_Candidato = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -229,7 +229,7 @@
             this.btnCorrige.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnCorrige.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCorrige.ForeColor = System.Drawing.Color.Black;
-            this.btnCorrige.Location = new System.Drawing.Point(129, 332);
+            this.btnCorrige.Location = new System.Drawing.Point(30, 332);
             this.btnCorrige.Name = "btnCorrige";
             this.btnCorrige.Size = new System.Drawing.Size(75, 51);
             this.btnCorrige.TabIndex = 13;
@@ -237,31 +237,16 @@
             this.btnCorrige.UseVisualStyleBackColor = false;
             this.btnCorrige.Click += new System.EventHandler(this.btnCancela_Click);
             // 
-            // btnBranco
-            // 
-            this.btnBranco.BackColor = System.Drawing.Color.White;
-            this.btnBranco.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.btnBranco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBranco.ForeColor = System.Drawing.Color.Black;
-            this.btnBranco.Location = new System.Drawing.Point(30, 332);
-            this.btnBranco.Name = "btnBranco";
-            this.btnBranco.Size = new System.Drawing.Size(75, 51);
-            this.btnBranco.TabIndex = 12;
-            this.btnBranco.Text = "BRANCO";
-            this.btnBranco.UseVisualStyleBackColor = false;
-            this.btnBranco.Click += new System.EventHandler(this.btnBranco_Click);
-            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.btnNumero1);
             this.panel1.Controls.Add(this.btnConfirma);
             this.panel1.Controls.Add(this.btnNumero2);
             this.panel1.Controls.Add(this.btnCorrige);
             this.panel1.Controls.Add(this.btnNumero3);
-            this.panel1.Controls.Add(this.btnBranco);
             this.panel1.Controls.Add(this.btnNumero4);
             this.panel1.Controls.Add(this.btnNumero0);
             this.panel1.Controls.Add(this.btnNumero5);
@@ -269,7 +254,7 @@
             this.panel1.Controls.Add(this.btnNumero6);
             this.panel1.Controls.Add(this.btnNumero8);
             this.panel1.Controls.Add(this.btnNumero7);
-            this.panel1.Location = new System.Drawing.Point(664, 48);
+            this.panel1.Location = new System.Drawing.Point(695, 132);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(328, 428);
             this.panel1.TabIndex = 15;
@@ -294,16 +279,15 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.rtb_Nome_Candidato);
             this.panel2.Controls.Add(this.tb_2);
             this.panel2.Controls.Add(this.tb_1);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.lblNomeCandidato);
             this.panel2.Controls.Add(this.lblCargo);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.txtNumero);
-            this.panel2.Location = new System.Drawing.Point(39, 48);
+            this.panel2.Location = new System.Drawing.Point(70, 132);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(582, 428);
             this.panel2.TabIndex = 16;
@@ -333,30 +317,18 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(110, 82);
+            this.label2.Location = new System.Drawing.Point(109, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(389, 29);
             this.label2.TabIndex = 7;
             this.label2.Text = "REPRESENTANTE DE TURMA";
-            // 
-            // lblNomeCandidato
-            // 
-            this.lblNomeCandidato.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNomeCandidato.AutoSize = true;
-            this.lblNomeCandidato.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeCandidato.Location = new System.Drawing.Point(159, 332);
-            this.lblNomeCandidato.Name = "lblNomeCandidato";
-            this.lblNomeCandidato.Size = new System.Drawing.Size(372, 25);
-            this.lblNomeCandidato.TabIndex = 6;
-            this.lblNomeCandidato.Text = "123456789012345678901234567890";
-            this.lblNomeCandidato.Click += new System.EventHandler(this.lblNomeCandidato_Click);
             // 
             // lblCargo
             // 
             this.lblCargo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCargo.AutoSize = true;
             this.lblCargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCargo.Location = new System.Drawing.Point(7, 332);
+            this.lblCargo.Location = new System.Drawing.Point(6, 331);
             this.lblCargo.Name = "lblCargo";
             this.lblCargo.Size = new System.Drawing.Size(146, 25);
             this.lblCargo.TabIndex = 5;
@@ -367,7 +339,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(191, 25);
+            this.label1.Location = new System.Drawing.Point(190, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(196, 25);
             this.label1.TabIndex = 4;
@@ -378,27 +350,57 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(368, 155);
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(367, 154);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(131, 144);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // txtNumero
+            // rtb_Nome_Candidato
             // 
-            this.txtNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero.Location = new System.Drawing.Point(145, 371);
-            this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(55, 31);
-            this.txtNumero.TabIndex = 1;
+            this.rtb_Nome_Candidato.BackColor = System.Drawing.SystemColors.Control;
+            this.rtb_Nome_Candidato.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtb_Nome_Candidato.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtb_Nome_Candidato.Location = new System.Drawing.Point(146, 332);
+            this.rtb_Nome_Candidato.Name = "rtb_Nome_Candidato";
+            this.rtb_Nome_Candidato.Size = new System.Drawing.Size(414, 76);
+            this.rtb_Nome_Candidato.TabIndex = 10;
+            this.rtb_Nome_Candidato.Text = "THIAGO DINIZ BARBOSA";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.richTextBox1.Location = new System.Drawing.Point(47, 12);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(997, 568);
+            this.richTextBox1.TabIndex = 17;
+            this.richTextBox1.Text = "";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Black", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(180, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(731, 104);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "SIEES\r\nSISTEMA ELEITORAL ESTUDANTIL";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmVotacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1019, 527);
+            this.ClientSize = new System.Drawing.Size(1081, 695);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.richTextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -414,6 +416,7 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -429,17 +432,17 @@
         private System.Windows.Forms.Button btnNumero0;
         private System.Windows.Forms.Button btnConfirma;
         private System.Windows.Forms.Button btnCorrige;
-        private System.Windows.Forms.Button btnBranco;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblCargo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox txtNumero;
-        private System.Windows.Forms.Label lblNomeCandidato;
         private System.Windows.Forms.Button btnNumero1;
         private System.Windows.Forms.TextBox tb_2;
         private System.Windows.Forms.TextBox tb_1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RichTextBox rtb_Nome_Candidato;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label3;
     }
 }

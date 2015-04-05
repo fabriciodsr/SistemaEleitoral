@@ -19,20 +19,22 @@ namespace SistemaEleitoral
 
         private void btnCancela_Click(object sender, EventArgs e)
         {
-            txtNumero.Text = "";
-            lblNomeCandidato.Text = "";
+            tb_1.Text = "";
+            tb_2.Text = "";
+            rtb_Nome_Candidato.Text = "";
+            //lblNomeCandidato.Text = "";
         }
 
         private void btnBranco_Click(object sender, EventArgs e)
         {
-            lblNomeCandidato.Text = "VOTO NULO";
-            txtNumero.Text = "00";
+            //lblNomeCandidato.Text = "VOTO NULO";
+            //txtNumero.Text = "00";
         }
 
         private void btnConfirma_Click(object sender, EventArgs e)
         {
-            lblNomeCandidato.Text = "";
-            txtNumero.Text = "";
+            //lblNomeCandidato.Text = "";
+            //txtNumero.Text = "";
         }
 
         private void btnNumero2_Click(object sender, EventArgs e)
