@@ -43,13 +43,13 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnNumero1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.rtb_Nome_Candidato = new System.Windows.Forms.RichTextBox();
             this.tb_2 = new System.Windows.Forms.TextBox();
             this.tb_1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblCargo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.rtb_Nome_Candidato = new System.Windows.Forms.RichTextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -292,6 +292,17 @@
             this.panel2.Size = new System.Drawing.Size(582, 428);
             this.panel2.TabIndex = 16;
             // 
+            // rtb_Nome_Candidato
+            // 
+            this.rtb_Nome_Candidato.BackColor = System.Drawing.SystemColors.Control;
+            this.rtb_Nome_Candidato.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtb_Nome_Candidato.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtb_Nome_Candidato.Location = new System.Drawing.Point(146, 332);
+            this.rtb_Nome_Candidato.Name = "rtb_Nome_Candidato";
+            this.rtb_Nome_Candidato.Size = new System.Drawing.Size(414, 76);
+            this.rtb_Nome_Candidato.TabIndex = 10;
+            this.rtb_Nome_Candidato.Text = "THIAGO DINIZ BARBOSA";
+            // 
             // tb_2
             // 
             this.tb_2.Font = new System.Drawing.Font("Verdana", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -359,17 +370,6 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // rtb_Nome_Candidato
-            // 
-            this.rtb_Nome_Candidato.BackColor = System.Drawing.SystemColors.Control;
-            this.rtb_Nome_Candidato.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtb_Nome_Candidato.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtb_Nome_Candidato.Location = new System.Drawing.Point(146, 332);
-            this.rtb_Nome_Candidato.Name = "rtb_Nome_Candidato";
-            this.rtb_Nome_Candidato.Size = new System.Drawing.Size(414, 76);
-            this.rtb_Nome_Candidato.TabIndex = 10;
-            this.rtb_Nome_Candidato.Text = "THIAGO DINIZ BARBOSA";
-            // 
             // richTextBox1
             // 
             this.richTextBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -403,6 +403,7 @@
             this.Controls.Add(this.richTextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmVotacao";
@@ -411,6 +412,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema Eleitoral";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmVotacao_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmVotacao_KeyPress);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

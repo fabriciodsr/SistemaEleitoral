@@ -36,10 +36,12 @@
             // tb_Senha_Autentica_Eleitor
             // 
             this.tb_Senha_Autentica_Eleitor.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tb_Senha_Autentica_Eleitor.Location = new System.Drawing.Point(231, 223);
+            this.tb_Senha_Autentica_Eleitor.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_Senha_Autentica_Eleitor.Location = new System.Drawing.Point(231, 233);
             this.tb_Senha_Autentica_Eleitor.Name = "tb_Senha_Autentica_Eleitor";
-            this.tb_Senha_Autentica_Eleitor.Size = new System.Drawing.Size(220, 20);
+            this.tb_Senha_Autentica_Eleitor.Size = new System.Drawing.Size(220, 27);
             this.tb_Senha_Autentica_Eleitor.TabIndex = 0;
+            this.tb_Senha_Autentica_Eleitor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb_Senha_Autentica_Eleitor.UseSystemPasswordChar = true;
             this.tb_Senha_Autentica_Eleitor.Enter += new System.EventHandler(this.tb_Senha_Autentica_Eleitor_Enter);
             this.tb_Senha_Autentica_Eleitor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_Senha_Autentica_Eleitor_KeyPress);
@@ -60,11 +62,11 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(314, 204);
+            this.label2.Location = new System.Drawing.Point(304, 204);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 16);
+            this.label2.Size = new System.Drawing.Size(84, 23);
             this.label2.TabIndex = 2;
             this.label2.Text = "SENHA";
             // 

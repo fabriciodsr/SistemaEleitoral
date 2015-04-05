@@ -36,13 +36,14 @@
             this.candidatoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eleitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mesárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.eleiçãoToolStripMenuItem,
             this.cadastroToolStripMenuItem,
@@ -50,7 +51,7 @@
             this.sobreToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1105, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1105, 31);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -59,14 +60,14 @@
             this.eleiçãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.iniciarToolStripMenuItem});
             this.eleiçãoToolStripMenuItem.Name = "eleiçãoToolStripMenuItem";
-            this.eleiçãoToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.eleiçãoToolStripMenuItem.Size = new System.Drawing.Size(90, 27);
             this.eleiçãoToolStripMenuItem.Text = "Eleição";
             // 
             // iniciarToolStripMenuItem
             // 
             this.iniciarToolStripMenuItem.Name = "iniciarToolStripMenuItem";
-            this.iniciarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.iniciarToolStripMenuItem.Text = "Iniciar";
+            this.iniciarToolStripMenuItem.Size = new System.Drawing.Size(152, 28);
+            this.iniciarToolStripMenuItem.Text = "Votar";
             this.iniciarToolStripMenuItem.Click += new System.EventHandler(this.iniciarToolStripMenuItem_Click);
             // 
             // cadastroToolStripMenuItem
@@ -76,42 +77,42 @@
             this.eleitorToolStripMenuItem,
             this.mesárioToolStripMenuItem});
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(106, 27);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
             // 
             // candidatoToolStripMenuItem
             // 
             this.candidatoToolStripMenuItem.Name = "candidatoToolStripMenuItem";
-            this.candidatoToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.candidatoToolStripMenuItem.Size = new System.Drawing.Size(176, 28);
             this.candidatoToolStripMenuItem.Text = "Candidato";
             this.candidatoToolStripMenuItem.Click += new System.EventHandler(this.candidatoToolStripMenuItem_Click);
             // 
             // eleitorToolStripMenuItem
             // 
             this.eleitorToolStripMenuItem.Name = "eleitorToolStripMenuItem";
-            this.eleitorToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.eleitorToolStripMenuItem.Size = new System.Drawing.Size(176, 28);
             this.eleitorToolStripMenuItem.Text = "Eleitor";
             this.eleitorToolStripMenuItem.Click += new System.EventHandler(this.eleitorToolStripMenuItem_Click);
             // 
             // mesárioToolStripMenuItem
             // 
             this.mesárioToolStripMenuItem.Name = "mesárioToolStripMenuItem";
-            this.mesárioToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.mesárioToolStripMenuItem.Size = new System.Drawing.Size(176, 28);
             this.mesárioToolStripMenuItem.Text = "Mesário";
             this.mesárioToolStripMenuItem.Click += new System.EventHandler(this.mesárioToolStripMenuItem_Click);
-            // 
-            // sobreToolStripMenuItem
-            // 
-            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.sobreToolStripMenuItem.Text = "Sobre";
             // 
             // dadosToolStripMenuItem
             // 
             this.dadosToolStripMenuItem.Name = "dadosToolStripMenuItem";
-            this.dadosToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.dadosToolStripMenuItem.Size = new System.Drawing.Size(82, 27);
             this.dadosToolStripMenuItem.Text = "Dados";
             this.dadosToolStripMenuItem.Click += new System.EventHandler(this.dadosToolStripMenuItem_Click);
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(78, 27);
+            this.sobreToolStripMenuItem.Text = "Sobre";
             // 
             // frmMenu
             // 
@@ -125,7 +126,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Menu";
+            this.Text = "MENU";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

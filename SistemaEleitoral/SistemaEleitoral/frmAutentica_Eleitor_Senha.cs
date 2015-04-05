@@ -34,7 +34,11 @@ namespace SistemaEleitoral
                 frmAutentica_Eleitor_Matricula frm = new frmAutentica_Eleitor_Matricula();
                 ///frm.MdiParent = this;
                 frm.Show();
-                this.Close();
+                Close();
+            }
+            else if (e.KeyChar == (char)Keys.Escape)
+            {
+                Close();
             }
         }
     }

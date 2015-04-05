@@ -166,5 +166,21 @@ namespace SistemaEleitoral
         {
 
         }
+
+        private void frmVotacao_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Escape)
+            {
+                frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
+                ///frm.MdiParent = this;
+                frm.Show();
+                Close();
+            }
+        }
+
+        private void frmVotacao_Load(object sender, EventArgs e)
+        {
+            tb_1.Focus();
+        }
     }
 }

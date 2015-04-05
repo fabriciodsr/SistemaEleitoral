@@ -36,6 +36,24 @@ namespace SistemaEleitoral
                 frm.Show();
                 this.Close();
             }
+            else if (e.KeyChar == (char)Keys.Escape)
+            {
+                frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
+                ///frm.MdiParent = this;
+                frm.Show();
+                this.Close();
+            }
+        }
+
+        private void frmAutentica_Eleitor_Matricula_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Escape)
+            {
+                frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
+                ///frm.MdiParent = this;
+                frm.Show();
+                this.Close();
+            }
         }
     }
 }
