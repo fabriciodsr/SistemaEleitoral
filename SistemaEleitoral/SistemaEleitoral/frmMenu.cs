@@ -44,5 +44,12 @@ namespace SistemaEleitoral
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void dadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDados frm = new frmDados();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

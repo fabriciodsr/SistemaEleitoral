@@ -37,6 +37,7 @@
             this.eleitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mesárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +46,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.eleiçãoToolStripMenuItem,
             this.cadastroToolStripMenuItem,
+            this.dadosToolStripMenuItem,
             this.sobreToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -63,7 +65,7 @@
             // iniciarToolStripMenuItem
             // 
             this.iniciarToolStripMenuItem.Name = "iniciarToolStripMenuItem";
-            this.iniciarToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.iniciarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.iniciarToolStripMenuItem.Text = "Iniciar";
             this.iniciarToolStripMenuItem.Click += new System.EventHandler(this.iniciarToolStripMenuItem_Click);
             // 
@@ -80,21 +82,21 @@
             // candidatoToolStripMenuItem
             // 
             this.candidatoToolStripMenuItem.Name = "candidatoToolStripMenuItem";
-            this.candidatoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.candidatoToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.candidatoToolStripMenuItem.Text = "Candidato";
             this.candidatoToolStripMenuItem.Click += new System.EventHandler(this.candidatoToolStripMenuItem_Click);
             // 
             // eleitorToolStripMenuItem
             // 
             this.eleitorToolStripMenuItem.Name = "eleitorToolStripMenuItem";
-            this.eleitorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.eleitorToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.eleitorToolStripMenuItem.Text = "Eleitor";
             this.eleitorToolStripMenuItem.Click += new System.EventHandler(this.eleitorToolStripMenuItem_Click);
             // 
             // mesárioToolStripMenuItem
             // 
             this.mesárioToolStripMenuItem.Name = "mesárioToolStripMenuItem";
-            this.mesárioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.mesárioToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.mesárioToolStripMenuItem.Text = "Mesário";
             this.mesárioToolStripMenuItem.Click += new System.EventHandler(this.mesárioToolStripMenuItem_Click);
             // 
@@ -103,6 +105,13 @@
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
             this.sobreToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.sobreToolStripMenuItem.Text = "Sobre";
+            // 
+            // dadosToolStripMenuItem
+            // 
+            this.dadosToolStripMenuItem.Name = "dadosToolStripMenuItem";
+            this.dadosToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.dadosToolStripMenuItem.Text = "Dados";
+            this.dadosToolStripMenuItem.Click += new System.EventHandler(this.dadosToolStripMenuItem_Click);
             // 
             // frmMenu
             // 
@@ -134,6 +143,7 @@
         private System.Windows.Forms.ToolStripMenuItem candidatoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eleitorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mesárioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dadosToolStripMenuItem;
     }
 }
 

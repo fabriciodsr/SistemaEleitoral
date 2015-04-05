@@ -24,3 +24,4 @@ C:\Users\Thiago Diniz\Documents\GitHub\SistemaEleitoral\SistemaEleitoral\Sistema
 C:\Users\Thiago Diniz\Documents\GitHub\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.frmVotacao.resources
 C:\Users\Thiago Diniz\Documents\GitHub\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.Properties.Resources.resources
 C:\Users\Thiago Diniz\Documents\GitHub\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.csproj.GenerateResource.Cache
+C:\Users\Thiago Diniz\Documents\GitHub\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral\obj\Debug\SistemaEleitoral.frmDados.resources
