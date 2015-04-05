@@ -20,7 +20,7 @@ namespace SistemaEleitoral
         private void iniciarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmVotacao frm = new frmVotacao();
-            frm.MdiParent = this;
+            ///frm.MdiParent = this;
             frm.Show();
         }
 
