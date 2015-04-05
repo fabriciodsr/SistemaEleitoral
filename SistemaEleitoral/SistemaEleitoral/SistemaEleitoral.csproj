@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAutentica_Eleitor_Matricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutentica_Eleitor_Matricula.Designer.cs">
+      <DependentUpon>frmAutentica_Eleitor_Matricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutentica_Eleitor_Senha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutentica_Eleitor_Senha.Designer.cs">
+      <DependentUpon>frmAutentica_Eleitor_Senha.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCadastroCandidato.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +97,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAutentica_Eleitor_Matricula.resx">
+      <DependentUpon>frmAutentica_Eleitor_Matricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutentica_Eleitor_Senha.resx">
+      <DependentUpon>frmAutentica_Eleitor_Senha.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCadastroCandidato.resx">
       <DependentUpon>frmCadastroCandidato.cs</DependentUpon>
     </EmbeddedResource>

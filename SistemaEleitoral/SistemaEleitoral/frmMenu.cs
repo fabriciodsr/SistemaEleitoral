@@ -19,7 +19,7 @@ namespace SistemaEleitoral
 
         private void iniciarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmVotacao frm = new frmVotacao();
+            frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
             ///frm.MdiParent = this;
             frm.Show();
         }
