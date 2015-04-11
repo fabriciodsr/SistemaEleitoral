@@ -12,6 +12,8 @@ namespace SistemaEleitoral
 {
     public partial class frmVotacao : Form
     {
+        int cont = 0;
+
         public frmVotacao()
         {
             InitializeComponent();
@@ -35,6 +37,31 @@ namespace SistemaEleitoral
 
         private void btnConfirma_Click(object sender, EventArgs e)
         {
+            cont++;
+            if (cont == 1)
+            {
+                int num1 = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                lb_Cargo.Text = "COORDENADOR".ToString();
+                rtb_Nome_Candidato.Text = "";
+                tb_1.Text = "";
+                tb_2.Text = "";
+                pbCandidato.Image = imageList1.Images[0];
+                habilita_botoes();
+            }
+            else if (cont == 2)
+            {
+                int num2 = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                lb_Cargo.Text = "DIRETOR".ToString();
+                rtb_Nome_Candidato.Text = "";
+                tb_1.Text = "";
+                tb_2.Text = "";
+                pbCandidato.Image = imageList1.Images[0];
+                habilita_botoes();
+            }
+            else
+            {
+                int num3 = Convert.ToInt32(tb_1.Text + tb_2.Text);
+            }
             //lblNomeCandidato.Text = "";
             //txtNumero.Text = "";
         }
