@@ -227,9 +227,27 @@ namespace SistemaEleitoral
         {
             if (tb_2.Text != "")
             {
-                int numero = Convert.ToInt32(tb_1.Text + tb_2.Text);
-                pbCandidato.Image = imageList1.Images[1];
+                int num = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                for (int i = 0; i< imageList1.Images.Count; i++)
+                {
+                    int x = i.CompareTo(num);
+                    //int x = imageList1.Images[i].ToString().CompareTo(Convert.ToString (num));
+                   // string nome = imageList1.Images[i].ToString();
+                   // if(nome == Convert.ToString(num))
+                   // {
+                   //     pbCandidato.Image = imageList1.Images[i];
+                   // }
+
+                    if (x == 0)
+                    {
+                        pbCandidato.Image = imageList1.Images[i];
+                        rtb_Nome_Candidato.Text = imageList1.Images[i].ToString();
+                    }
+                    
+                }
+                //pbCandidato.Image = imageList1.Images[1];
             }
         }
+
     }
 }

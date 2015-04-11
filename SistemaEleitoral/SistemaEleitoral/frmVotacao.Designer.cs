@@ -400,7 +400,9 @@
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList1.Images.SetKeyName(0, "usuario.png");
-            this.imageList1.Images.SetKeyName(1, "Bolsonaro.jpg");
+            this.imageList1.Images.SetKeyName(1, "Jair Bolsonaro");
+            this.imageList1.Images.SetKeyName(2, "Joaquim Barbosa");
+            this.imageList1.Images.SetKeyName(3, "Kid Bengala");
             // 
             // frmVotacao
             // 
