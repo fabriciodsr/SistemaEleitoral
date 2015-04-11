@@ -8,5 +8,6 @@ namespace SistemaEleitoral.Model
 {
 	public class Eleitor
 	{
+		public string Matricula { get; set; }
 	}
 }
