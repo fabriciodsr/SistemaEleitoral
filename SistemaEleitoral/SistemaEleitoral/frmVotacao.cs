@@ -12,6 +12,9 @@ namespace SistemaEleitoral
 {
     public partial class frmVotacao : Form
     {
+        int cont = 0;
+        int num1 = 0, num2 = 0, num3 = 0;
+
         public frmVotacao()
         {
             InitializeComponent();
@@ -35,6 +38,39 @@ namespace SistemaEleitoral
 
         private void btnConfirma_Click(object sender, EventArgs e)
         {
+            if (tb_1.Text != "" && tb_2.Text != "")
+            {
+                cont++;
+                if (cont == 1)
+                {
+                    num1 = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                    lb_Cargo.Text = "COORDENADOR".ToString();
+                    rtb_Nome_Candidato.Text = "";
+                    tb_1.Text = "";
+                    tb_2.Text = "";
+                    pbCandidato.Image = imageList1.Images[0];
+                    habilita_botoes();
+                }
+                else if (cont == 2)
+                {
+                    num2 = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                    lb_Cargo.Text = "DIRETOR".ToString();
+                    rtb_Nome_Candidato.Text = "";
+                    tb_1.Text = "";
+                    tb_2.Text = "";
+                    pbCandidato.Image = imageList1.Images[0];
+                    habilita_botoes();
+                }
+                else
+                {
+                    num3 = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                    MessageBox.Show("VOTO REALIZADO COM SUCESSO", "VOTAÇÃO FINALIZADA");
+                    System.Threading.Thread.Sleep(2000);
+                    frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
+                    frm.Show();
+                    Close();
+                }
+            }
             //lblNomeCandidato.Text = "";
             //txtNumero.Text = "";
         }
@@ -225,19 +261,13 @@ namespace SistemaEleitoral
 
         private void tb_2_TextChanged(object sender, EventArgs e)
         {
-            if (tb_2.Text != "")
+            if ((tb_2.Text != "") && (cont == 0))
             {
                 int num = Convert.ToInt32(tb_1.Text + tb_2.Text);
                 for (int i = 0; i< imageList1.Images.Count; i++)
                 {
                     int x = i.CompareTo(num);
-                    //int x = imageList1.Images[i].ToString().CompareTo(Convert.ToString (num));
-                   // string nome = imageList1.Images[i].ToString();
-                   // if(nome == Convert.ToString(num))
-                   // {
-                   //     pbCandidato.Image = imageList1.Images[i];
-                   // }
-
+                
                     if (x == 0)
                     {
                         pbCandidato.Image = imageList1.Images[i];
@@ -245,7 +275,36 @@ namespace SistemaEleitoral
                     }
                     
                 }
-                //pbCandidato.Image = imageList1.Images[1];
+                
+            } else if ((tb_2.Text != "") && (cont == 1))
+            {
+                int num = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                for (int i = 0; i < imageList2.Images.Count; i++)
+                {
+                    int x = i.CompareTo(num);
+
+                    if (x == 0)
+                    {
+                        pbCandidato.Image = imageList2.Images[i];
+                        rtb_Nome_Candidato.Text = imageList2.Images[i].ToString();
+                    }
+
+                }
+
+            } else if ((tb_2.Text != "") && (cont == 2))
+            {
+                int num = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                for (int i = 0; i < imageList3.Images.Count; i++)
+                {
+                    int x = i.CompareTo(num);
+
+                    if (x == 0)
+                    {
+                        pbCandidato.Image = imageList3.Images[i];
+                        rtb_Nome_Candidato.Text = imageList3.Images[i].ToString();
+                    }
+
+                }
             }
         }
 

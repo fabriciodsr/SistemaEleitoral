@@ -47,13 +47,15 @@
             this.rtb_Nome_Candidato = new System.Windows.Forms.RichTextBox();
             this.tb_2 = new System.Windows.Forms.TextBox();
             this.tb_1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lb_Cargo = new System.Windows.Forms.Label();
             this.lblCargo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pbCandidato = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbCandidato)).BeginInit();
@@ -285,7 +287,7 @@
             this.panel2.Controls.Add(this.rtb_Nome_Candidato);
             this.panel2.Controls.Add(this.tb_2);
             this.panel2.Controls.Add(this.tb_1);
-            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.lb_Cargo);
             this.panel2.Controls.Add(this.lblCargo);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pbCandidato);
@@ -326,16 +328,16 @@
             this.tb_1.TabIndex = 8;
             this.tb_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label2
+            // lb_Cargo
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(109, 81);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(389, 29);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "REPRESENTANTE DE TURMA";
+            this.lb_Cargo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lb_Cargo.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Cargo.Location = new System.Drawing.Point(109, 81);
+            this.lb_Cargo.Name = "lb_Cargo";
+            this.lb_Cargo.Size = new System.Drawing.Size(389, 29);
+            this.lb_Cargo.TabIndex = 7;
+            this.lb_Cargo.Text = "REPRESENTANTE DE TURMA";
+            this.lb_Cargo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblCargo
             // 
@@ -353,7 +355,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(190, 24);
+            this.label1.Location = new System.Drawing.Point(197, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(196, 25);
             this.label1.TabIndex = 4;
@@ -403,6 +405,24 @@
             this.imageList1.Images.SetKeyName(1, "Jair Bolsonaro");
             this.imageList1.Images.SetKeyName(2, "Joaquim Barbosa");
             this.imageList1.Images.SetKeyName(3, "Kid Bengala");
+            // 
+            // imageList2
+            // 
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "usuario.png");
+            this.imageList2.Images.SetKeyName(1, "Indonesia.jpeg");
+            this.imageList2.Images.SetKeyName(2, "Dilma.jpg");
+            this.imageList2.Images.SetKeyName(3, "BarraMansa.jpg");
+            // 
+            // imageList3
+            // 
+            this.imageList3.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList3.ImageStream")));
+            this.imageList3.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList3.Images.SetKeyName(0, "usuario.png");
+            this.imageList3.Images.SetKeyName(1, "Mario.jpg");
+            this.imageList3.Images.SetKeyName(2, "Tiririca.jpg");
+            this.imageList3.Images.SetKeyName(3, "Mallandro.jpg");
             // 
             // frmVotacao
             // 
@@ -455,10 +475,12 @@
         private System.Windows.Forms.Button btnNumero1;
         private System.Windows.Forms.TextBox tb_2;
         private System.Windows.Forms.TextBox tb_1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lb_Cargo;
         private System.Windows.Forms.RichTextBox rtb_Nome_Candidato;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ImageList imageList2;
+        private System.Windows.Forms.ImageList imageList3;
     }
 }
