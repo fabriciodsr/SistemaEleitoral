@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace SistemaEleitoral
 {
     public partial class frmAutentica_Eleitor_Matricula : Form
     {
+
+        private SoundPlayer player2;
         public frmAutentica_Eleitor_Matricula()
         {
             InitializeComponent();
+
+            player2 = new SoundPlayer("voto.wav");
         }
 
         private void frmAutentica_Eleitor_Matricula_Load(object sender, EventArgs e)
@@ -31,6 +36,7 @@ namespace SistemaEleitoral
         {
             if (e.KeyChar == 13)
             {
+                player2.Play();
                 frmVotacao frm = new frmVotacao();
                 ///frm.MdiParent = this;
                 frm.Show();
