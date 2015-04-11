@@ -16,9 +16,9 @@ namespace SistemaEleitoral
         int cont = 0;
         int num1 = 0, num2 = 0, num3 = 0;
 
-        private SoundPlayer player1;
+        private  SoundPlayer player1;
 
-        private SoundPlayer player2;
+        private  SoundPlayer player2;
 
         public frmVotacao()
         {
