@@ -7,24 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Media;
 
 namespace SistemaEleitoral
 {
     public partial class frmVotacao : Form
     {
         int cont = 0;
-
         int num1 = 0, num2 = 0, num3 = 0;
-
-        private SoundPlayer player1;
-        private SoundPlayer player2;
 
         public frmVotacao()
         {
             InitializeComponent();
-            player1 = new SoundPlayer("urna.wav");
-            player2 = new SoundPlayer("voto.wav");
         }
 
         private void btnCancela_Click(object sender, EventArgs e)
@@ -50,7 +43,6 @@ namespace SistemaEleitoral
                 cont++;
                 if (cont == 1)
                 {
-                    player2.Play();
                     num1 = Convert.ToInt32(tb_1.Text + tb_2.Text);
                     lb_Cargo.Text = "COORDENADOR".ToString();
                     rtb_Nome_Candidato.Text = "";
@@ -61,7 +53,6 @@ namespace SistemaEleitoral
                 }
                 else if (cont == 2)
                 {
-                    player2.Play();
                     num2 = Convert.ToInt32(tb_1.Text + tb_2.Text);
                     lb_Cargo.Text = "DIRETOR".ToString();
                     rtb_Nome_Candidato.Text = "";
@@ -72,9 +63,9 @@ namespace SistemaEleitoral
                 }
                 else
                 {
-                    player1.Play();
                     num3 = Convert.ToInt32(tb_1.Text + tb_2.Text);
-                    //  System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"\imagens\urna.wav");
+                  //  System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"\imagens\urna.wav");
+                    //
                     MessageBox.Show("VOTO REALIZADO COM SUCESSO", "VOTAÇÃO FINALIZADA");
                     System.Threading.Thread.Sleep(2000);
                     frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
