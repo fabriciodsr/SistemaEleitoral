@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVotacao));
             this.btnNumero2 = new System.Windows.Forms.Button();
             this.btnNumero3 = new System.Windows.Forms.Button();
@@ -49,12 +50,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblCargo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbCandidato = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCandidato)).BeginInit();
             this.SuspendLayout();
             // 
             // btnNumero2
@@ -286,7 +288,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lblCargo);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.pbCandidato);
             this.panel2.Location = new System.Drawing.Point(70, 132);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(582, 428);
@@ -312,6 +314,7 @@
             this.tb_2.Size = new System.Drawing.Size(73, 72);
             this.tb_2.TabIndex = 9;
             this.tb_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb_2.TextChanged += new System.EventHandler(this.tb_2_TextChanged);
             // 
             // tb_1
             // 
@@ -357,18 +360,18 @@
             this.label1.Text = "SEU VOTO PARA";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pictureBox1
+            // pbCandidato
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(367, 154);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(131, 144);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.pbCandidato.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbCandidato.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbCandidato.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pbCandidato.ErrorImage")));
+            this.pbCandidato.Image = ((System.Drawing.Image)(resources.GetObject("pbCandidato.Image")));
+            this.pbCandidato.Location = new System.Drawing.Point(367, 154);
+            this.pbCandidato.Name = "pbCandidato";
+            this.pbCandidato.Size = new System.Drawing.Size(131, 144);
+            this.pbCandidato.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbCandidato.TabIndex = 2;
+            this.pbCandidato.TabStop = false;
             // 
             // richTextBox1
             // 
@@ -391,6 +394,13 @@
             this.label3.TabIndex = 18;
             this.label3.Text = "SIEES\r\nSISTEMA ELEITORAL ESTUDANTIL";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "usuario.png");
+            this.imageList1.Images.SetKeyName(1, "Bolsonaro.jpg");
             // 
             // frmVotacao
             // 
@@ -417,7 +427,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCandidato)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -439,7 +449,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblCargo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbCandidato;
         private System.Windows.Forms.Button btnNumero1;
         private System.Windows.Forms.TextBox tb_2;
         private System.Windows.Forms.TextBox tb_1;
@@ -447,5 +457,6 @@
         private System.Windows.Forms.RichTextBox rtb_Nome_Candidato;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }

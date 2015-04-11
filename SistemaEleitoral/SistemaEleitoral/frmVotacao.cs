@@ -22,6 +22,8 @@ namespace SistemaEleitoral
             tb_1.Text = "";
             tb_2.Text = "";
             rtb_Nome_Candidato.Text = "";
+            pbCandidato.Image = imageList1.Images[0];
+            habilita_botoes();
             //lblNomeCandidato.Text = "";
         }
 
@@ -46,6 +48,7 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "2";
+                bloqueia_botoes();
             }
         }
 
@@ -58,6 +61,7 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "3";
+                bloqueia_botoes();
             }
         }
 
@@ -70,6 +74,7 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "4";
+                bloqueia_botoes();
             }
         }
 
@@ -82,6 +87,7 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "5";
+                bloqueia_botoes();
             }
         }
 
@@ -94,6 +100,7 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "6";
+                bloqueia_botoes();
             }
         }
 
@@ -106,6 +113,7 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "7";
+                bloqueia_botoes();
             }
         }
 
@@ -118,6 +126,7 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "8";
+                bloqueia_botoes();
             }
         }
 
@@ -130,6 +139,7 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "9";
+                bloqueia_botoes();
             }
         }
 
@@ -142,6 +152,7 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "0";
+                bloqueia_botoes();
             }
         }
 
@@ -154,7 +165,36 @@ namespace SistemaEleitoral
             else if (tb_2.Text == "")
             {
                 tb_2.Text = "1";
+                bloqueia_botoes();
             }
+        }
+
+        private void bloqueia_botoes ()
+        {
+            btnNumero0.Enabled = false;
+            btnNumero1.Enabled = false;
+            btnNumero2.Enabled = false;
+            btnNumero3.Enabled = false;
+            btnNumero4.Enabled = false;
+            btnNumero5.Enabled = false;
+            btnNumero6.Enabled = false;
+            btnNumero7.Enabled = false;
+            btnNumero8.Enabled = false;
+            btnNumero9.Enabled = false;
+        }
+
+        private void habilita_botoes ()
+        {
+            btnNumero0.Enabled = true;
+            btnNumero1.Enabled = true;
+            btnNumero2.Enabled = true;
+            btnNumero3.Enabled = true;
+            btnNumero4.Enabled = true;
+            btnNumero5.Enabled = true;
+            btnNumero6.Enabled = true;
+            btnNumero7.Enabled = true;
+            btnNumero8.Enabled = true;
+            btnNumero9.Enabled = true;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -181,6 +221,15 @@ namespace SistemaEleitoral
         private void frmVotacao_Load(object sender, EventArgs e)
         {
             tb_1.Focus();
+        }
+
+        private void tb_2_TextChanged(object sender, EventArgs e)
+        {
+            if (tb_2.Text != "")
+            {
+                int numero = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                pbCandidato.Image = imageList1.Images[1];
+            }
         }
     }
 }
