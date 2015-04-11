@@ -64,6 +64,8 @@ namespace SistemaEleitoral
                 else
                 {
                     num3 = Convert.ToInt32(tb_1.Text + tb_2.Text);
+                  //  System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"\imagens\urna.wav");
+                    //
                     MessageBox.Show("VOTO REALIZADO COM SUCESSO", "VOTAÇÃO FINALIZADA");
                     System.Threading.Thread.Sleep(2000);
                     frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
