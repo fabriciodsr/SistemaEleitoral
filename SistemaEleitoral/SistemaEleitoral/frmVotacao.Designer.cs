@@ -54,6 +54,8 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbCandidato)).BeginInit();
@@ -404,6 +406,24 @@
             this.imageList1.Images.SetKeyName(2, "Joaquim Barbosa");
             this.imageList1.Images.SetKeyName(3, "Kid Bengala");
             // 
+            // imageList2
+            // 
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "usuario.png");
+            this.imageList2.Images.SetKeyName(1, "Indonesia.jpeg");
+            this.imageList2.Images.SetKeyName(2, "Dilma.jpg");
+            this.imageList2.Images.SetKeyName(3, "BarraMansa.jpg");
+            // 
+            // imageList3
+            // 
+            this.imageList3.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList3.ImageStream")));
+            this.imageList3.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList3.Images.SetKeyName(0, "usuario.png");
+            this.imageList3.Images.SetKeyName(1, "Mario.jpg");
+            this.imageList3.Images.SetKeyName(2, "Tiririca.jpg");
+            this.imageList3.Images.SetKeyName(3, "Mallandro.jpg");
+            // 
             // frmVotacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -460,5 +480,7 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ImageList imageList2;
+        private System.Windows.Forms.ImageList imageList3;
     }
 }
