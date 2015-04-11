@@ -1,0 +1,17 @@
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\bin\Debug\SistemaEleitoral.exe.config
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\bin\Debug\SistemaEleitoral.exe
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\bin\Debug\SistemaEleitoral.pdb
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.View.csprojResolveAssemblyReference.cache
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmAutentica_Eleitor_Matricula.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmAutentica_Eleitor_Senha.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmCadastroCandidato.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmCadastroEleitor.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmCadastroMesario.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmDados.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmMenu.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmSobre.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmVotacao.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.Properties.Resources.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.View.csproj.GenerateResource.Cache
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.exe
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.pdb
