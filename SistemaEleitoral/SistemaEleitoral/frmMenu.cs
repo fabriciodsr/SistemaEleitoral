@@ -51,5 +51,12 @@ namespace SistemaEleitoral
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSobre frm = new frmSobre();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
