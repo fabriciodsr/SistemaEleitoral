@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
+VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEleitoral.View", "SistemaEleitoral\SistemaEleitoral.View.csproj", "{D0239549-EA70-4C69-AB90-E73F27C21EE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEleitoral.View", "SistemaEleitoral.View\SistemaEleitoral.View.csproj", "{D0239549-EA70-4C69-AB90-E73F27C21EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEleitoral.Model", "SistemaEleitoral.Model\SistemaEleitoral.Model.csproj", "{53211112-89FD-4B29-9D6A-754516095335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D0239549-EA70-4C69-AB90-E73F27C21EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0239549-EA70-4C69-AB90-E73F27C21EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0239549-EA70-4C69-AB90-E73F27C21EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53211112-89FD-4B29-9D6A-754516095335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53211112-89FD-4B29-9D6A-754516095335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53211112-89FD-4B29-9D6A-754516095335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53211112-89FD-4B29-9D6A-754516095335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
