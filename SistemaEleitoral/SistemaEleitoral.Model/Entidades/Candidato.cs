@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaEleitoral.Model.Entidades
+namespace SistemaEleitoral.Model
 {
-	class Candidato
+	public class Candidato
 	{
 	}
 }
