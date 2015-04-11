@@ -298,7 +298,7 @@
             // 
             // rtb_Nome_Candidato
             // 
-            this.rtb_Nome_Candidato.BackColor = System.Drawing.SystemColors.Control;
+            this.rtb_Nome_Candidato.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.rtb_Nome_Candidato.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtb_Nome_Candidato.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtb_Nome_Candidato.Location = new System.Drawing.Point(146, 332);
@@ -378,7 +378,7 @@
             // richTextBox1
             // 
             this.richTextBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.richTextBox1.Location = new System.Drawing.Point(47, 12);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(997, 568);
@@ -428,6 +428,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(1081, 695);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);

@@ -43,6 +43,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.menuStrip1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.eleiçãoToolStripMenuItem,
@@ -51,7 +52,7 @@
             this.sobreToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1105, 31);
+            this.menuStrip1.Size = new System.Drawing.Size(1105, 47);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -59,14 +60,16 @@
             // 
             this.eleiçãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.iniciarToolStripMenuItem});
+            this.eleiçãoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("eleiçãoToolStripMenuItem.Image")));
             this.eleiçãoToolStripMenuItem.Name = "eleiçãoToolStripMenuItem";
-            this.eleiçãoToolStripMenuItem.Size = new System.Drawing.Size(90, 27);
+            this.eleiçãoToolStripMenuItem.Size = new System.Drawing.Size(90, 43);
             this.eleiçãoToolStripMenuItem.Text = "Eleição";
+            this.eleiçãoToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // iniciarToolStripMenuItem
             // 
             this.iniciarToolStripMenuItem.Name = "iniciarToolStripMenuItem";
-            this.iniciarToolStripMenuItem.Size = new System.Drawing.Size(130, 28);
+            this.iniciarToolStripMenuItem.Size = new System.Drawing.Size(152, 28);
             this.iniciarToolStripMenuItem.Text = "Votar";
             this.iniciarToolStripMenuItem.Click += new System.EventHandler(this.iniciarToolStripMenuItem_Click);
             // 
@@ -76,9 +79,11 @@
             this.candidatoToolStripMenuItem,
             this.eleitorToolStripMenuItem,
             this.mesárioToolStripMenuItem});
+            this.cadastroToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cadastroToolStripMenuItem.Image")));
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(106, 27);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(106, 43);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
+            this.cadastroToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // candidatoToolStripMenuItem
             // 
@@ -103,16 +108,20 @@
             // 
             // dadosToolStripMenuItem
             // 
+            this.dadosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("dadosToolStripMenuItem.Image")));
             this.dadosToolStripMenuItem.Name = "dadosToolStripMenuItem";
-            this.dadosToolStripMenuItem.Size = new System.Drawing.Size(82, 27);
+            this.dadosToolStripMenuItem.Size = new System.Drawing.Size(82, 43);
             this.dadosToolStripMenuItem.Text = "Dados";
+            this.dadosToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.dadosToolStripMenuItem.Click += new System.EventHandler(this.dadosToolStripMenuItem_Click);
             // 
             // sobreToolStripMenuItem
             // 
+            this.sobreToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sobreToolStripMenuItem.Image")));
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(78, 27);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(78, 43);
             this.sobreToolStripMenuItem.Text = "Sobre";
+            this.sobreToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
             // 
             // frmMenu
