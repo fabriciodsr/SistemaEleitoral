@@ -56,8 +56,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-<<<<<<< HEAD
-=======
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
@@ -67,7 +65,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
->>>>>>> c6d4ef1f23ba41083b552b7be9e46eeb82067643
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

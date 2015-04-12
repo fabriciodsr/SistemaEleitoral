@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaEleitoral.Model
+namespace SistemaEleitoral.Model.Entidades
 {
 	public class Eleitor
 	{
