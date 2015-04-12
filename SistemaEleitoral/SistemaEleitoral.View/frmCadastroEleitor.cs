@@ -19,7 +19,7 @@ namespace SistemaEleitoral
             InitializeComponent();
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+		private void btnCancelar_Click(object sender, EventArgs e)
         {
             txtBairro.Text = "";
             txtCidade.Text = "";
@@ -60,6 +60,8 @@ namespace SistemaEleitoral
 			oEleitor.Sexo = Convert.ToString(cmbSexoEleitor.SelectedItem);
 
 			CSistemaEleitoral.Incluir(oEleitor);
+			MessageBox.Show("Cadastro realizado com sucesso!", ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            btnCancelar.PerformClick();
 		}
 	}
 }
