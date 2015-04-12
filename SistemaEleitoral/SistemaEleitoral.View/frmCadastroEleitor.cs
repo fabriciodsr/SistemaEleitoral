@@ -16,5 +16,23 @@ namespace SistemaEleitoral
         {
             InitializeComponent();
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            txtBairro.Text = "";
+            txtCidade.Text = "";
+            txtCodigoEleitor.Text = "";
+            txtCpfEleitor.Text = "";
+            txtEmailEleitor.Text = "";
+            txtEnderecoEleitor.Text = "";
+            txtNomeEleitor.Text = "";
+            txtRgEleitor.Text = "";
+            cmbEstadoEleitor.SelectedItem = null;
+            cmbSexoEleitor.SelectedItem = null;
+            mtbCepEleitor.Text = "";
+            mtbDataNascEleitor.Text = "";
+            mtbTelEleitor.Text = "";
+            
+        }
     }
 }
