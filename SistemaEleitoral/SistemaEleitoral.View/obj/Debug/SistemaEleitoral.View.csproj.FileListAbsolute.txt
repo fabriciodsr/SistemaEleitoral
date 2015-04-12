@@ -33,3 +33,4 @@ C:\Users\Thiago Diniz\Documents\GitHub\SistemaEleitoral\SistemaEleitoral\Sistema
 C:\Users\Thiago Diniz\Documents\GitHub\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\bin\Debug\SistemaEleitoral.exe
 C:\Users\Thiago Diniz\Documents\GitHub\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\bin\Debug\SistemaEleitoral.pdb
 C:\Users\Thiago Diniz\Documents\GitHub\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmLogin.resources
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.View\obj\Debug\SistemaEleitoral.frmLogin.resources

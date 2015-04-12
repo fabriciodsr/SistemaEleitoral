@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaEleitoral.Model
 {
-	public class Eleitor
+	public partial class Eleitor
 	{
 		private string strMatricula, strNome, strCPF, strTelefone, strIdentidade, strEndereco, strBairro, strCidade, strCep,
 		strEstado, strEmail, strDataNasc, strSexo, strVotoRepresentante, strVotoCoordenador, strVotoDiretor;
