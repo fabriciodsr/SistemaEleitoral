@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaEleitoral.Model
+namespace SistemaEleitoral
 {
     public partial class frmLogin : Form
     {
@@ -21,5 +21,10 @@ namespace SistemaEleitoral.Model
         {
 
         }
-    }
+
+		private void frmLogin_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
