@@ -22,5 +22,9 @@ namespace SistemaEleitoral.Controller
 		{
 			Mesario.Incluir(oMesario);
 		}
+		public static void Incluir(Candidato oCandidato)
+		{
+			Candidato.Incluir(oCandidato);
+		}
 	}
 }

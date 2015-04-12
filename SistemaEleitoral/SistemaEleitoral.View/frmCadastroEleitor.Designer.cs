@@ -41,12 +41,7 @@
 			this.txtRgEleitor = new System.Windows.Forms.TextBox();
 			this.txtCpfEleitor = new System.Windows.Forms.TextBox();
 			this.txtEnderecoEleitor = new System.Windows.Forms.TextBox();
-			this.mtbDataNascEleitor = new System.Windows.Forms.MaskedTextBox();
 			this.mtbTelEleitor = new System.Windows.Forms.MaskedTextBox();
-			this.txtBairro = new System.Windows.Forms.TextBox();
-			this.label8 = new System.Windows.Forms.Label();
-			this.txtCidade = new System.Windows.Forms.TextBox();
-			this.label9 = new System.Windows.Forms.Label();
 			this.label10 = new System.Windows.Forms.Label();
 			this.label11 = new System.Windows.Forms.Label();
 			this.cmbEstadoEleitor = new System.Windows.Forms.ComboBox();
@@ -58,6 +53,11 @@
 			this.btnCancelar = new System.Windows.Forms.Button();
 			this.btnSalvar = new System.Windows.Forms.Button();
 			this.btnFechar = new System.Windows.Forms.Button();
+			this.dtpDataNascEleitor = new System.Windows.Forms.DateTimePicker();
+			this.txtCidade = new System.Windows.Forms.TextBox();
+			this.label9 = new System.Windows.Forms.Label();
+			this.txtBairro = new System.Windows.Forms.TextBox();
+			this.label8 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -66,7 +66,7 @@
 			this.label1.BackColor = System.Drawing.Color.Transparent;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label1.Location = new System.Drawing.Point(80, 64);
+			this.label1.Location = new System.Drawing.Point(74, 64);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(58, 18);
 			this.label1.TabIndex = 0;
@@ -78,7 +78,7 @@
 			this.label2.BackColor = System.Drawing.Color.Transparent;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label2.Location = new System.Drawing.Point(53, 94);
+			this.label2.Location = new System.Drawing.Point(47, 94);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(85, 18);
 			this.label2.TabIndex = 1;
@@ -90,7 +90,7 @@
 			this.label3.BackColor = System.Drawing.Color.Transparent;
 			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label3.Location = new System.Drawing.Point(60, 246);
+			this.label3.Location = new System.Drawing.Point(54, 246);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(78, 18);
 			this.label3.TabIndex = 2;
@@ -102,7 +102,7 @@
 			this.label4.BackColor = System.Drawing.Color.Transparent;
 			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label4.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label4.Location = new System.Drawing.Point(100, 276);
+			this.label4.Location = new System.Drawing.Point(94, 276);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(38, 18);
 			this.label4.TabIndex = 3;
@@ -114,7 +114,7 @@
 			this.label5.BackColor = System.Drawing.Color.Transparent;
 			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label5.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label5.Location = new System.Drawing.Point(92, 306);
+			this.label5.Location = new System.Drawing.Point(86, 306);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(46, 18);
 			this.label5.TabIndex = 4;
@@ -126,7 +126,7 @@
 			this.label6.BackColor = System.Drawing.Color.Transparent;
 			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label6.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label6.Location = new System.Drawing.Point(18, 336);
+			this.label6.Location = new System.Drawing.Point(12, 336);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(120, 18);
 			this.label6.TabIndex = 5;
@@ -138,7 +138,7 @@
 			this.label7.BackColor = System.Drawing.Color.Transparent;
 			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label7.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label7.Location = new System.Drawing.Point(56, 34);
+			this.label7.Location = new System.Drawing.Point(50, 34);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(82, 18);
 			this.label7.TabIndex = 6;
@@ -189,16 +189,6 @@
 			this.txtEnderecoEleitor.Size = new System.Drawing.Size(508, 24);
 			this.txtEnderecoEleitor.TabIndex = 2;
 			// 
-			// mtbDataNascEleitor
-			// 
-			this.mtbDataNascEleitor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-			this.mtbDataNascEleitor.Location = new System.Drawing.Point(139, 333);
-			this.mtbDataNascEleitor.Mask = "00/00/0000";
-			this.mtbDataNascEleitor.Name = "mtbDataNascEleitor";
-			this.mtbDataNascEleitor.Size = new System.Drawing.Size(80, 24);
-			this.mtbDataNascEleitor.TabIndex = 6;
-			this.mtbDataNascEleitor.ValidatingType = typeof(System.DateTime);
-			// 
 			// mtbTelEleitor
 			// 
 			this.mtbTelEleitor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
@@ -209,55 +199,13 @@
 			this.mtbTelEleitor.TabIndex = 3;
 			this.mtbTelEleitor.Tag = "";
 			// 
-			// txtBairro
-			// 
-			this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-			this.txtBairro.Location = new System.Drawing.Point(139, 121);
-			this.txtBairro.MaxLength = 50;
-			this.txtBairro.Name = "txtBairro";
-			this.txtBairro.Size = new System.Drawing.Size(508, 24);
-			this.txtBairro.TabIndex = 9;
-			// 
-			// label8
-			// 
-			this.label8.AutoSize = true;
-			this.label8.BackColor = System.Drawing.Color.Transparent;
-			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label8.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label8.Location = new System.Drawing.Point(79, 124);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(59, 18);
-			this.label8.TabIndex = 8;
-			this.label8.Text = "Bairro:";
-			// 
-			// txtCidade
-			// 
-			this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-			this.txtCidade.Location = new System.Drawing.Point(139, 151);
-			this.txtCidade.MaxLength = 50;
-			this.txtCidade.Name = "txtCidade";
-			this.txtCidade.Size = new System.Drawing.Size(508, 24);
-			this.txtCidade.TabIndex = 11;
-			// 
-			// label9
-			// 
-			this.label9.AutoSize = true;
-			this.label9.BackColor = System.Drawing.Color.Transparent;
-			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label9.Location = new System.Drawing.Point(73, 154);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(65, 18);
-			this.label9.TabIndex = 10;
-			this.label9.Text = "Cidade:";
-			// 
 			// label10
 			// 
 			this.label10.AutoSize = true;
 			this.label10.BackColor = System.Drawing.Color.Transparent;
 			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label10.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label10.Location = new System.Drawing.Point(91, 184);
+			this.label10.Location = new System.Drawing.Point(85, 184);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(47, 18);
 			this.label10.TabIndex = 12;
@@ -269,7 +217,7 @@
 			this.label11.BackColor = System.Drawing.Color.Transparent;
 			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label11.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label11.Location = new System.Drawing.Point(72, 214);
+			this.label11.Location = new System.Drawing.Point(66, 214);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(66, 18);
 			this.label11.TabIndex = 14;
@@ -329,7 +277,7 @@
 			this.label12.BackColor = System.Drawing.Color.Transparent;
 			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label12.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label12.Location = new System.Drawing.Point(77, 367);
+			this.label12.Location = new System.Drawing.Point(71, 367);
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(61, 18);
 			this.label12.TabIndex = 17;
@@ -350,7 +298,7 @@
 			this.label13.BackColor = System.Drawing.Color.Transparent;
 			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label13.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.label13.Location = new System.Drawing.Point(87, 397);
+			this.label13.Location = new System.Drawing.Point(81, 397);
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(51, 18);
 			this.label13.TabIndex = 20;
@@ -420,6 +368,57 @@
 			this.btnFechar.UseVisualStyleBackColor = false;
 			this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
 			// 
+			// dtpDataNascEleitor
+			// 
+			this.dtpDataNascEleitor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+			this.dtpDataNascEleitor.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+			this.dtpDataNascEleitor.Location = new System.Drawing.Point(139, 334);
+			this.dtpDataNascEleitor.Name = "dtpDataNascEleitor";
+			this.dtpDataNascEleitor.Size = new System.Drawing.Size(110, 24);
+			this.dtpDataNascEleitor.TabIndex = 59;
+			// 
+			// txtCidade
+			// 
+			this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+			this.txtCidade.Location = new System.Drawing.Point(139, 151);
+			this.txtCidade.MaxLength = 30;
+			this.txtCidade.Name = "txtCidade";
+			this.txtCidade.Size = new System.Drawing.Size(311, 24);
+			this.txtCidade.TabIndex = 63;
+			// 
+			// label9
+			// 
+			this.label9.AutoSize = true;
+			this.label9.BackColor = System.Drawing.Color.Transparent;
+			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.label9.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+			this.label9.Location = new System.Drawing.Point(67, 154);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(65, 18);
+			this.label9.TabIndex = 62;
+			this.label9.Text = "Cidade:";
+			// 
+			// txtBairro
+			// 
+			this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+			this.txtBairro.Location = new System.Drawing.Point(139, 121);
+			this.txtBairro.MaxLength = 30;
+			this.txtBairro.Name = "txtBairro";
+			this.txtBairro.Size = new System.Drawing.Size(311, 24);
+			this.txtBairro.TabIndex = 61;
+			// 
+			// label8
+			// 
+			this.label8.AutoSize = true;
+			this.label8.BackColor = System.Drawing.Color.Transparent;
+			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+			this.label8.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+			this.label8.Location = new System.Drawing.Point(73, 124);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(59, 18);
+			this.label8.TabIndex = 60;
+			this.label8.Text = "Bairro:";
+			// 
 			// frmCadastroEleitor
 			// 
 			this.AcceptButton = this.btnSalvar;
@@ -428,6 +427,11 @@
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.CancelButton = this.btnCancelar;
 			this.ClientSize = new System.Drawing.Size(768, 540);
+			this.Controls.Add(this.txtCidade);
+			this.Controls.Add(this.label9);
+			this.Controls.Add(this.txtBairro);
+			this.Controls.Add(this.label8);
+			this.Controls.Add(this.dtpDataNascEleitor);
 			this.Controls.Add(this.btnFechar);
 			this.Controls.Add(this.btnCancelar);
 			this.Controls.Add(this.btnSalvar);
@@ -439,11 +443,6 @@
 			this.Controls.Add(this.cmbEstadoEleitor);
 			this.Controls.Add(this.label11);
 			this.Controls.Add(this.label10);
-			this.Controls.Add(this.txtCidade);
-			this.Controls.Add(this.label9);
-			this.Controls.Add(this.txtBairro);
-			this.Controls.Add(this.label8);
-			this.Controls.Add(this.mtbDataNascEleitor);
 			this.Controls.Add(this.mtbTelEleitor);
 			this.Controls.Add(this.txtEnderecoEleitor);
 			this.Controls.Add(this.txtCpfEleitor);
@@ -483,12 +482,7 @@
         private System.Windows.Forms.TextBox txtRgEleitor;
         private System.Windows.Forms.TextBox txtCpfEleitor;
         private System.Windows.Forms.TextBox txtEnderecoEleitor;
-        private System.Windows.Forms.MaskedTextBox mtbDataNascEleitor;
         private System.Windows.Forms.MaskedTextBox mtbTelEleitor;
-        private System.Windows.Forms.TextBox txtBairro;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtCidade;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox cmbEstadoEleitor;
@@ -500,5 +494,10 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnFechar;
-    }
+		private System.Windows.Forms.DateTimePicker dtpDataNascEleitor;
+		private System.Windows.Forms.TextBox txtCidade;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.TextBox txtBairro;
+		private System.Windows.Forms.Label label8;
+	}
 }

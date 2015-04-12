@@ -9,7 +9,7 @@ namespace SistemaEleitoral.Model
 	public partial class Candidato
 	{
 		private string strNumero, strNome, strCPF, strTelefone, strIdentidade, strEndereco, strBairro, strCidade, strCep,
-		strEstado, strEmail, strDataNasc, strSexo;
+		strEstado, strEmail, strDataNasc, strSexo, strFoto, strCargo;
 
 		public string Numero
 		{
@@ -76,6 +76,16 @@ namespace SistemaEleitoral.Model
 			get { return strSexo; }
 			set { strSexo = value; }
 		}
-		
+		public string Foto
+		{
+			get { return strFoto; }
+			set { strFoto = value; }
+		}
+		public string Cargo
+		{
+			get { return strCargo; }
+			set { strCargo = value; }
+		}
+
 	}
 }

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SistemaEleitoral.Model;
+using SistemaEleitoral.Controller;
 
 namespace SistemaEleitoral
 {
@@ -39,17 +41,18 @@ namespace SistemaEleitoral
         {
             txtBairro.Text = "";
             txtCidade.Text = "";
-            txtCodigoEleitor.Text = "";
-            txtCpfEleitor.Text = "";
-            txtEmailEleitor.Text = "";
-            txtEnderecoEleitor.Text = "";
-            txtNomeEleitor.Text = "";
-            txtRgEleitor.Text = "";
-            cmbEstadoEleitor.SelectedItem = null;
-            cmbSexoEleitor.SelectedItem = null;
-            mtbCepEleitor.Text = "";
-            mtbDataNascEleitor.Text = "";
-            mtbTelEleitor.Text = "";
+            txtNumero.Text = "";
+            txtCpf.Text = "";
+            txtEmail.Text = "";
+            txtEndereco.Text = "";
+            txtNome.Text = "";
+            txtRg.Text = "";
+            cmbEstado.SelectedItem = null;
+            cmbSexo.SelectedItem = null;
+			cmbCargo.SelectedItem = null;
+            mtbCep.Text = "";
+            dtpDataNasc.Text = "";
+            mtbTel.Text = "";
             txtFoto.Text = "foto.jpg";
             pbCandidato.Image = null;
         }
@@ -58,5 +61,29 @@ namespace SistemaEleitoral
         {
             Close();
         }
-    }
+
+		private void btnSalvar_Click(object sender, EventArgs e)
+		{
+			Candidato oCandidato = new Candidato();
+			oCandidato.Numero = txtNumero.Text.Trim();
+			oCandidato.Cargo = Convert.ToString(cmbCargo.SelectedItem);
+			oCandidato.Nome = txtNome.Text.Trim();
+			oCandidato.CPF = txtCpf.Text.Trim();
+			oCandidato.Telefone = mtbTel.Text;
+			oCandidato.Identidade = txtRg.Text.Trim();
+			oCandidato.Endereco = txtEndereco.Text.Trim();
+			oCandidato.Bairro = txtBairro.Text.Trim();
+			oCandidato.Cidade = txtCidade.Text.Trim();
+			oCandidato.Cep = mtbCep.Text;
+			oCandidato.Estado = Convert.ToString(cmbEstado.SelectedItem);
+			oCandidato.Email = txtEmail.Text.Trim();
+			oCandidato.DataNasc = dtpDataNasc.Text;
+			oCandidato.Sexo = Convert.ToString(cmbSexo.SelectedItem);
+			oCandidato.Foto = txtFoto.Text;
+
+			CSistemaEleitoral.Incluir(oCandidato);
+			MessageBox.Show("Cadastro realizado com sucesso!", ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+			btnCancelar.PerformClick();
+		}
+	}
 }

@@ -32,7 +32,7 @@ namespace SistemaEleitoral
             cmbEstadoEleitor.SelectedItem = null;
             cmbSexoEleitor.SelectedItem = null;
             mtbCepEleitor.Text = "";
-            mtbDataNascEleitor.Text = "";
+            dtpDataNascEleitor.Text = "";
             mtbTelEleitor.Text = "";
             
         }
@@ -56,7 +56,7 @@ namespace SistemaEleitoral
 			oEleitor.Cep = mtbCepEleitor.Text;
 			oEleitor.Estado = Convert.ToString(cmbEstadoEleitor.SelectedItem);
 			oEleitor.Email = txtEmailEleitor.Text.Trim();
-			oEleitor.DataNasc = mtbDataNascEleitor.Text;
+			oEleitor.DataNasc = dtpDataNascEleitor.Text;
 			oEleitor.Sexo = Convert.ToString(cmbSexoEleitor.SelectedItem);
 
 			CSistemaEleitoral.Incluir(oEleitor);

@@ -32,7 +32,7 @@ namespace SistemaEleitoral
             cmbEstado.SelectedItem = null;
             cmbSexo.SelectedItem = null;
             mtbCep.Text = "";
-            mtbDataNasc.Text = "";
+            dtpDataNasc.Text = "";
             mtbTel.Text = "";
             txtSenha.Text = "";
             txtConfirmaSenha.Text = "";
@@ -57,8 +57,9 @@ namespace SistemaEleitoral
 			oMesario.Cep = mtbCep.Text;
 			oMesario.Estado = Convert.ToString(cmbEstado.SelectedItem);
 			oMesario.Email = txtEmail.Text.Trim();
-			oMesario.DataNasc = mtbDataNasc.Text;
+			oMesario.DataNasc = dtpDataNasc.Text;
 			oMesario.Sexo = Convert.ToString(cmbSexo.SelectedItem);
+			oMesario.Senha = txtSenha.Text.Trim();
 
 			CSistemaEleitoral.Incluir(oMesario);
 			MessageBox.Show("Cadastro realizado com sucesso!", ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
