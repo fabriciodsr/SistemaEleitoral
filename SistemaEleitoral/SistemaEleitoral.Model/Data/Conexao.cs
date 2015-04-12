@@ -9,9 +9,11 @@ namespace SistemaEleitoral.Model.Data
 {
 	public class Conexao
 	{
-		public static SqlConnection ConexaoSqlServer
+		public static SqlConnection ConexaoSqlServer()
 		{
-			SqlConnection oCn = new SqlConnection();
+			SqlConnection oCn = new SqlConnection("Server=.\\MSSQLSERVER;Database=SistemaEleitoral;trusted_connection;");
+			oCn.Open();
+			return oCn;
 		}
 	}
 }
