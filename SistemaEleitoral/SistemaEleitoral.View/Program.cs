@@ -16,8 +16,26 @@ namespace SistemaEleitoral
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
-			
+           // Application.Run(new frmLogin());
+
+            frmLogin login = new frmLogin();
+
+            // Mostra o formulário para o usuário, e obtém o resultado
+
+            DialogResult resultado = login.ShowDialog();
+
+            // Usuário finalizou clicando no botão OK?
+
+            if (resultado == DialogResult.OK)
+            {
+                Application.Run(new frmMenu());
+                login.Close();
+            }
+            else
+            {
+                login.Close();
+            }
+
         }
     }
 }

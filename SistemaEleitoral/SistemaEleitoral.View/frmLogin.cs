@@ -15,6 +15,9 @@ namespace SistemaEleitoral
         public frmLogin()
         {
             InitializeComponent();
+
+            btnEntrar.Text = "Entrar >>";
+            btnEntrar.DialogResult = DialogResult.OK;
         }
 		private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -25,5 +28,17 @@ namespace SistemaEleitoral
 		{
 
 		}
-	}
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            //this.Visible = false;
+            //frmMenu frm = new frmMenu();
+            //frm.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
 }

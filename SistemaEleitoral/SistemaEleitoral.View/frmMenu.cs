@@ -15,8 +15,10 @@ namespace SistemaEleitoral
         public frmMenu()
         {
             InitializeComponent();
+           
         }
 
+        
         private void iniciarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
