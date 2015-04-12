@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SistemaEleitoral.Model;
+using SistemaEleitoral.Controller;
 
 namespace SistemaEleitoral
 {
@@ -39,5 +41,25 @@ namespace SistemaEleitoral
         {
             Close();
         }
-    }
+
+		private void btnSalvar_Click(object sender, EventArgs e)
+		{
+			Eleitor oEleitor = new Eleitor();
+			oEleitor.Matricula = txtCodigoEleitor.Text.Trim();
+			oEleitor.Nome = txtNomeEleitor.Text.Trim();
+			oEleitor.CPF = txtCpfEleitor.Text.Trim();
+			oEleitor.Telefone = mtbTelEleitor.Text;
+			oEleitor.Identidade = txtRgEleitor.Text.Trim();
+			oEleitor.Endereco = txtEnderecoEleitor.Text.Trim();
+			oEleitor.Bairro = txtBairro.Text.Trim();
+			oEleitor.Cidade = txtCidade.Text.Trim();
+			oEleitor.Cep = mtbCepEleitor.Text;
+			oEleitor.Estado = Convert.ToString(cmbEstadoEleitor.SelectedItem);
+			oEleitor.Email = txtEmailEleitor.Text.Trim();
+			oEleitor.DataNasc = mtbDataNascEleitor.Text;
+			oEleitor.Sexo = Convert.ToString(cmbSexoEleitor.SelectedItem);
+
+			CSistemaEleitoral.Incluir(oEleitor);
+		}
+	}
 }

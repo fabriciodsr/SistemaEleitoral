@@ -9,17 +9,25 @@ namespace SistemaEleitoral.Model
 {
 	public partial class Eleitor
 	{
-		public static void Incluir(Eleitor oCandidato)
+		public static void Incluir(Eleitor oEleitor)
 		{
+			SqlConnection oCn = Data.Conexao.ConexaoSqlServer();
+			string SQL = "INSERT into Eleitor (Matricula, Nome, CPF, Telefone, Identidade, Endereco, Bairro, Cidade, Cep, Estado, Email, DataNasc, Sexo) VALUES ('" + oEleitor.Matricula + "', '" + oEleitor.Nome + "', '" + oEleitor.CPF + "', '" + oEleitor.Telefone + "', '" + oEleitor.Identidade + "', '" + oEleitor.Endereco + "', '" + oEleitor.Bairro + "', '" + oEleitor.Cidade + "', '" + oEleitor.Cep + "', '" + oEleitor.Estado + "', '" + oEleitor.Email + "', '" + oEleitor.DataNasc + "', '" + oEleitor.Sexo + "')";
+
+			SqlCommand oComando = new SqlCommand(SQL, oCn);
+			oComando.ExecuteNonQuery();
+
+			oCn.Close();
+			oCn.Dispose();
 		}
 
-		public static void Alterar(Eleitor oCandidato)
+		public static void Alterar(Eleitor oEleitor)
 		{
 		}
-		public static void Excluir(string Numero)
+		public static void Excluir(string Matricula)
 		{
 		}
-		public static Eleitor Selecionar(string Numero)
+		public static Eleitor Selecionar(string Matricula)
 		{
 			return null;
 		}

@@ -11,7 +11,7 @@ namespace SistemaEleitoral.Model.Data
 	{
 		public static SqlConnection ConexaoSqlServer()
 		{
-			SqlConnection oCn = new SqlConnection("Server=.\\MSSQLSERVER;Database=SistemaEleitoral;trusted_connection;");
+			SqlConnection oCn = new SqlConnection("Data Source=FABS-PC;Initial Catalog=SistemaEleitoral;Integrated Security=True");//"Server =.\\FABS-PC;Database=SistemaEleitoral;trusted_connection;");
 			oCn.Open();
 			return oCn;
 		}

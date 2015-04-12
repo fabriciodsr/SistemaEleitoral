@@ -13,5 +13,10 @@ namespace SistemaEleitoral.Controller
 		{
 			return SelecionarTodos();
 		}
+
+		public static void Incluir(Eleitor oEleitor)
+		{
+			Eleitor.Incluir(oEleitor);
+		}
 	}
 }
