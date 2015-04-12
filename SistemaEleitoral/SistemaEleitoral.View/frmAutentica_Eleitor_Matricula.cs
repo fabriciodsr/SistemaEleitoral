@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using SistemaEleitoral.Controller;
+using SistemaEleitoral.Model;
+using System.Data.SqlClient;
 
 namespace SistemaEleitoral
 {
@@ -34,18 +37,24 @@ namespace SistemaEleitoral
 
         private void tb_Matricula_Autentica_Eleitor_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == 13)
-            {
-                player2.Play();
+			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+			string SQL = "SELECT COUNT(Matricula) FROM Eleitor WHERE Matricula = @mat";
+
+			SqlCommand oComando = new SqlCommand(SQL, oCn);
+			oComando.Parameters.Add("@mat", SqlDbType.VarChar).Value = tb_Matricula_Autentica_Eleitor.Text;
+
+			int v = (int)oComando.ExecuteScalar();
+
+			if (e.KeyChar == 13 && v > 0)
+			{
+				player2.Play();
                 frmVotacao frm = new frmVotacao();
-                ///frm.MdiParent = this;
                 frm.Show();
                 this.Close();
             }
             else if (e.KeyChar == (char)Keys.Escape)
             {
                 frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
-                ///frm.MdiParent = this;
                 frm.Show();
                 this.Close();
             }

@@ -26,5 +26,6 @@ namespace SistemaEleitoral.Controller
 		{
 			Candidato.Incluir(oCandidato);
 		}
+
 	}
 }
