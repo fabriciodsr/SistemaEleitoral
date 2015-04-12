@@ -60,6 +60,7 @@
             this.txtFoto = new System.Windows.Forms.TextBox();
             this.btnCarregarFoto = new System.Windows.Forms.Button();
             this.pbCandidato = new System.Windows.Forms.PictureBox();
+            this.btnFechar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbCandidato)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,7 +72,7 @@
             this.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
-            this.btnCancelar.Location = new System.Drawing.Point(354, 440);
+            this.btnCancelar.Location = new System.Drawing.Point(446, 440);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(49, 44);
             this.btnCancelar.TabIndex = 51;
@@ -85,7 +86,7 @@
             this.btnSalvar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
-            this.btnSalvar.Location = new System.Drawing.Point(258, 440);
+            this.btnSalvar.Location = new System.Drawing.Point(350, 440);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(90, 44);
             this.btnSalvar.TabIndex = 50;
@@ -110,6 +111,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label13.Location = new System.Drawing.Point(88, 394);
             this.label13.Name = "label13";
@@ -129,6 +131,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label12.Location = new System.Drawing.Point(80, 364);
             this.label12.Name = "label12";
@@ -187,6 +190,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label11.Location = new System.Drawing.Point(75, 211);
             this.label11.Name = "label11";
@@ -197,6 +201,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label10.Location = new System.Drawing.Point(91, 181);
             this.label10.Name = "label10";
@@ -216,6 +221,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label9.Location = new System.Drawing.Point(76, 151);
             this.label9.Name = "label9";
@@ -235,6 +241,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label8.Location = new System.Drawing.Point(82, 121);
             this.label8.Name = "label8";
@@ -310,6 +317,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label7.Location = new System.Drawing.Point(62, 31);
             this.label7.Name = "label7";
@@ -320,6 +328,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label6.Location = new System.Drawing.Point(28, 333);
             this.label6.Name = "label6";
@@ -330,6 +339,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label5.Location = new System.Drawing.Point(92, 303);
             this.label5.Name = "label5";
@@ -340,6 +350,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label4.Location = new System.Drawing.Point(99, 273);
             this.label4.Name = "label4";
@@ -350,6 +361,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label3.Location = new System.Drawing.Point(65, 243);
             this.label3.Name = "label3";
@@ -360,6 +372,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label2.Location = new System.Drawing.Point(58, 91);
             this.label2.Name = "label2";
@@ -370,6 +383,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.label1.Location = new System.Drawing.Point(81, 61);
             this.label1.Name = "label1";
@@ -383,7 +397,7 @@
             this.txtFoto.BackColor = System.Drawing.Color.White;
             this.txtFoto.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFoto.ForeColor = System.Drawing.Color.Black;
-            this.txtFoto.Location = new System.Drawing.Point(418, 181);
+            this.txtFoto.Location = new System.Drawing.Point(418, 182);
             this.txtFoto.Name = "txtFoto";
             this.txtFoto.Size = new System.Drawing.Size(230, 22);
             this.txtFoto.TabIndex = 52;
@@ -402,6 +416,8 @@
             // 
             // pbCandidato
             // 
+            this.pbCandidato.BackColor = System.Drawing.Color.Transparent;
+            this.pbCandidato.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbCandidato.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbCandidato.InitialImage")));
             this.pbCandidato.Location = new System.Drawing.Point(455, 217);
             this.pbCandidato.Name = "pbCandidato";
@@ -410,13 +426,34 @@
             this.pbCandidato.TabIndex = 54;
             this.pbCandidato.TabStop = false;
             // 
+            // btnFechar
+            // 
+            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFechar.BackColor = System.Drawing.Color.Transparent;
+            this.btnFechar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFechar.BackgroundImage")));
+            this.btnFechar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFechar.FlatAppearance.BorderSize = 0;
+            this.btnFechar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnFechar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFechar.ForeColor = System.Drawing.Color.Transparent;
+            this.btnFechar.Location = new System.Drawing.Point(741, 1);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(26, 24);
+            this.btnFechar.TabIndex = 55;
+            this.btnFechar.UseVisualStyleBackColor = false;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            // 
             // frmCadastroCandidato
             // 
             this.AcceptButton = this.btnSalvar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(676, 512);
+            this.ClientSize = new System.Drawing.Size(768, 540);
+            this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.pbCandidato);
             this.Controls.Add(this.btnCarregarFoto);
             this.Controls.Add(this.txtFoto);
@@ -448,7 +485,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -494,5 +531,6 @@
         private System.Windows.Forms.TextBox txtFoto;
         private System.Windows.Forms.Button btnCarregarFoto;
         private System.Windows.Forms.PictureBox pbCandidato;
+        private System.Windows.Forms.Button btnFechar;
     }
 }

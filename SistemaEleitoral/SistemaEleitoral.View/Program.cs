@@ -28,7 +28,7 @@ namespace SistemaEleitoral
 
             if (resultado == DialogResult.OK)
             {
-                Application.Run(new frmMenu());
+                Application.Run(new frmPrincipal());
                 login.Close();
             }
             else

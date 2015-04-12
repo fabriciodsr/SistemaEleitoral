@@ -35,5 +35,15 @@ namespace SistemaEleitoral
             txtSenha.Text = "";
             txtConfirmaSenha.Text = "";
         }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            //frmPrincipal.
+        }
     }
 }

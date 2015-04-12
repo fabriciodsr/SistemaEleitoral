@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000000" id="svg_1" d="m129.897964,119.153755l92.488892,-12.318764l92.504593,12.318764l-92.504593,12.318398l-92.488892,-12.318398zm-104.152962,13.951378l92.507042,-12.318352l92.491959,12.318352l-92.491959,12.320724l-92.507042,-12.320724zm210.268929,0.251801l92.507523,-12.316727l92.473602,12.316727l-92.473602,12.320786l-92.507523,-12.320786zm-104.119766,13.953796l92.473877,-12.319199l92.507568,12.319199l-92.507568,12.318375l-92.473877,-12.318375z" stroke-width="5" fill="#00007f"/>
+  <text stroke="#000000" font-style="italic" xml:space="preserve" text-anchor="middle" font-family="Fantasy" font-size="101" id="svg_3" y="134.999997" x="218.500018" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ff7f00">SIEES</text>
+  <text stroke="#f73636" transform="matrix(1,0,0,1,0,0) " xml:space="preserve" text-anchor="middle" font-family="Fantasy" font-size="0.001" id="svg_6" y="197" x="80" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ff7f00"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Fantasy" font-size="34" id="svg_7" y="196" x="221" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="#00007f">Sistema Eleitoral Estudantil</text>
+ </g>
+</svg>
