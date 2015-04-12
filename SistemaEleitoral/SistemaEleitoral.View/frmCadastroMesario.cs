@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SistemaEleitoral.Model;
+using SistemaEleitoral.Controller;
 
 namespace SistemaEleitoral
 {
@@ -21,17 +23,17 @@ namespace SistemaEleitoral
         {
             txtBairro.Text = "";
             txtCidade.Text = "";
-            txtCodigoEleitor.Text = "";
-            txtCpfEleitor.Text = "";
-            txtEmailEleitor.Text = "";
-            txtEnderecoEleitor.Text = "";
-            txtNomeEleitor.Text = "";
-            txtRgEleitor.Text = "";
-            cmbEstadoEleitor.SelectedItem = null;
-            cmbSexoEleitor.SelectedItem = null;
-            mtbCepEleitor.Text = "";
-            mtbDataNascEleitor.Text = "";
-            mtbTelEleitor.Text = "";
+            txtCodigo.Text = "";
+            txtCpf.Text = "";
+            txtEmail.Text = "";
+            txtEndereco.Text = "";
+            txtNome.Text = "";
+            txtRg.Text = "";
+            cmbEstado.SelectedItem = null;
+            cmbSexo.SelectedItem = null;
+            mtbCep.Text = "";
+            mtbDataNasc.Text = "";
+            mtbTel.Text = "";
             txtSenha.Text = "";
             txtConfirmaSenha.Text = "";
         }
@@ -43,7 +45,24 @@ namespace SistemaEleitoral
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            //frmPrincipal.
-        }
+			Mesario oMesario = new Mesario();
+			oMesario.Codigo = txtCodigo.Text.Trim();
+			oMesario.Nome = txtNome.Text.Trim();
+			oMesario.CPF = txtCpf.Text.Trim();
+			oMesario.Telefone = mtbTel.Text;
+			oMesario.Identidade = txtRg.Text.Trim();
+			oMesario.Endereco = txtEndereco.Text.Trim();
+			oMesario.Bairro = txtBairro.Text.Trim();
+			oMesario.Cidade = txtCidade.Text.Trim();
+			oMesario.Cep = mtbCep.Text;
+			oMesario.Estado = Convert.ToString(cmbEstado.SelectedItem);
+			oMesario.Email = txtEmail.Text.Trim();
+			oMesario.DataNasc = mtbDataNasc.Text;
+			oMesario.Sexo = Convert.ToString(cmbSexo.SelectedItem);
+
+			CSistemaEleitoral.Incluir(oMesario);
+			MessageBox.Show("Cadastro realizado com sucesso!", ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+			btnCancelar.PerformClick();
+		}
     }
 }
