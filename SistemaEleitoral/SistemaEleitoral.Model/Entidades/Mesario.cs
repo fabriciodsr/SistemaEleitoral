@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaEleitoral.Model
 {
-	public class Mesario
+	public partial class Mesario
 	{
 		private string strCodigo, strNome, strCPF, strTelefone, strIdentidade, strEndereco, strBairro, strCidade, strCep,
 		strEstado, strEmail, strDataNasc, strSexo, strSenha;

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEleitoral.View", "Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEleitoral.Model", "SistemaEleitoral.Model\SistemaEleitoral.Model.csproj", "{53211112-89FD-4B29-9D6A-754516095335}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEleitoral.Controller", "SistemaEleitoral.Controller\SistemaEleitoral.Controller.csproj", "{75E42516-432D-43D8-87E1-63BF5D710498}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{53211112-89FD-4B29-9D6A-754516095335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53211112-89FD-4B29-9D6A-754516095335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53211112-89FD-4B29-9D6A-754516095335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E42516-432D-43D8-87E1-63BF5D710498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E42516-432D-43D8-87E1-63BF5D710498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E42516-432D-43D8-87E1-63BF5D710498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E42516-432D-43D8-87E1-63BF5D710498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
