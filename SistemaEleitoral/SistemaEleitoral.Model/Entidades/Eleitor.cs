@@ -8,25 +8,89 @@ namespace SistemaEleitoral.Model
 {
 	public class Eleitor
 	{
-		private string strMatricula, strNome, strCPF, strIdentidade, strEndereco, strBairro, strCidade, strCep,
+		private string strMatricula, strNome, strCPF, strTelefone, strIdentidade, strEndereco, strBairro, strCidade, strCep,
 		strEstado, strEmail, strDataNasc, strSexo, strVotoRepresentante, strVotoCoordenador, strVotoDiretor;
 
-		public string Matricula { get; set; }
-		public string Nome { get; set; }
-		public string CPF { get; set; }
-		public string Telefone { get; set; }
-		public string Identidade { get; set; }
-		public string Endereco { get; set; }
-		public string Bairro { get; set; }
-		public string Cidade { get; set; }
-		public string Cep { get; set; }
-		public string Estado { get; set; }
-		public string Email { get; set; }
-		public string DataNasc { get; set; }
-		public string Sexo { get; set; }
-		public string VotoRepresentante { get; set; }
-		public string VotoCoordenador { get; set; }
-		public string VotoDiretor { get; set; }
+		public string Matricula
+		{
+			get { return strMatricula; }
+			set { strMatricula = value; }
+		}
+		public string Nome
+		{
+			get { return strNome; }
+			set { strNome = value; }
+		}
+		public string CPF
+		{
+			get { return strCPF; }
+			set { strCPF = value; }
+		}
+		public string Telefone
+		{
+			get { return strTelefone; }
+			set { strTelefone = value; }
+		}
+		public string Identidade
+		{
+			get { return strIdentidade; }
+			set { strIdentidade = value; }
+		}
+		public string Endereco
+		{
+			get { return strEndereco; }
+			set { strEndereco = value; }
+		}
+		public string Bairro
+		{
+			get { return strBairro; }
+			set { strBairro = value; }
+		}
+		public string Cidade
+		{
+			get { return strCidade; }
+			set { strCidade = value; }
+		}
+		public string Cep
+		{
+			get { return strCep; }
+			set { strCep = value; }
+		}
+		public string Estado
+		{
+			get { return strEstado; }
+			set { strEstado = value; }
+		}
+		public string Email
+		{
+			get { return strEmail; }
+			set { strEmail = value; }
+		}
+		public string DataNasc
+		{
+			get { return strDataNasc; }
+			set { strDataNasc = value; }
+		}
+		public string Sexo
+		{
+			get { return strSexo; }
+			set { strSexo = value; }
+		}
+		public string VotoRepresentante
+		{
+			get { return strVotoRepresentante; }
+			set { strVotoRepresentante = value; }
+		}
+		public string VotoCoordenador
+		{
+			get { return strVotoCoordenador; }
+			set { strVotoCoordenador = value; }
+		}
+		public string VotoDiretor
+		{
+			get { return strVotoDiretor; }
+			set { strVotoDiretor = value; }
+		}
 
 	}
 }
