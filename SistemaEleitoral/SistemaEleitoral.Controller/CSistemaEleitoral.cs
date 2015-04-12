@@ -9,7 +9,7 @@ namespace SistemaEleitoral.Controller
 {
 	public class CSistemaEleitoral
 	{
-		public List<Eleitor> SelecionarTodos()
+		public static List<Eleitor> SelecionarTodos()
 		{
 			return SelecionarTodos();
 		}
