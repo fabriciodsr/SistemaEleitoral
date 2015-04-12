@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\Candidato.cs" />
+    <Compile Include="Business\Eleitor.cs" />
+    <Compile Include="Business\Mesario.cs" />
     <Compile Include="Entidades\Admin.cs" />
     <Compile Include="Entidades\Candidato.cs" />
     <Compile Include="Entidades\Eleitor.cs" />
@@ -46,7 +49,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Business\" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
