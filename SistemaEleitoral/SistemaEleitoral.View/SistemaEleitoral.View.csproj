@@ -130,26 +130,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SistemaEleitoralDataSet11.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SistemaEleitoralDataSet11.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="SistemaEleitoralDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SistemaEleitoralDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="SistemaEleitoralDataSet21.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SistemaEleitoralDataSet21.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="SistemaEleitoralDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SistemaEleitoralDataSet3.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="frmAutentica_Eleitor_Matricula.resx">
       <DependentUpon>frmAutentica_Eleitor_Matricula.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,7 +173,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="Properties\DataSources\SistemaEleitoral.Model.Mesario.datasource" />
+    <None Include="Properties\DataSources\SistemaEleitoral.Model.Eleitor.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -203,50 +183,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="SistemaEleitoralDataSet11.xsc">
-      <DependentUpon>SistemaEleitoralDataSet11.xsd</DependentUpon>
-    </None>
-    <None Include="SistemaEleitoralDataSet11.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SistemaEleitoralDataSet11.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="SistemaEleitoralDataSet11.xss">
-      <DependentUpon>SistemaEleitoralDataSet11.xsd</DependentUpon>
-    </None>
-    <None Include="SistemaEleitoralDataSet2.xsc">
-      <DependentUpon>SistemaEleitoralDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="SistemaEleitoralDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SistemaEleitoralDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="SistemaEleitoralDataSet2.xss">
-      <DependentUpon>SistemaEleitoralDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="SistemaEleitoralDataSet21.xsc">
-      <DependentUpon>SistemaEleitoralDataSet21.xsd</DependentUpon>
-    </None>
-    <None Include="SistemaEleitoralDataSet21.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SistemaEleitoralDataSet21.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="SistemaEleitoralDataSet21.xss">
-      <DependentUpon>SistemaEleitoralDataSet21.xsd</DependentUpon>
-    </None>
-    <None Include="SistemaEleitoralDataSet3.xsc">
-      <DependentUpon>SistemaEleitoralDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="SistemaEleitoralDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SistemaEleitoralDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="SistemaEleitoralDataSet3.xss">
-      <DependentUpon>SistemaEleitoralDataSet3.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
