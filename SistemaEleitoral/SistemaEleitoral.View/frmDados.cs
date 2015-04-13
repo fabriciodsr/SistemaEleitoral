@@ -58,6 +58,20 @@ namespace SistemaEleitoral
 		{
 			lblQuantEleitores.Text = ContagemEleitores().ToString();
 			lblQuantVotos.Text = ContagemVotos().ToString();
+
+			if (lblQuantEleitores.Text == lblQuantVotos.Text)
+			{
+				lblPorcentVoto.Text = "100" + "%";
+			}
+			else if (Convert.ToInt32(lblQuantVotos.Text) < Convert.ToInt32(lblQuantEleitores.Text))
+			{
+				lblPorcentVoto.Text = "..." + "%";
+			}
+			else if (lblQuantVotos.Text == "0")
+			{
+				lblPorcentVoto.Text = "0" + "%";
+			}
+
 		}
 
 		SqlDataAdapter adapter;

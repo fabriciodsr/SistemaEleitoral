@@ -30,10 +30,10 @@
         {
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDados));
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -71,6 +71,7 @@
 			this.tabPage5 = new System.Windows.Forms.TabPage();
 			this.tabPage6 = new System.Windows.Forms.TabPage();
 			this.tabTurmas = new System.Windows.Forms.TabPage();
+			this.label8 = new System.Windows.Forms.Label();
 			this.btnExcluirTurma = new System.Windows.Forms.Button();
 			this.btnSalvarTurma = new System.Windows.Forms.Button();
 			this.btnAlterarTurma = new System.Windows.Forms.Button();
@@ -188,6 +189,7 @@
 			this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.eleitorBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.tabVotacao = new System.Windows.Forms.TabPage();
+			this.lblPorcentVoto = new System.Windows.Forms.Label();
 			this.dtgVotacao = new System.Windows.Forms.DataGridView();
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
 			this.btnPesquisaVotacao = new System.Windows.Forms.Button();
@@ -197,7 +199,6 @@
 			this.rdbTurmaVotacao = new System.Windows.Forms.RadioButton();
 			this.rdbCargoVotacao = new System.Windows.Forms.RadioButton();
 			this.rdbGeralVotacao = new System.Windows.Forms.RadioButton();
-			this.label26 = new System.Windows.Forms.Label();
 			this.lblQuantVotos = new System.Windows.Forms.Label();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.label24 = new System.Windows.Forms.Label();
@@ -209,7 +210,6 @@
 			this.tabControl2 = new System.Windows.Forms.TabControl();
 			this.candidatoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
 			this.turmaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-			this.label8 = new System.Windows.Forms.Label();
 			this.tabControl1.SuspendLayout();
 			this.tabPage2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -645,6 +645,15 @@
 			this.tabTurmas.Text = "Turmas";
 			this.tabTurmas.UseVisualStyleBackColor = true;
 			this.tabTurmas.Enter += new System.EventHandler(this.tabTurmas_Enter);
+			// 
+			// label8
+			// 
+			this.label8.AutoSize = true;
+			this.label8.Location = new System.Drawing.Point(94, 75);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(32, 13);
+			this.label8.TabIndex = 14;
+			this.label8.Text = "Ano";
 			// 
 			// btnExcluirTurma
 			// 
@@ -1236,9 +1245,9 @@
 			// 
 			this.dataNascDataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
 			this.dataNascDataGridViewTextBoxColumn2.DataPropertyName = "DataNasc";
-			dataGridViewCellStyle9.Format = "d";
-			dataGridViewCellStyle9.NullValue = null;
-			this.dataNascDataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle9;
+			dataGridViewCellStyle37.Format = "d";
+			dataGridViewCellStyle37.NullValue = null;
+			this.dataNascDataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle37;
 			this.dataNascDataGridViewTextBoxColumn2.HeaderText = "DataNasc";
 			this.dataNascDataGridViewTextBoxColumn2.MaxInputLength = 10;
 			this.dataNascDataGridViewTextBoxColumn2.Name = "dataNascDataGridViewTextBoxColumn2";
@@ -1341,9 +1350,9 @@
 			// 
 			this.senhaDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
 			this.senhaDataGridViewTextBoxColumn.DataPropertyName = "Senha";
-			dataGridViewCellStyle10.Format = "**********";
-			dataGridViewCellStyle10.NullValue = null;
-			this.senhaDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle10;
+			dataGridViewCellStyle38.Format = "**********";
+			dataGridViewCellStyle38.NullValue = null;
+			this.senhaDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle38;
 			this.senhaDataGridViewTextBoxColumn.HeaderText = "Senha";
 			this.senhaDataGridViewTextBoxColumn.MaxInputLength = 10;
 			this.senhaDataGridViewTextBoxColumn.Name = "senhaDataGridViewTextBoxColumn";
@@ -1484,9 +1493,9 @@
 			// 
 			this.dataNascDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
 			this.dataNascDataGridViewTextBoxColumn1.DataPropertyName = "DataNasc";
-			dataGridViewCellStyle11.Format = "d";
-			dataGridViewCellStyle11.NullValue = null;
-			this.dataNascDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle11;
+			dataGridViewCellStyle39.Format = "d";
+			dataGridViewCellStyle39.NullValue = null;
+			this.dataNascDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle39;
 			this.dataNascDataGridViewTextBoxColumn1.HeaderText = "DataNasc";
 			this.dataNascDataGridViewTextBoxColumn1.MaxInputLength = 10;
 			this.dataNascDataGridViewTextBoxColumn1.Name = "dataNascDataGridViewTextBoxColumn1";
@@ -2038,9 +2047,9 @@
 			// 
 			this.dataNascDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
 			this.dataNascDataGridViewTextBoxColumn.DataPropertyName = "DataNasc";
-			dataGridViewCellStyle12.Format = "d";
-			dataGridViewCellStyle12.NullValue = null;
-			this.dataNascDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle12;
+			dataGridViewCellStyle40.Format = "d";
+			dataGridViewCellStyle40.NullValue = null;
+			this.dataNascDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle40;
 			this.dataNascDataGridViewTextBoxColumn.HeaderText = "DataNasc";
 			this.dataNascDataGridViewTextBoxColumn.MaxInputLength = 10;
 			this.dataNascDataGridViewTextBoxColumn.Name = "dataNascDataGridViewTextBoxColumn";
@@ -2145,6 +2154,7 @@
 			// 
 			// tabVotacao
 			// 
+			this.tabVotacao.Controls.Add(this.lblPorcentVoto);
 			this.tabVotacao.Controls.Add(this.dtgVotacao);
 			this.tabVotacao.Controls.Add(this.pictureBox3);
 			this.tabVotacao.Controls.Add(this.btnPesquisaVotacao);
@@ -2154,7 +2164,6 @@
 			this.tabVotacao.Controls.Add(this.rdbTurmaVotacao);
 			this.tabVotacao.Controls.Add(this.rdbCargoVotacao);
 			this.tabVotacao.Controls.Add(this.rdbGeralVotacao);
-			this.tabVotacao.Controls.Add(this.label26);
 			this.tabVotacao.Controls.Add(this.lblQuantVotos);
 			this.tabVotacao.Controls.Add(this.pictureBox2);
 			this.tabVotacao.Controls.Add(this.label24);
@@ -2171,6 +2180,18 @@
 			this.tabVotacao.TabIndex = 10;
 			this.tabVotacao.Text = "Votação";
 			this.tabVotacao.UseVisualStyleBackColor = true;
+			// 
+			// lblPorcentVoto
+			// 
+			this.lblPorcentVoto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.lblPorcentVoto.AutoSize = true;
+			this.lblPorcentVoto.Font = new System.Drawing.Font("Verdana", 25F, System.Drawing.FontStyle.Bold);
+			this.lblPorcentVoto.ForeColor = System.Drawing.Color.Red;
+			this.lblPorcentVoto.Location = new System.Drawing.Point(982, 92);
+			this.lblPorcentVoto.Name = "lblPorcentVoto";
+			this.lblPorcentVoto.Size = new System.Drawing.Size(191, 41);
+			this.lblPorcentVoto.TabIndex = 30;
+			this.lblPorcentVoto.Text = "%Voto%";
 			// 
 			// dtgVotacao
 			// 
@@ -2283,18 +2304,6 @@
 			this.rdbGeralVotacao.Text = "Geral";
 			this.rdbGeralVotacao.UseVisualStyleBackColor = true;
 			// 
-			// label26
-			// 
-			this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.label26.AutoSize = true;
-			this.label26.Font = new System.Drawing.Font("Verdana", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label26.ForeColor = System.Drawing.Color.Red;
-			this.label26.Location = new System.Drawing.Point(1037, 36);
-			this.label26.Name = "label26";
-			this.label26.Size = new System.Drawing.Size(97, 65);
-			this.label26.TabIndex = 19;
-			this.label26.Text = "%";
-			// 
 			// lblQuantVotos
 			// 
 			this.lblQuantVotos.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -2361,7 +2370,7 @@
 			this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label20.AutoSize = true;
 			this.label20.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label20.Location = new System.Drawing.Point(1012, 173);
+			this.label20.Location = new System.Drawing.Point(988, 148);
 			this.label20.Name = "label20";
 			this.label20.Size = new System.Drawing.Size(134, 26);
 			this.label20.TabIndex = 9;
@@ -2409,15 +2418,6 @@
 			// candidatoBindingSource1
 			// 
 			this.candidatoBindingSource1.DataSource = typeof(SistemaEleitoral.Model.Candidato);
-			// 
-			// label8
-			// 
-			this.label8.AutoSize = true;
-			this.label8.Location = new System.Drawing.Point(94, 75);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(32, 13);
-			this.label8.TabIndex = 14;
-			this.label8.Text = "Ano";
 			// 
 			// frmDados
 			// 
@@ -2585,7 +2585,6 @@
 		private System.Windows.Forms.RadioButton rdbTurmaVotacao;
 		private System.Windows.Forms.RadioButton rdbCargoVotacao;
 		private System.Windows.Forms.RadioButton rdbGeralVotacao;
-		private System.Windows.Forms.Label label26;
 		private System.Windows.Forms.Label lblQuantVotos;
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.Label label24;
@@ -2647,5 +2646,6 @@
 		private System.Windows.Forms.BindingSource turmaBindingSource;
 		private System.Windows.Forms.BindingSource turmaBindingSource1;
 		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label lblPorcentVoto;
 	}
 }
