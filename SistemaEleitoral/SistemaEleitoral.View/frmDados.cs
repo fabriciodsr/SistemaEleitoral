@@ -56,7 +56,6 @@ namespace SistemaEleitoral
 
 		private void frmDados_Load(object sender, EventArgs e)
 		{
-			//PreencherGrids();
 			CarregarDados();
 			lblQuantEleitores.Text = ContagemEleitores().ToString();
 			lblQuantVotos.Text = ContagemVotos().ToString();
@@ -81,46 +80,6 @@ namespace SistemaEleitoral
 		}
 
 		
-		private void PreencherGrids()
-		{
-			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
-			string SQL_Eleitor = "SELECT * FROM Eleitor";
-			string SQL_Candidato = "SELECT * FROM Candidato";
-			string SQL_Mesario = "SELECT * FROM Mesario";
-
-			SqlCommand oComando_Eleitor = new SqlCommand(SQL_Eleitor, oCn);
-			SqlCommand oComando_Candidato = new SqlCommand(SQL_Candidato, oCn);
-			SqlCommand oComando_Mesario = new SqlCommand(SQL_Mesario, oCn);
-
-			SqlDataAdapter adapter_Eleitor = new SqlDataAdapter();
-			adapter_Eleitor.SelectCommand = oComando_Eleitor;
-
-			SqlDataAdapter adapter_Candidato = new SqlDataAdapter();
-			adapter_Candidato.SelectCommand = oComando_Candidato;
-
-			SqlDataAdapter adapter_Mesario = new SqlDataAdapter();
-			adapter_Mesario.SelectCommand = oComando_Mesario;
-
-			DataSet dataSet_Eleitor = new DataSet();
-			adapter_Eleitor.Fill(dataSet_Eleitor);
-
-			DataSet dataSet_Candidato = new DataSet();
-			adapter_Candidato.Fill(dataSet_Candidato);
-
-			DataSet dataSet_Mesario = new DataSet();
-			adapter_Mesario.Fill(dataSet_Mesario);
-
-			dtgEleitores.DataSource = dataSet_Eleitor;
-			dtgEleitores.DataMember = dataSet_Eleitor.Tables[0].TableName;
-
-			dtgCandidatos.DataSource = dataSet_Candidato;
-			dtgCandidatos.DataMember = dataSet_Candidato.Tables[0].TableName;
-
-			dtgMesarios.DataSource = dataSet_Mesario;
-			dtgMesarios.DataMember = dataSet_Mesario.Tables[0].TableName;
-			oCn.Close();
-		}
-
 		private void button12_Click(object sender, EventArgs e)
 		{
 			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
