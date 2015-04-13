@@ -289,5 +289,45 @@ namespace SistemaEleitoral
 					e.Cancel = true;
 			}
 		}
+
+		private void btnPesquisaVotacao_Click(object sender, EventArgs e)
+		{
+			if (rdbGeralVotacao.Checked)
+			{
+				SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+				SQL = "SELECT * FROM Eleitor WHERE VotoRepresentante!='' AND VotoCoordenador!='' AND VotoDiretor!=''";
+
+				adapter = new SqlDataAdapter(SQL, oCn);
+				dataSet = new DataSet();
+				SqlCommandBuilder oCommand = new SqlCommandBuilder(adapter);
+				adapter.Fill(dataSet, "Eleitor");
+				bsource.DataSource = dataSet.Tables["Eleitor"];
+				dtgVotacao.DataSource = bsource;
+			}
+			else if (rdbCargoVotacao.Checked)
+			{
+				SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+				SQL = "SELECT DISTINCT Cargo FROM Candidato WHERE Numero!=''";
+
+				adapter = new SqlDataAdapter(SQL, oCn);
+				dataSet = new DataSet();
+				SqlCommandBuilder oCommand = new SqlCommandBuilder(adapter);
+				adapter.Fill(dataSet, "Candidato");
+				bsource.DataSource = dataSet.Tables["Candidato"];
+				dtgVotacao.DataSource = bsource;
+			}
+			else if (rdbCandidatoVotacao.Checked)
+			{
+				SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+				SQL = "SELECT Numero, Nome, Cargo FROM Candidato WHERE Numero!=''";
+
+				adapter = new SqlDataAdapter(SQL, oCn);
+				dataSet = new DataSet();
+				SqlCommandBuilder oCommand = new SqlCommandBuilder(adapter);
+				adapter.Fill(dataSet, "Candidato");
+				bsource.DataSource = dataSet.Tables["Candidato"];
+				dtgVotacao.DataSource = bsource;
+			}
+			}
 	}
 }
