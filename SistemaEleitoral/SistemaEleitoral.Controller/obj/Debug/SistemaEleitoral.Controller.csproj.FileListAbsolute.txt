@@ -1,0 +1,7 @@
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.Controller\bin\Debug\SistemaEleitoral.Controller.dll
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.Controller\bin\Debug\SistemaEleitoral.Controller.pdb
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.Controller\bin\Debug\SistemaEleitoral.Model.dll
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.Controller\bin\Debug\SistemaEleitoral.Model.pdb
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.Controller\obj\Debug\SistemaEleitoral.Controller.csprojResolveAssemblyReference.cache
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.Controller\obj\Debug\SistemaEleitoral.Controller.dll
+C:\Sistema Eleitoral\SistemaEleitoral\SistemaEleitoral\SistemaEleitoral.Controller\obj\Debug\SistemaEleitoral.Controller.pdb
