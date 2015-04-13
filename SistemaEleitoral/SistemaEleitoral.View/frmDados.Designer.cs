@@ -155,10 +155,7 @@
 			this.textBox10 = new System.Windows.Forms.TextBox();
 			this.label14 = new System.Windows.Forms.Label();
 			this.comboBox16 = new System.Windows.Forms.ComboBox();
-			this.dataGridView4 = new System.Windows.Forms.DataGridView();
-			this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.Cargo_Turma = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.dtgCargos = new System.Windows.Forms.DataGridView();
 			this.tabTurmas = new System.Windows.Forms.TabPage();
 			this.button21 = new System.Windows.Forms.Button();
 			this.button22 = new System.Windows.Forms.Button();
@@ -190,7 +187,7 @@
 			this.tabMesarios.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgMesarios)).BeginInit();
 			this.tabCargos.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dtgCargos)).BeginInit();
 			this.tabTurmas.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
 			this.SuspendLayout();
@@ -1553,7 +1550,7 @@
 			this.tabCargos.Controls.Add(this.textBox10);
 			this.tabCargos.Controls.Add(this.label14);
 			this.tabCargos.Controls.Add(this.comboBox16);
-			this.tabCargos.Controls.Add(this.dataGridView4);
+			this.tabCargos.Controls.Add(this.dtgCargos);
 			this.tabCargos.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.tabCargos.Location = new System.Drawing.Point(4, 25);
 			this.tabCargos.Name = "tabCargos";
@@ -1683,42 +1680,18 @@
 			this.comboBox16.TabIndex = 1;
 			this.comboBox16.Text = "Turma";
 			// 
-			// dataGridView4
+			// dtgCargos
 			// 
-			this.dataGridView4.AllowUserToOrderColumns = true;
-			this.dataGridView4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.dtgCargos.AllowUserToOrderColumns = true;
+			this.dtgCargos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.dataGridView4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn31,
-            this.Cargo_Turma,
-            this.dataGridViewTextBoxColumn32});
-			this.dataGridView4.Location = new System.Drawing.Point(10, 123);
-			this.dataGridView4.Name = "dataGridView4";
-			this.dataGridView4.Size = new System.Drawing.Size(947, 346);
-			this.dataGridView4.TabIndex = 0;
-			// 
-			// dataGridViewTextBoxColumn31
-			// 
-			this.dataGridViewTextBoxColumn31.HeaderText = "ID";
-			this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
-			this.dataGridViewTextBoxColumn31.ReadOnly = true;
-			this.dataGridViewTextBoxColumn31.Width = 80;
-			// 
-			// Cargo_Turma
-			// 
-			this.Cargo_Turma.HeaderText = "Turma";
-			this.Cargo_Turma.Name = "Cargo_Turma";
-			this.Cargo_Turma.ReadOnly = true;
-			// 
-			// dataGridViewTextBoxColumn32
-			// 
-			this.dataGridViewTextBoxColumn32.HeaderText = "Descrição";
-			this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
-			this.dataGridViewTextBoxColumn32.ReadOnly = true;
-			this.dataGridViewTextBoxColumn32.Width = 1500;
+			this.dtgCargos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.dtgCargos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dtgCargos.Location = new System.Drawing.Point(10, 123);
+			this.dtgCargos.Name = "dtgCargos";
+			this.dtgCargos.Size = new System.Drawing.Size(947, 346);
+			this.dtgCargos.TabIndex = 0;
 			// 
 			// tabTurmas
 			// 
@@ -1934,7 +1907,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.dtgMesarios)).EndInit();
 			this.tabCargos.ResumeLayout(false);
 			this.tabCargos.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dtgCargos)).EndInit();
 			this.tabTurmas.ResumeLayout(false);
 			this.tabTurmas.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
@@ -2022,10 +1995,7 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ComboBox comboBox16;
-        private System.Windows.Forms.DataGridView dataGridView4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cargo_Turma;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn32;
+        private System.Windows.Forms.DataGridView dtgCargos;
         private System.Windows.Forms.TabPage tabMesarios;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;

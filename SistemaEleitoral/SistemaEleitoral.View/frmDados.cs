@@ -136,7 +136,7 @@ namespace SistemaEleitoral
 
 		private void btnCargos_Click(object sender, EventArgs e)
 		{
-			
+			dtgCargos.DataSource = CSistemaEleitoral.SelecionarTodos();
 		}
 	}
 }

@@ -151,7 +151,7 @@
 			this.txtCodigoEleitor.MaxLength = 8;
 			this.txtCodigoEleitor.Name = "txtCodigoEleitor";
 			this.txtCodigoEleitor.Size = new System.Drawing.Size(80, 24);
-			this.txtCodigoEleitor.TabIndex = 7;
+			this.txtCodigoEleitor.TabIndex = 0;
 			// 
 			// txtNomeEleitor
 			// 
@@ -169,7 +169,7 @@
 			this.txtRgEleitor.MaxLength = 10;
 			this.txtRgEleitor.Name = "txtRgEleitor";
 			this.txtRgEleitor.Size = new System.Drawing.Size(110, 24);
-			this.txtRgEleitor.TabIndex = 4;
+			this.txtRgEleitor.TabIndex = 8;
 			// 
 			// txtCpfEleitor
 			// 
@@ -178,7 +178,7 @@
 			this.txtCpfEleitor.MaxLength = 11;
 			this.txtCpfEleitor.Name = "txtCpfEleitor";
 			this.txtCpfEleitor.Size = new System.Drawing.Size(121, 24);
-			this.txtCpfEleitor.TabIndex = 5;
+			this.txtCpfEleitor.TabIndex = 9;
 			// 
 			// txtEnderecoEleitor
 			// 
@@ -196,7 +196,7 @@
 			this.mtbTelEleitor.Mask = "(99) 0000-0000";
 			this.mtbTelEleitor.Name = "mtbTelEleitor";
 			this.mtbTelEleitor.Size = new System.Drawing.Size(110, 24);
-			this.mtbTelEleitor.TabIndex = 3;
+			this.mtbTelEleitor.TabIndex = 7;
 			this.mtbTelEleitor.Tag = "";
 			// 
 			// label10
@@ -259,7 +259,7 @@
 			this.cmbEstadoEleitor.Location = new System.Drawing.Point(139, 211);
 			this.cmbEstadoEleitor.Name = "cmbEstadoEleitor";
 			this.cmbEstadoEleitor.Size = new System.Drawing.Size(177, 26);
-			this.cmbEstadoEleitor.TabIndex = 15;
+			this.cmbEstadoEleitor.TabIndex = 6;
 			// 
 			// mtbCepEleitor
 			// 
@@ -268,7 +268,7 @@
 			this.mtbCepEleitor.Mask = "00000-999";
 			this.mtbCepEleitor.Name = "mtbCepEleitor";
 			this.mtbCepEleitor.Size = new System.Drawing.Size(80, 24);
-			this.mtbCepEleitor.TabIndex = 16;
+			this.mtbCepEleitor.TabIndex = 5;
 			this.mtbCepEleitor.Tag = "";
 			// 
 			// label12
@@ -290,7 +290,7 @@
 			this.txtEmailEleitor.MaxLength = 40;
 			this.txtEmailEleitor.Name = "txtEmailEleitor";
 			this.txtEmailEleitor.Size = new System.Drawing.Size(406, 24);
-			this.txtEmailEleitor.TabIndex = 19;
+			this.txtEmailEleitor.TabIndex = 11;
 			// 
 			// label13
 			// 
@@ -315,7 +315,7 @@
 			this.cmbSexoEleitor.Location = new System.Drawing.Point(139, 394);
 			this.cmbSexoEleitor.Name = "cmbSexoEleitor";
 			this.cmbSexoEleitor.Size = new System.Drawing.Size(132, 26);
-			this.cmbSexoEleitor.TabIndex = 21;
+			this.cmbSexoEleitor.TabIndex = 12;
 			// 
 			// btnCancelar
 			// 
@@ -375,7 +375,7 @@
 			this.dtpDataNascEleitor.Location = new System.Drawing.Point(139, 334);
 			this.dtpDataNascEleitor.Name = "dtpDataNascEleitor";
 			this.dtpDataNascEleitor.Size = new System.Drawing.Size(110, 24);
-			this.dtpDataNascEleitor.TabIndex = 59;
+			this.dtpDataNascEleitor.TabIndex = 10;
 			// 
 			// txtCidade
 			// 
@@ -384,7 +384,7 @@
 			this.txtCidade.MaxLength = 30;
 			this.txtCidade.Name = "txtCidade";
 			this.txtCidade.Size = new System.Drawing.Size(311, 24);
-			this.txtCidade.TabIndex = 63;
+			this.txtCidade.TabIndex = 4;
 			// 
 			// label9
 			// 
@@ -405,7 +405,7 @@
 			this.txtBairro.MaxLength = 30;
 			this.txtBairro.Name = "txtBairro";
 			this.txtBairro.Size = new System.Drawing.Size(311, 24);
-			this.txtBairro.TabIndex = 61;
+			this.txtBairro.TabIndex = 3;
 			// 
 			// label8
 			// 

@@ -109,7 +109,7 @@
 			this.cmbSexo.Location = new System.Drawing.Point(140, 391);
 			this.cmbSexo.Name = "cmbSexo";
 			this.cmbSexo.Size = new System.Drawing.Size(132, 26);
-			this.cmbSexo.TabIndex = 49;
+			this.cmbSexo.TabIndex = 13;
 			// 
 			// label13
 			// 
@@ -130,7 +130,7 @@
 			this.txtEmail.MaxLength = 40;
 			this.txtEmail.Name = "txtEmail";
 			this.txtEmail.Size = new System.Drawing.Size(410, 24);
-			this.txtEmail.TabIndex = 47;
+			this.txtEmail.TabIndex = 12;
 			// 
 			// label12
 			// 
@@ -151,7 +151,7 @@
 			this.mtbCep.Mask = "00000-999";
 			this.mtbCep.Name = "mtbCep";
 			this.mtbCep.Size = new System.Drawing.Size(80, 24);
-			this.mtbCep.TabIndex = 45;
+			this.mtbCep.TabIndex = 6;
 			this.mtbCep.Tag = "";
 			// 
 			// cmbEstado
@@ -190,7 +190,7 @@
 			this.cmbEstado.Location = new System.Drawing.Point(140, 208);
 			this.cmbEstado.Name = "cmbEstado";
 			this.cmbEstado.Size = new System.Drawing.Size(177, 26);
-			this.cmbEstado.TabIndex = 44;
+			this.cmbEstado.TabIndex = 7;
 			// 
 			// label11
 			// 
@@ -223,7 +223,7 @@
 			this.txtCidade.MaxLength = 30;
 			this.txtCidade.Name = "txtCidade";
 			this.txtCidade.Size = new System.Drawing.Size(311, 24);
-			this.txtCidade.TabIndex = 41;
+			this.txtCidade.TabIndex = 5;
 			// 
 			// label9
 			// 
@@ -244,7 +244,7 @@
 			this.txtBairro.MaxLength = 30;
 			this.txtBairro.Name = "txtBairro";
 			this.txtBairro.Size = new System.Drawing.Size(311, 24);
-			this.txtBairro.TabIndex = 39;
+			this.txtBairro.TabIndex = 4;
 			// 
 			// label8
 			// 
@@ -265,7 +265,7 @@
 			this.mtbTel.Mask = "(99) 0000-0000";
 			this.mtbTel.Name = "mtbTel";
 			this.mtbTel.Size = new System.Drawing.Size(110, 24);
-			this.mtbTel.TabIndex = 30;
+			this.mtbTel.TabIndex = 8;
 			this.mtbTel.Tag = "";
 			// 
 			// txtEndereco
@@ -275,7 +275,7 @@
 			this.txtEndereco.MaxLength = 50;
 			this.txtEndereco.Name = "txtEndereco";
 			this.txtEndereco.Size = new System.Drawing.Size(508, 24);
-			this.txtEndereco.TabIndex = 28;
+			this.txtEndereco.TabIndex = 3;
 			// 
 			// txtCpf
 			// 
@@ -284,7 +284,7 @@
 			this.txtCpf.MaxLength = 11;
 			this.txtCpf.Name = "txtCpf";
 			this.txtCpf.Size = new System.Drawing.Size(121, 24);
-			this.txtCpf.TabIndex = 34;
+			this.txtCpf.TabIndex = 10;
 			// 
 			// txtRg
 			// 
@@ -293,7 +293,7 @@
 			this.txtRg.MaxLength = 10;
 			this.txtRg.Name = "txtRg";
 			this.txtRg.Size = new System.Drawing.Size(110, 24);
-			this.txtRg.TabIndex = 32;
+			this.txtRg.TabIndex = 9;
 			// 
 			// txtNome
 			// 
@@ -302,7 +302,7 @@
 			this.txtNome.MaxLength = 50;
 			this.txtNome.Name = "txtNome";
 			this.txtNome.Size = new System.Drawing.Size(508, 24);
-			this.txtNome.TabIndex = 25;
+			this.txtNome.TabIndex = 2;
 			// 
 			// txtNumero
 			// 
@@ -311,7 +311,7 @@
 			this.txtNumero.MaxLength = 2;
 			this.txtNumero.Name = "txtNumero";
 			this.txtNumero.Size = new System.Drawing.Size(34, 24);
-			this.txtNumero.TabIndex = 37;
+			this.txtNumero.TabIndex = 0;
 			// 
 			// label7
 			// 
@@ -406,7 +406,7 @@
 			this.txtFoto.Location = new System.Drawing.Point(469, 178);
 			this.txtFoto.Name = "txtFoto";
 			this.txtFoto.Size = new System.Drawing.Size(230, 24);
-			this.txtFoto.TabIndex = 52;
+			this.txtFoto.TabIndex = 14;
 			this.txtFoto.Text = "foto.jpg";
 			// 
 			// btnCarregarFoto
@@ -476,7 +476,7 @@
 			this.cmbCargo.Location = new System.Drawing.Point(323, 28);
 			this.cmbCargo.Name = "cmbCargo";
 			this.cmbCargo.Size = new System.Drawing.Size(325, 26);
-			this.cmbCargo.TabIndex = 57;
+			this.cmbCargo.TabIndex = 1;
 			// 
 			// dtpDataNasc
 			// 
@@ -485,7 +485,7 @@
 			this.dtpDataNasc.Location = new System.Drawing.Point(140, 331);
 			this.dtpDataNasc.Name = "dtpDataNasc";
 			this.dtpDataNasc.Size = new System.Drawing.Size(110, 24);
-			this.dtpDataNasc.TabIndex = 58;
+			this.dtpDataNasc.TabIndex = 11;
 			// 
 			// frmCadastroCandidato
 			// 

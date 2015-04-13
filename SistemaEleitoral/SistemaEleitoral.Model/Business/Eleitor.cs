@@ -44,7 +44,7 @@ namespace SistemaEleitoral.Model
 			{
 				Eleitor oEleitor = new Eleitor();
 				oEleitor.Matricula = oDr.GetString(oDr.GetOrdinal("Matricula"));
-				oEleitor.Nome = oDr.GetString(oDr.GetOrdinal("Nome"));
+                oEleitor.Nome = oDr.GetString(oDr.GetOrdinal("Nome"));
 				oEleitor.CPF = oDr.GetString(oDr.GetOrdinal("CPF"));
 				oEleitor.Telefone = oDr.GetString(oDr.GetOrdinal("Telefone"));
 				oEleitor.Identidade = oDr.GetString(oDr.GetOrdinal("Identidade"));
