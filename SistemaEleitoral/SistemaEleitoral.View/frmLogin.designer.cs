@@ -29,25 +29,25 @@
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtLogin = new System.Windows.Forms.TextBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.textBox3 = new System.Windows.Forms.TextBox();
+			this.txtSenha = new System.Windows.Forms.TextBox();
 			this.btnEntrar = new System.Windows.Forms.Button();
 			this.btnFechar = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// textBox1
+			// txtLogin
 			// 
-			this.textBox1.Location = new System.Drawing.Point(319, 71);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(181, 20);
-			this.textBox1.TabIndex = 0;
-			this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+			this.txtLogin.Location = new System.Drawing.Point(319, 71);
+			this.txtLogin.Name = "txtLogin";
+			this.txtLogin.Size = new System.Drawing.Size(181, 20);
+			this.txtLogin.TabIndex = 0;
+			this.txtLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			this.txtLogin.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
 			// 
 			// pictureBox1
 			// 
@@ -95,13 +95,14 @@
 			this.label2.TabIndex = 20;
 			this.label2.Text = "Senha";
 			// 
-			// textBox3
+			// txtSenha
 			// 
-			this.textBox3.Location = new System.Drawing.Point(319, 117);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(181, 20);
-			this.textBox3.TabIndex = 19;
-			this.textBox3.UseSystemPasswordChar = true;
+			this.txtSenha.Location = new System.Drawing.Point(319, 117);
+			this.txtSenha.Name = "txtSenha";
+			this.txtSenha.Size = new System.Drawing.Size(181, 20);
+			this.txtSenha.TabIndex = 1;
+			this.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			this.txtSenha.UseSystemPasswordChar = true;
 			// 
 			// btnEntrar
 			// 
@@ -150,11 +151,11 @@
 			this.Controls.Add(this.btnFechar);
 			this.Controls.Add(this.btnEntrar);
 			this.Controls.Add(this.label2);
-			this.Controls.Add(this.textBox3);
+			this.Controls.Add(this.txtSenha);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.textBox2);
 			this.Controls.Add(this.pictureBox1);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.txtLogin);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MaximizeBox = false;
@@ -172,12 +173,12 @@
 
 		#endregion
 
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtLogin;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.TextBox textBox2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox textBox3;
+		private System.Windows.Forms.TextBox txtSenha;
 		private System.Windows.Forms.Button btnEntrar;
 		private System.Windows.Forms.Button btnFechar;
 	}

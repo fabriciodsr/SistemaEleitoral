@@ -5808,6 +5808,9 @@
         9DdAhM5DkYpUpJ+i5InriZx3vEg/1ekpT/k/d446x4QAtR8AAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="candidatoBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>541, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAEAAAMAUAADAFAAAAAAAAAAA
