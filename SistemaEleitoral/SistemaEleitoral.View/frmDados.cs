@@ -56,7 +56,6 @@ namespace SistemaEleitoral
 
 		private void frmDados_Load(object sender, EventArgs e)
 		{
-			CarregarDados();
 			lblQuantEleitores.Text = ContagemEleitores().ToString();
 			lblQuantVotos.Text = ContagemVotos().ToString();
 		}
@@ -66,7 +65,7 @@ namespace SistemaEleitoral
 		DataSet dataSet = null;
 		string SQL;
 
-		public void CarregarDados()
+		public void CarregarDadosEleitores()
 		{
 			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
 			SQL = "SELECT * FROM Eleitor";
@@ -79,7 +78,33 @@ namespace SistemaEleitoral
 			dtgEleitores.DataSource = bsource;
 		}
 
-		
+		public void CarregarDadosCandidatos()
+		{
+			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+			SQL = "SELECT * FROM Candidato";
+
+			adapter = new SqlDataAdapter(SQL, oCn);
+			dataSet = new DataSet();
+			SqlCommandBuilder oCommand = new SqlCommandBuilder(adapter);
+			adapter.Fill(dataSet, "Candidato");
+			bsource.DataSource = dataSet.Tables["Candidato"];
+			dtgCandidatos.DataSource = bsource;
+		}
+
+		public void CarregarDadosMesarios()
+		{
+			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+			SQL = "SELECT * FROM Mesario";
+
+			adapter = new SqlDataAdapter(SQL, oCn);
+			dataSet = new DataSet();
+			SqlCommandBuilder oCommand = new SqlCommandBuilder(adapter);
+			adapter.Fill(dataSet, "Mesario");
+			bsource.DataSource = dataSet.Tables["Mesario"];
+			dtgMesarios.DataSource = bsource;
+		}
+
+
 		private void button12_Click(object sender, EventArgs e)
 		{
 			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
@@ -169,7 +194,7 @@ namespace SistemaEleitoral
 
 		private void tabEleitores_Enter(object sender, EventArgs e)
 		{
-			CarregarDados();
+			CarregarDadosEleitores();
 		}
 
 		private void button6_Click(object sender, EventArgs e)
@@ -180,6 +205,7 @@ namespace SistemaEleitoral
 				this.dtgEleitores.BindingContext[dt].EndCurrentEdit();
 				this.adapter.Update(dt);
 				MessageBox.Show("Banco de dados Atualizado com sucesso", "Atualizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				//dtgEleitores.Enabled = false;
 			}
 			catch (Exception ex)
 			{
@@ -197,5 +223,71 @@ namespace SistemaEleitoral
 			}
 		}
 
+		private void btnAlteraEleitor_Click(object sender, EventArgs e)
+		{
+			//dtgEleitores.Enabled = true;
+		}
+
+		private void btnSalvarCandidato_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				DataTable dt = dataSet.Tables["Candidato"];
+				this.dtgEleitores.BindingContext[dt].EndCurrentEdit();
+				this.adapter.Update(dt);
+				MessageBox.Show("Banco de dados Atualizado com sucesso", "Atualizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				//dtgEleitores.Enabled = false;
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Erro : " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
+
+		private void btnSalvarMesario_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				DataTable dt = dataSet.Tables["Mesario"];
+				this.dtgEleitores.BindingContext[dt].EndCurrentEdit();
+				this.adapter.Update(dt);
+				MessageBox.Show("Banco de dados Atualizado com sucesso", "Atualizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				//dtgEleitores.Enabled = false;
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Erro : " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
+
+		private void tabCandidatos_Enter(object sender, EventArgs e)
+		{
+			CarregarDadosCandidatos();
+		}
+
+		private void tabMesarios_Enter(object sender, EventArgs e)
+		{
+			CarregarDadosMesarios();
+		}
+
+		private void dtgCandidatos_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
+		{
+			if (!e.Row.IsNewRow)
+			{
+				DialogResult res = MessageBox.Show("Tem certeza de que deseja deletar esta linha ?", "Deletar?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+				if (res == DialogResult.No)
+					e.Cancel = true;
+			}
+		}
+
+		private void dtgMesarios_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
+		{
+			if (!e.Row.IsNewRow)
+			{
+				DialogResult res = MessageBox.Show("Tem certeza de que deseja deletar esta linha ?", "Deletar?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+				if (res == DialogResult.No)
+					e.Cancel = true;
+			}
+		}
 	}
 }

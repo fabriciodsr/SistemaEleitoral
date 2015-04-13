@@ -67,97 +67,76 @@
 			this.tabPage5 = new System.Windows.Forms.TabPage();
 			this.tabPage6 = new System.Windows.Forms.TabPage();
 			this.tabTurmas = new System.Windows.Forms.TabPage();
-			this.dataGridView6 = new System.Windows.Forms.DataGridView();
-			this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.comboBox17 = new System.Windows.Forms.ComboBox();
-			this.label19 = new System.Windows.Forms.Label();
-			this.textBox13 = new System.Windows.Forms.TextBox();
-			this.textBox12 = new System.Windows.Forms.TextBox();
-			this.label18 = new System.Windows.Forms.Label();
-			this.label17 = new System.Windows.Forms.Label();
-			this.button24 = new System.Windows.Forms.Button();
-			this.button23 = new System.Windows.Forms.Button();
-			this.button22 = new System.Windows.Forms.Button();
 			this.button21 = new System.Windows.Forms.Button();
+			this.button22 = new System.Windows.Forms.Button();
+			this.button23 = new System.Windows.Forms.Button();
+			this.button24 = new System.Windows.Forms.Button();
+			this.label17 = new System.Windows.Forms.Label();
+			this.label18 = new System.Windows.Forms.Label();
+			this.textBox12 = new System.Windows.Forms.TextBox();
+			this.textBox13 = new System.Windows.Forms.TextBox();
+			this.label19 = new System.Windows.Forms.Label();
+			this.comboBox17 = new System.Windows.Forms.ComboBox();
+			this.dataGridView6 = new System.Windows.Forms.DataGridView();
+			this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.tabCargos = new System.Windows.Forms.TabPage();
-			this.dtgCargos = new System.Windows.Forms.DataGridView();
-			this.comboBox16 = new System.Windows.Forms.ComboBox();
-			this.label14 = new System.Windows.Forms.Label();
-			this.textBox10 = new System.Windows.Forms.TextBox();
-			this.textBox9 = new System.Windows.Forms.TextBox();
-			this.label13 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
-			this.btnCargos = new System.Windows.Forms.Button();
-			this.button15 = new System.Windows.Forms.Button();
-			this.button14 = new System.Windows.Forms.Button();
 			this.button13 = new System.Windows.Forms.Button();
+			this.button14 = new System.Windows.Forms.Button();
+			this.button15 = new System.Windows.Forms.Button();
+			this.btnCargos = new System.Windows.Forms.Button();
+			this.label12 = new System.Windows.Forms.Label();
+			this.label13 = new System.Windows.Forms.Label();
+			this.textBox9 = new System.Windows.Forms.TextBox();
+			this.textBox10 = new System.Windows.Forms.TextBox();
+			this.label14 = new System.Windows.Forms.Label();
+			this.comboBox16 = new System.Windows.Forms.ComboBox();
+			this.dtgCargos = new System.Windows.Forms.DataGridView();
 			this.tabMesarios = new System.Windows.Forms.TabPage();
-			this.dtgMesarios = new System.Windows.Forms.DataGridView();
-			this.comboBox15 = new System.Windows.Forms.ComboBox();
-			this.comboBox14 = new System.Windows.Forms.ComboBox();
-			this.comboBox13 = new System.Windows.Forms.ComboBox();
-			this.label16 = new System.Windows.Forms.Label();
-			this.txtCodigoMesario = new System.Windows.Forms.TextBox();
-			this.txtNomeMesario = new System.Windows.Forms.TextBox();
-			this.label15 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
+			this.btnExcluirMesario = new System.Windows.Forms.Button();
+			this.btnSalvarMesario = new System.Windows.Forms.Button();
+			this.btnAlterarMesario = new System.Windows.Forms.Button();
 			this.btnPesquisaMesario = new System.Windows.Forms.Button();
-			this.button19 = new System.Windows.Forms.Button();
-			this.button18 = new System.Windows.Forms.Button();
-			this.button17 = new System.Windows.Forms.Button();
+			this.label11 = new System.Windows.Forms.Label();
+			this.label15 = new System.Windows.Forms.Label();
+			this.txtNomeMesario = new System.Windows.Forms.TextBox();
+			this.txtCodigoMesario = new System.Windows.Forms.TextBox();
+			this.label16 = new System.Windows.Forms.Label();
+			this.comboBox13 = new System.Windows.Forms.ComboBox();
+			this.comboBox14 = new System.Windows.Forms.ComboBox();
+			this.comboBox15 = new System.Windows.Forms.ComboBox();
+			this.dtgMesarios = new System.Windows.Forms.DataGridView();
 			this.tabCandidatos = new System.Windows.Forms.TabPage();
-			this.comboBox12 = new System.Windows.Forms.ComboBox();
-			this.comboBox11 = new System.Windows.Forms.ComboBox();
-			this.comboBox10 = new System.Windows.Forms.ComboBox();
-			this.comboBox9 = new System.Windows.Forms.ComboBox();
-			this.label9 = new System.Windows.Forms.Label();
-			this.txtNomeCandidato = new System.Windows.Forms.TextBox();
-			this.label7 = new System.Windows.Forms.Label();
-			this.btnPesquisaCandidato = new System.Windows.Forms.Button();
-			this.button11 = new System.Windows.Forms.Button();
-			this.button10 = new System.Windows.Forms.Button();
-			this.button9 = new System.Windows.Forms.Button();
-			this.txtNumeroCandidato = new System.Windows.Forms.TextBox();
-			this.label10 = new System.Windows.Forms.Label();
 			this.dtgCandidatos = new System.Windows.Forms.DataGridView();
+			this.label10 = new System.Windows.Forms.Label();
+			this.txtNumeroCandidato = new System.Windows.Forms.TextBox();
+			this.txtNomeCandidato = new System.Windows.Forms.TextBox();
+			this.btnExcluirCandidato = new System.Windows.Forms.Button();
+			this.btnSalvarCandidato = new System.Windows.Forms.Button();
+			this.btnAlterarCandidato = new System.Windows.Forms.Button();
+			this.btnPesquisaCandidato = new System.Windows.Forms.Button();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
+			this.comboBox9 = new System.Windows.Forms.ComboBox();
+			this.comboBox10 = new System.Windows.Forms.ComboBox();
+			this.comboBox11 = new System.Windows.Forms.ComboBox();
+			this.comboBox12 = new System.Windows.Forms.ComboBox();
 			this.tabEleitores = new System.Windows.Forms.TabPage();
-			this.dtgEleitores = new System.Windows.Forms.DataGridView();
-			this.comboBox8 = new System.Windows.Forms.ComboBox();
-			this.comboBox7 = new System.Windows.Forms.ComboBox();
-			this.comboBox6 = new System.Windows.Forms.ComboBox();
-			this.comboBox5 = new System.Windows.Forms.ComboBox();
-			this.label6 = new System.Windows.Forms.Label();
-			this.txtMatEleitor = new System.Windows.Forms.TextBox();
-			this.txtNomeEleitor = new System.Windows.Forms.TextBox();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
-			this.btnPesquisaEleitor = new System.Windows.Forms.Button();
-			this.btnAlteraEleitor = new System.Windows.Forms.Button();
-			this.btnSalvarEleitor = new System.Windows.Forms.Button();
 			this.btnExcluirEleitor = new System.Windows.Forms.Button();
-			this.tabVotacao = new System.Windows.Forms.TabPage();
-			this.label22 = new System.Windows.Forms.Label();
-			this.label21 = new System.Windows.Forms.Label();
-			this.label20 = new System.Windows.Forms.Label();
-			this.lblQuantEleitores = new System.Windows.Forms.Label();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.label24 = new System.Windows.Forms.Label();
-			this.pictureBox2 = new System.Windows.Forms.PictureBox();
-			this.lblQuantVotos = new System.Windows.Forms.Label();
-			this.label26 = new System.Windows.Forms.Label();
-			this.radioButton1 = new System.Windows.Forms.RadioButton();
-			this.radioButton2 = new System.Windows.Forms.RadioButton();
-			this.radioButton3 = new System.Windows.Forms.RadioButton();
-			this.radioButton4 = new System.Windows.Forms.RadioButton();
-			this.radioButton5 = new System.Windows.Forms.RadioButton();
-			this.label28 = new System.Windows.Forms.Label();
-			this.button25 = new System.Windows.Forms.Button();
-			this.pictureBox3 = new System.Windows.Forms.PictureBox();
-			this.dtgVotacao = new System.Windows.Forms.DataGridView();
-			this.tabControl2 = new System.Windows.Forms.TabControl();
-			this.eleitorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.btnSalvarEleitor = new System.Windows.Forms.Button();
+			this.btnAlterarEleitor = new System.Windows.Forms.Button();
+			this.btnPesquisaEleitor = new System.Windows.Forms.Button();
+			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.txtNomeEleitor = new System.Windows.Forms.TextBox();
+			this.txtMatEleitor = new System.Windows.Forms.TextBox();
+			this.label6 = new System.Windows.Forms.Label();
+			this.comboBox5 = new System.Windows.Forms.ComboBox();
+			this.comboBox6 = new System.Windows.Forms.ComboBox();
+			this.comboBox7 = new System.Windows.Forms.ComboBox();
+			this.comboBox8 = new System.Windows.Forms.ComboBox();
+			this.dtgEleitores = new System.Windows.Forms.DataGridView();
 			this.matriculaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.cPFDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -171,6 +150,27 @@
 			this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.dataNascDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.sexoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewComboBoxColumn();
+			this.eleitorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.tabVotacao = new System.Windows.Forms.TabPage();
+			this.dtgVotacao = new System.Windows.Forms.DataGridView();
+			this.pictureBox3 = new System.Windows.Forms.PictureBox();
+			this.button25 = new System.Windows.Forms.Button();
+			this.label28 = new System.Windows.Forms.Label();
+			this.radioButton5 = new System.Windows.Forms.RadioButton();
+			this.radioButton4 = new System.Windows.Forms.RadioButton();
+			this.radioButton3 = new System.Windows.Forms.RadioButton();
+			this.radioButton2 = new System.Windows.Forms.RadioButton();
+			this.radioButton1 = new System.Windows.Forms.RadioButton();
+			this.label26 = new System.Windows.Forms.Label();
+			this.lblQuantVotos = new System.Windows.Forms.Label();
+			this.pictureBox2 = new System.Windows.Forms.PictureBox();
+			this.label24 = new System.Windows.Forms.Label();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.lblQuantEleitores = new System.Windows.Forms.Label();
+			this.label20 = new System.Windows.Forms.Label();
+			this.label21 = new System.Windows.Forms.Label();
+			this.label22 = new System.Windows.Forms.Label();
+			this.tabControl2 = new System.Windows.Forms.TabControl();
 			this.tabControl1.SuspendLayout();
 			this.tabPage2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -184,13 +184,13 @@
 			((System.ComponentModel.ISupportInitialize)(this.dtgCandidatos)).BeginInit();
 			this.tabEleitores.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgEleitores)).BeginInit();
-			this.tabVotacao.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.dtgVotacao)).BeginInit();
-			this.tabControl2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.eleitorBindingSource)).BeginInit();
+			this.tabVotacao.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.dtgVotacao)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+			this.tabControl2.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabControl1
@@ -541,7 +541,7 @@
 			this.tabPage3.Location = new System.Drawing.Point(4, 25);
 			this.tabPage3.Name = "tabPage3";
 			this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage3.Size = new System.Drawing.Size(967, 480);
+			this.tabPage3.Size = new System.Drawing.Size(1184, 480);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "Candidatos";
 			this.tabPage3.UseVisualStyleBackColor = true;
@@ -552,7 +552,7 @@
 			this.tabPage4.Location = new System.Drawing.Point(4, 25);
 			this.tabPage4.Name = "tabPage4";
 			this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage4.Size = new System.Drawing.Size(967, 480);
+			this.tabPage4.Size = new System.Drawing.Size(1184, 480);
 			this.tabPage4.TabIndex = 3;
 			this.tabPage4.Text = "Cargos";
 			this.tabPage4.UseVisualStyleBackColor = true;
@@ -563,7 +563,7 @@
 			this.tabPage5.Location = new System.Drawing.Point(4, 25);
 			this.tabPage5.Name = "tabPage5";
 			this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage5.Size = new System.Drawing.Size(967, 480);
+			this.tabPage5.Size = new System.Drawing.Size(1184, 480);
 			this.tabPage5.TabIndex = 4;
 			this.tabPage5.Text = "Mesários";
 			this.tabPage5.UseVisualStyleBackColor = true;
@@ -573,7 +573,7 @@
 			this.tabPage6.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.tabPage6.Location = new System.Drawing.Point(4, 25);
 			this.tabPage6.Name = "tabPage6";
-			this.tabPage6.Size = new System.Drawing.Size(967, 480);
+			this.tabPage6.Size = new System.Drawing.Size(1184, 480);
 			this.tabPage6.TabIndex = 5;
 			this.tabPage6.Text = "Turmas";
 			this.tabPage6.UseVisualStyleBackColor = true;
@@ -600,132 +600,18 @@
 			this.tabTurmas.Text = "Turmas";
 			this.tabTurmas.UseVisualStyleBackColor = true;
 			// 
-			// dataGridView6
+			// button21
 			// 
-			this.dataGridView6.AllowUserToOrderColumns = true;
-			this.dataGridView6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.dataGridView6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn48,
-            this.dataGridViewTextBoxColumn49,
-            this.dataGridViewTextBoxColumn50});
-			this.dataGridView6.Location = new System.Drawing.Point(10, 123);
-			this.dataGridView6.Name = "dataGridView6";
-			this.dataGridView6.Size = new System.Drawing.Size(1164, 346);
-			this.dataGridView6.TabIndex = 0;
-			// 
-			// dataGridViewTextBoxColumn50
-			// 
-			this.dataGridViewTextBoxColumn50.HeaderText = "Descrição";
-			this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
-			this.dataGridViewTextBoxColumn50.ReadOnly = true;
-			this.dataGridViewTextBoxColumn50.Width = 1500;
-			// 
-			// dataGridViewTextBoxColumn49
-			// 
-			this.dataGridViewTextBoxColumn49.HeaderText = "Ano";
-			this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
-			this.dataGridViewTextBoxColumn49.ReadOnly = true;
-			// 
-			// dataGridViewTextBoxColumn48
-			// 
-			this.dataGridViewTextBoxColumn48.HeaderText = "ID";
-			this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
-			this.dataGridViewTextBoxColumn48.ReadOnly = true;
-			this.dataGridViewTextBoxColumn48.Width = 80;
-			// 
-			// comboBox17
-			// 
-			this.comboBox17.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-			this.comboBox17.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox17.FormattingEnabled = true;
-			this.comboBox17.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox17.Location = new System.Drawing.Point(11, 87);
-			this.comboBox17.Name = "comboBox17";
-			this.comboBox17.Size = new System.Drawing.Size(219, 21);
-			this.comboBox17.TabIndex = 1;
-			this.comboBox17.Text = "Ano";
-			// 
-			// label19
-			// 
-			this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.label19.Location = new System.Drawing.Point(11, 16);
-			this.label19.Name = "label19";
-			this.label19.Size = new System.Drawing.Size(1162, 54);
-			this.label19.TabIndex = 5;
-			// 
-			// textBox13
-			// 
-			this.textBox13.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.textBox13.Location = new System.Drawing.Point(26, 36);
-			this.textBox13.Name = "textBox13";
-			this.textBox13.Size = new System.Drawing.Size(62, 21);
-			this.textBox13.TabIndex = 6;
-			// 
-			// textBox12
-			// 
-			this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox12.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.textBox12.Location = new System.Drawing.Point(158, 36);
-			this.textBox12.Name = "textBox12";
-			this.textBox12.Size = new System.Drawing.Size(967, 21);
-			this.textBox12.TabIndex = 7;
-			// 
-			// label18
-			// 
-			this.label18.AutoSize = true;
-			this.label18.Location = new System.Drawing.Point(44, 20);
-			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(22, 13);
-			this.label18.TabIndex = 8;
-			this.label18.Text = "ID";
-			// 
-			// label17
-			// 
-			this.label17.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.label17.AutoSize = true;
-			this.label17.Location = new System.Drawing.Point(595, 20);
-			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(71, 13);
-			this.label17.TabIndex = 9;
-			this.label17.Text = "Descrição";
-			// 
-			// button24
-			// 
-			this.button24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button24.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button24.BackgroundImage")));
-			this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button24.Location = new System.Drawing.Point(1131, 35);
-			this.button24.Name = "button24";
-			this.button24.Size = new System.Drawing.Size(22, 21);
-			this.button24.TabIndex = 10;
-			this.button24.UseVisualStyleBackColor = false;
-			// 
-			// button23
-			// 
-			this.button23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button23.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button23.Image = ((System.Drawing.Image)(resources.GetObject("button23.Image")));
-			this.button23.Location = new System.Drawing.Point(925, 75);
-			this.button23.Name = "button23";
-			this.button23.Size = new System.Drawing.Size(97, 44);
-			this.button23.TabIndex = 11;
-			this.button23.Text = "Alterar";
-			this.button23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button23.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.button23.UseVisualStyleBackColor = false;
+			this.button21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.button21.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
+			this.button21.Location = new System.Drawing.Point(1124, 75);
+			this.button21.Name = "button21";
+			this.button21.Size = new System.Drawing.Size(49, 44);
+			this.button21.TabIndex = 13;
+			this.button21.UseVisualStyleBackColor = false;
 			// 
 			// button22
 			// 
@@ -743,18 +629,132 @@
 			this.button22.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.button22.UseVisualStyleBackColor = false;
 			// 
-			// button21
+			// button23
 			// 
-			this.button21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button21.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
-			this.button21.Location = new System.Drawing.Point(1124, 75);
-			this.button21.Name = "button21";
-			this.button21.Size = new System.Drawing.Size(49, 44);
-			this.button21.TabIndex = 13;
-			this.button21.UseVisualStyleBackColor = false;
+			this.button23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.button23.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.button23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button23.Image = ((System.Drawing.Image)(resources.GetObject("button23.Image")));
+			this.button23.Location = new System.Drawing.Point(925, 75);
+			this.button23.Name = "button23";
+			this.button23.Size = new System.Drawing.Size(97, 44);
+			this.button23.TabIndex = 11;
+			this.button23.Text = "Alterar";
+			this.button23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.button23.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.button23.UseVisualStyleBackColor = false;
+			// 
+			// button24
+			// 
+			this.button24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.button24.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.button24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button24.BackgroundImage")));
+			this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button24.Location = new System.Drawing.Point(1131, 35);
+			this.button24.Name = "button24";
+			this.button24.Size = new System.Drawing.Size(22, 21);
+			this.button24.TabIndex = 10;
+			this.button24.UseVisualStyleBackColor = false;
+			// 
+			// label17
+			// 
+			this.label17.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.label17.AutoSize = true;
+			this.label17.Location = new System.Drawing.Point(595, 20);
+			this.label17.Name = "label17";
+			this.label17.Size = new System.Drawing.Size(71, 13);
+			this.label17.TabIndex = 9;
+			this.label17.Text = "Descrição";
+			// 
+			// label18
+			// 
+			this.label18.AutoSize = true;
+			this.label18.Location = new System.Drawing.Point(44, 20);
+			this.label18.Name = "label18";
+			this.label18.Size = new System.Drawing.Size(22, 13);
+			this.label18.TabIndex = 8;
+			this.label18.Text = "ID";
+			// 
+			// textBox12
+			// 
+			this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.textBox12.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.textBox12.Location = new System.Drawing.Point(158, 36);
+			this.textBox12.Name = "textBox12";
+			this.textBox12.Size = new System.Drawing.Size(967, 21);
+			this.textBox12.TabIndex = 7;
+			// 
+			// textBox13
+			// 
+			this.textBox13.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.textBox13.Location = new System.Drawing.Point(26, 36);
+			this.textBox13.Name = "textBox13";
+			this.textBox13.Size = new System.Drawing.Size(62, 21);
+			this.textBox13.TabIndex = 6;
+			// 
+			// label19
+			// 
+			this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.label19.Location = new System.Drawing.Point(11, 16);
+			this.label19.Name = "label19";
+			this.label19.Size = new System.Drawing.Size(1162, 54);
+			this.label19.TabIndex = 5;
+			// 
+			// comboBox17
+			// 
+			this.comboBox17.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+			this.comboBox17.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox17.FormattingEnabled = true;
+			this.comboBox17.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox17.Location = new System.Drawing.Point(11, 87);
+			this.comboBox17.Name = "comboBox17";
+			this.comboBox17.Size = new System.Drawing.Size(219, 21);
+			this.comboBox17.TabIndex = 1;
+			this.comboBox17.Text = "Ano";
+			// 
+			// dataGridView6
+			// 
+			this.dataGridView6.AllowUserToOrderColumns = true;
+			this.dataGridView6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.dataGridView6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn48,
+            this.dataGridViewTextBoxColumn49,
+            this.dataGridViewTextBoxColumn50});
+			this.dataGridView6.Location = new System.Drawing.Point(10, 123);
+			this.dataGridView6.Name = "dataGridView6";
+			this.dataGridView6.Size = new System.Drawing.Size(1164, 346);
+			this.dataGridView6.TabIndex = 0;
+			// 
+			// dataGridViewTextBoxColumn48
+			// 
+			this.dataGridViewTextBoxColumn48.HeaderText = "ID";
+			this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
+			this.dataGridViewTextBoxColumn48.ReadOnly = true;
+			this.dataGridViewTextBoxColumn48.Width = 80;
+			// 
+			// dataGridViewTextBoxColumn49
+			// 
+			this.dataGridViewTextBoxColumn49.HeaderText = "Ano";
+			this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
+			this.dataGridViewTextBoxColumn49.ReadOnly = true;
+			// 
+			// dataGridViewTextBoxColumn50
+			// 
+			this.dataGridViewTextBoxColumn50.HeaderText = "Descrição";
+			this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
+			this.dataGridViewTextBoxColumn50.ReadOnly = true;
+			this.dataGridViewTextBoxColumn50.Width = 1500;
 			// 
 			// tabCargos
 			// 
@@ -778,109 +778,18 @@
 			this.tabCargos.Text = "Cargos";
 			this.tabCargos.UseVisualStyleBackColor = true;
 			// 
-			// dtgCargos
+			// button13
 			// 
-			this.dtgCargos.AllowUserToOrderColumns = true;
-			this.dtgCargos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.dtgCargos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.dtgCargos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dtgCargos.Location = new System.Drawing.Point(10, 123);
-			this.dtgCargos.Name = "dtgCargos";
-			this.dtgCargos.Size = new System.Drawing.Size(1164, 346);
-			this.dtgCargos.TabIndex = 0;
-			// 
-			// comboBox16
-			// 
-			this.comboBox16.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-			this.comboBox16.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox16.FormattingEnabled = true;
-			this.comboBox16.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox16.Location = new System.Drawing.Point(11, 87);
-			this.comboBox16.Name = "comboBox16";
-			this.comboBox16.Size = new System.Drawing.Size(219, 21);
-			this.comboBox16.TabIndex = 1;
-			this.comboBox16.Text = "Turma";
-			// 
-			// label14
-			// 
-			this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.label14.Location = new System.Drawing.Point(11, 16);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(1162, 54);
-			this.label14.TabIndex = 5;
-			// 
-			// textBox10
-			// 
-			this.textBox10.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.textBox10.Location = new System.Drawing.Point(26, 36);
-			this.textBox10.Name = "textBox10";
-			this.textBox10.Size = new System.Drawing.Size(62, 21);
-			this.textBox10.TabIndex = 6;
-			// 
-			// textBox9
-			// 
-			this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox9.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.textBox9.Location = new System.Drawing.Point(158, 36);
-			this.textBox9.Name = "textBox9";
-			this.textBox9.Size = new System.Drawing.Size(967, 21);
-			this.textBox9.TabIndex = 7;
-			// 
-			// label13
-			// 
-			this.label13.AutoSize = true;
-			this.label13.Location = new System.Drawing.Point(44, 20);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(22, 13);
-			this.label13.TabIndex = 8;
-			this.label13.Text = "ID";
-			// 
-			// label12
-			// 
-			this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.label12.AutoSize = true;
-			this.label12.Location = new System.Drawing.Point(595, 20);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(71, 13);
-			this.label12.TabIndex = 9;
-			this.label12.Text = "Descrição";
-			// 
-			// btnCargos
-			// 
-			this.btnCargos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnCargos.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.btnCargos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCargos.BackgroundImage")));
-			this.btnCargos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.btnCargos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnCargos.Location = new System.Drawing.Point(1131, 35);
-			this.btnCargos.Name = "btnCargos";
-			this.btnCargos.Size = new System.Drawing.Size(22, 21);
-			this.btnCargos.TabIndex = 10;
-			this.btnCargos.UseVisualStyleBackColor = false;
-			this.btnCargos.Click += new System.EventHandler(this.btnCargos_Click);
-			// 
-			// button15
-			// 
-			this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button15.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-			this.button15.Location = new System.Drawing.Point(925, 75);
-			this.button15.Name = "button15";
-			this.button15.Size = new System.Drawing.Size(97, 44);
-			this.button15.TabIndex = 11;
-			this.button15.Text = "Alterar";
-			this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.button15.UseVisualStyleBackColor = false;
+			this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.button13.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
+			this.button13.Location = new System.Drawing.Point(1124, 75);
+			this.button13.Name = "button13";
+			this.button13.Size = new System.Drawing.Size(49, 44);
+			this.button13.TabIndex = 13;
+			this.button13.UseVisualStyleBackColor = false;
 			// 
 			// button14
 			// 
@@ -898,24 +807,115 @@
 			this.button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.button14.UseVisualStyleBackColor = false;
 			// 
-			// button13
+			// button15
 			// 
-			this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button13.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
-			this.button13.Location = new System.Drawing.Point(1124, 75);
-			this.button13.Name = "button13";
-			this.button13.Size = new System.Drawing.Size(49, 44);
-			this.button13.TabIndex = 13;
-			this.button13.UseVisualStyleBackColor = false;
+			this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.button15.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
+			this.button15.Location = new System.Drawing.Point(925, 75);
+			this.button15.Name = "button15";
+			this.button15.Size = new System.Drawing.Size(97, 44);
+			this.button15.TabIndex = 11;
+			this.button15.Text = "Alterar";
+			this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.button15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.button15.UseVisualStyleBackColor = false;
+			// 
+			// btnCargos
+			// 
+			this.btnCargos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnCargos.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnCargos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCargos.BackgroundImage")));
+			this.btnCargos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.btnCargos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnCargos.Location = new System.Drawing.Point(1131, 35);
+			this.btnCargos.Name = "btnCargos";
+			this.btnCargos.Size = new System.Drawing.Size(22, 21);
+			this.btnCargos.TabIndex = 10;
+			this.btnCargos.UseVisualStyleBackColor = false;
+			this.btnCargos.Click += new System.EventHandler(this.btnCargos_Click);
+			// 
+			// label12
+			// 
+			this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.label12.AutoSize = true;
+			this.label12.Location = new System.Drawing.Point(595, 20);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(71, 13);
+			this.label12.TabIndex = 9;
+			this.label12.Text = "Descrição";
+			// 
+			// label13
+			// 
+			this.label13.AutoSize = true;
+			this.label13.Location = new System.Drawing.Point(44, 20);
+			this.label13.Name = "label13";
+			this.label13.Size = new System.Drawing.Size(22, 13);
+			this.label13.TabIndex = 8;
+			this.label13.Text = "ID";
+			// 
+			// textBox9
+			// 
+			this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.textBox9.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.textBox9.Location = new System.Drawing.Point(158, 36);
+			this.textBox9.Name = "textBox9";
+			this.textBox9.Size = new System.Drawing.Size(967, 21);
+			this.textBox9.TabIndex = 7;
+			// 
+			// textBox10
+			// 
+			this.textBox10.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.textBox10.Location = new System.Drawing.Point(26, 36);
+			this.textBox10.Name = "textBox10";
+			this.textBox10.Size = new System.Drawing.Size(62, 21);
+			this.textBox10.TabIndex = 6;
+			// 
+			// label14
+			// 
+			this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.label14.Location = new System.Drawing.Point(11, 16);
+			this.label14.Name = "label14";
+			this.label14.Size = new System.Drawing.Size(1162, 54);
+			this.label14.TabIndex = 5;
+			// 
+			// comboBox16
+			// 
+			this.comboBox16.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+			this.comboBox16.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox16.FormattingEnabled = true;
+			this.comboBox16.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox16.Location = new System.Drawing.Point(11, 87);
+			this.comboBox16.Name = "comboBox16";
+			this.comboBox16.Size = new System.Drawing.Size(219, 21);
+			this.comboBox16.TabIndex = 1;
+			this.comboBox16.Text = "Turma";
+			// 
+			// dtgCargos
+			// 
+			this.dtgCargos.AllowUserToOrderColumns = true;
+			this.dtgCargos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.dtgCargos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.dtgCargos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dtgCargos.Location = new System.Drawing.Point(10, 123);
+			this.dtgCargos.Name = "dtgCargos";
+			this.dtgCargos.Size = new System.Drawing.Size(1164, 346);
+			this.dtgCargos.TabIndex = 0;
 			// 
 			// tabMesarios
 			// 
-			this.tabMesarios.Controls.Add(this.button17);
-			this.tabMesarios.Controls.Add(this.button18);
-			this.tabMesarios.Controls.Add(this.button19);
+			this.tabMesarios.Controls.Add(this.btnExcluirMesario);
+			this.tabMesarios.Controls.Add(this.btnSalvarMesario);
+			this.tabMesarios.Controls.Add(this.btnAlterarMesario);
 			this.tabMesarios.Controls.Add(this.btnPesquisaMesario);
 			this.tabMesarios.Controls.Add(this.label11);
 			this.tabMesarios.Controls.Add(this.label15);
@@ -934,108 +934,53 @@
 			this.tabMesarios.TabIndex = 8;
 			this.tabMesarios.Text = "Mesários";
 			this.tabMesarios.UseVisualStyleBackColor = true;
+			this.tabMesarios.Enter += new System.EventHandler(this.tabMesarios_Enter);
 			// 
-			// dtgMesarios
+			// btnExcluirMesario
 			// 
-			this.dtgMesarios.AllowUserToOrderColumns = true;
-			this.dtgMesarios.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.dtgMesarios.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.dtgMesarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dtgMesarios.Location = new System.Drawing.Point(9, 125);
-			this.dtgMesarios.Name = "dtgMesarios";
-			this.dtgMesarios.Size = new System.Drawing.Size(1164, 346);
-			this.dtgMesarios.TabIndex = 0;
+			this.btnExcluirMesario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnExcluirMesario.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnExcluirMesario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.btnExcluirMesario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnExcluirMesario.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluirMesario.Image")));
+			this.btnExcluirMesario.Location = new System.Drawing.Point(1124, 75);
+			this.btnExcluirMesario.Name = "btnExcluirMesario";
+			this.btnExcluirMesario.Size = new System.Drawing.Size(49, 44);
+			this.btnExcluirMesario.TabIndex = 13;
+			this.btnExcluirMesario.UseVisualStyleBackColor = false;
 			// 
-			// comboBox15
+			// btnSalvarMesario
 			// 
-			this.comboBox15.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-			this.comboBox15.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox15.FormattingEnabled = true;
-			this.comboBox15.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox15.Location = new System.Drawing.Point(11, 87);
-			this.comboBox15.Name = "comboBox15";
-			this.comboBox15.Size = new System.Drawing.Size(274, 21);
-			this.comboBox15.TabIndex = 2;
-			this.comboBox15.Text = "Cidade";
+			this.btnSalvarMesario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnSalvarMesario.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnSalvarMesario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.btnSalvarMesario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnSalvarMesario.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarMesario.Image")));
+			this.btnSalvarMesario.Location = new System.Drawing.Point(1028, 75);
+			this.btnSalvarMesario.Name = "btnSalvarMesario";
+			this.btnSalvarMesario.Size = new System.Drawing.Size(90, 44);
+			this.btnSalvarMesario.TabIndex = 12;
+			this.btnSalvarMesario.Text = "Salvar";
+			this.btnSalvarMesario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.btnSalvarMesario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnSalvarMesario.UseVisualStyleBackColor = false;
+			this.btnSalvarMesario.Click += new System.EventHandler(this.btnSalvarMesario_Click);
 			// 
-			// comboBox14
+			// btnAlterarMesario
 			// 
-			this.comboBox14.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox14.FormattingEnabled = true;
-			this.comboBox14.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox14.Location = new System.Drawing.Point(331, 88);
-			this.comboBox14.Name = "comboBox14";
-			this.comboBox14.Size = new System.Drawing.Size(89, 21);
-			this.comboBox14.TabIndex = 3;
-			this.comboBox14.Text = "Sexo";
-			// 
-			// comboBox13
-			// 
-			this.comboBox13.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox13.FormattingEnabled = true;
-			this.comboBox13.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox13.Location = new System.Drawing.Point(453, 88);
-			this.comboBox13.Name = "comboBox13";
-			this.comboBox13.Size = new System.Drawing.Size(90, 21);
-			this.comboBox13.TabIndex = 4;
-			this.comboBox13.Text = "Votou ?";
-			// 
-			// label16
-			// 
-			this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.label16.Location = new System.Drawing.Point(11, 16);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(1162, 54);
-			this.label16.TabIndex = 5;
-			// 
-			// txtCodigoMesario
-			// 
-			this.txtCodigoMesario.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.txtCodigoMesario.Location = new System.Drawing.Point(26, 36);
-			this.txtCodigoMesario.MaxLength = 8;
-			this.txtCodigoMesario.Name = "txtCodigoMesario";
-			this.txtCodigoMesario.Size = new System.Drawing.Size(259, 21);
-			this.txtCodigoMesario.TabIndex = 6;
-			// 
-			// txtNomeMesario
-			// 
-			this.txtNomeMesario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.txtNomeMesario.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.txtNomeMesario.Location = new System.Drawing.Point(331, 36);
-			this.txtNomeMesario.MaxLength = 50;
-			this.txtNomeMesario.Name = "txtNomeMesario";
-			this.txtNomeMesario.Size = new System.Drawing.Size(794, 21);
-			this.txtNomeMesario.TabIndex = 7;
-			// 
-			// label15
-			// 
-			this.label15.AutoSize = true;
-			this.label15.Location = new System.Drawing.Point(113, 20);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(51, 13);
-			this.label15.TabIndex = 8;
-			this.label15.Text = "Código";
-			// 
-			// label11
-			// 
-			this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.label11.AutoSize = true;
-			this.label11.Location = new System.Drawing.Point(716, 20);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(44, 13);
-			this.label11.TabIndex = 9;
-			this.label11.Text = "Nome";
+			this.btnAlterarMesario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnAlterarMesario.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnAlterarMesario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.btnAlterarMesario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnAlterarMesario.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterarMesario.Image")));
+			this.btnAlterarMesario.Location = new System.Drawing.Point(925, 75);
+			this.btnAlterarMesario.Name = "btnAlterarMesario";
+			this.btnAlterarMesario.Size = new System.Drawing.Size(97, 44);
+			this.btnAlterarMesario.TabIndex = 11;
+			this.btnAlterarMesario.Text = "Alterar";
+			this.btnAlterarMesario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.btnAlterarMesario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnAlterarMesario.UseVisualStyleBackColor = false;
 			// 
 			// btnPesquisaMesario
 			// 
@@ -1051,50 +996,110 @@
 			this.btnPesquisaMesario.UseVisualStyleBackColor = false;
 			this.btnPesquisaMesario.Click += new System.EventHandler(this.btnPesquisaMesario_Click);
 			// 
-			// button19
+			// label11
 			// 
-			this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button19.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button19.Image = ((System.Drawing.Image)(resources.GetObject("button19.Image")));
-			this.button19.Location = new System.Drawing.Point(925, 75);
-			this.button19.Name = "button19";
-			this.button19.Size = new System.Drawing.Size(97, 44);
-			this.button19.TabIndex = 11;
-			this.button19.Text = "Alterar";
-			this.button19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.button19.UseVisualStyleBackColor = false;
+			this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.label11.AutoSize = true;
+			this.label11.Location = new System.Drawing.Point(716, 20);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(44, 13);
+			this.label11.TabIndex = 9;
+			this.label11.Text = "Nome";
 			// 
-			// button18
+			// label15
 			// 
-			this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button18.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
-			this.button18.Location = new System.Drawing.Point(1028, 75);
-			this.button18.Name = "button18";
-			this.button18.Size = new System.Drawing.Size(90, 44);
-			this.button18.TabIndex = 12;
-			this.button18.Text = "Salvar";
-			this.button18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.button18.UseVisualStyleBackColor = false;
+			this.label15.AutoSize = true;
+			this.label15.Location = new System.Drawing.Point(113, 20);
+			this.label15.Name = "label15";
+			this.label15.Size = new System.Drawing.Size(51, 13);
+			this.label15.TabIndex = 8;
+			this.label15.Text = "Código";
 			// 
-			// button17
+			// txtNomeMesario
 			// 
-			this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button17.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
-			this.button17.Location = new System.Drawing.Point(1124, 75);
-			this.button17.Name = "button17";
-			this.button17.Size = new System.Drawing.Size(49, 44);
-			this.button17.TabIndex = 13;
-			this.button17.UseVisualStyleBackColor = false;
+			this.txtNomeMesario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtNomeMesario.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.txtNomeMesario.Location = new System.Drawing.Point(331, 36);
+			this.txtNomeMesario.MaxLength = 50;
+			this.txtNomeMesario.Name = "txtNomeMesario";
+			this.txtNomeMesario.Size = new System.Drawing.Size(794, 21);
+			this.txtNomeMesario.TabIndex = 7;
+			// 
+			// txtCodigoMesario
+			// 
+			this.txtCodigoMesario.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.txtCodigoMesario.Location = new System.Drawing.Point(26, 36);
+			this.txtCodigoMesario.MaxLength = 8;
+			this.txtCodigoMesario.Name = "txtCodigoMesario";
+			this.txtCodigoMesario.Size = new System.Drawing.Size(259, 21);
+			this.txtCodigoMesario.TabIndex = 6;
+			// 
+			// label16
+			// 
+			this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.label16.Location = new System.Drawing.Point(11, 16);
+			this.label16.Name = "label16";
+			this.label16.Size = new System.Drawing.Size(1162, 54);
+			this.label16.TabIndex = 5;
+			// 
+			// comboBox13
+			// 
+			this.comboBox13.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox13.FormattingEnabled = true;
+			this.comboBox13.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox13.Location = new System.Drawing.Point(453, 88);
+			this.comboBox13.Name = "comboBox13";
+			this.comboBox13.Size = new System.Drawing.Size(90, 21);
+			this.comboBox13.TabIndex = 4;
+			this.comboBox13.Text = "Votou ?";
+			// 
+			// comboBox14
+			// 
+			this.comboBox14.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox14.FormattingEnabled = true;
+			this.comboBox14.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox14.Location = new System.Drawing.Point(331, 88);
+			this.comboBox14.Name = "comboBox14";
+			this.comboBox14.Size = new System.Drawing.Size(89, 21);
+			this.comboBox14.TabIndex = 3;
+			this.comboBox14.Text = "Sexo";
+			// 
+			// comboBox15
+			// 
+			this.comboBox15.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+			this.comboBox15.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox15.FormattingEnabled = true;
+			this.comboBox15.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox15.Location = new System.Drawing.Point(11, 87);
+			this.comboBox15.Name = "comboBox15";
+			this.comboBox15.Size = new System.Drawing.Size(274, 21);
+			this.comboBox15.TabIndex = 2;
+			this.comboBox15.Text = "Cidade";
+			// 
+			// dtgMesarios
+			// 
+			this.dtgMesarios.AllowUserToAddRows = false;
+			this.dtgMesarios.AllowUserToOrderColumns = true;
+			this.dtgMesarios.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.dtgMesarios.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.dtgMesarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dtgMesarios.Location = new System.Drawing.Point(9, 125);
+			this.dtgMesarios.Name = "dtgMesarios";
+			this.dtgMesarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+			this.dtgMesarios.Size = new System.Drawing.Size(1164, 346);
+			this.dtgMesarios.TabIndex = 0;
+			this.dtgMesarios.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.dtgMesarios_UserDeletingRow);
 			// 
 			// tabCandidatos
 			// 
@@ -1102,9 +1107,9 @@
 			this.tabCandidatos.Controls.Add(this.label10);
 			this.tabCandidatos.Controls.Add(this.txtNumeroCandidato);
 			this.tabCandidatos.Controls.Add(this.txtNomeCandidato);
-			this.tabCandidatos.Controls.Add(this.button9);
-			this.tabCandidatos.Controls.Add(this.button10);
-			this.tabCandidatos.Controls.Add(this.button11);
+			this.tabCandidatos.Controls.Add(this.btnExcluirCandidato);
+			this.tabCandidatos.Controls.Add(this.btnSalvarCandidato);
+			this.tabCandidatos.Controls.Add(this.btnAlterarCandidato);
 			this.tabCandidatos.Controls.Add(this.btnPesquisaCandidato);
 			this.tabCandidatos.Controls.Add(this.label7);
 			this.tabCandidatos.Controls.Add(this.label9);
@@ -1120,69 +1125,41 @@
 			this.tabCandidatos.TabIndex = 6;
 			this.tabCandidatos.Text = "Candidatos";
 			this.tabCandidatos.UseVisualStyleBackColor = true;
+			this.tabCandidatos.Enter += new System.EventHandler(this.tabCandidatos_Enter);
 			// 
-			// comboBox12
+			// dtgCandidatos
 			// 
-			this.comboBox12.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-			this.comboBox12.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox12.FormattingEnabled = true;
-			this.comboBox12.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox12.Location = new System.Drawing.Point(11, 87);
-			this.comboBox12.Name = "comboBox12";
-			this.comboBox12.Size = new System.Drawing.Size(187, 21);
-			this.comboBox12.TabIndex = 1;
-			// 
-			// comboBox11
-			// 
-			this.comboBox11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-			this.comboBox11.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox11.FormattingEnabled = true;
-			this.comboBox11.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox11.Location = new System.Drawing.Point(218, 87);
-			this.comboBox11.Name = "comboBox11";
-			this.comboBox11.Size = new System.Drawing.Size(265, 21);
-			this.comboBox11.TabIndex = 2;
-			this.comboBox11.Text = "Cidade";
-			// 
-			// comboBox10
-			// 
-			this.comboBox10.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox10.FormattingEnabled = true;
-			this.comboBox10.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox10.Location = new System.Drawing.Point(503, 87);
-			this.comboBox10.Name = "comboBox10";
-			this.comboBox10.Size = new System.Drawing.Size(89, 21);
-			this.comboBox10.TabIndex = 3;
-			this.comboBox10.Text = "Sexo";
-			// 
-			// comboBox9
-			// 
-			this.comboBox9.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox9.FormattingEnabled = true;
-			this.comboBox9.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox9.Location = new System.Drawing.Point(612, 87);
-			this.comboBox9.Name = "comboBox9";
-			this.comboBox9.Size = new System.Drawing.Size(90, 21);
-			this.comboBox9.TabIndex = 4;
-			this.comboBox9.Text = "Cargo";
-			// 
-			// label9
-			// 
-			this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+			this.dtgCandidatos.AllowUserToAddRows = false;
+			this.dtgCandidatos.AllowUserToOrderColumns = true;
+			this.dtgCandidatos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.label9.Location = new System.Drawing.Point(11, 16);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(1162, 54);
-			this.label9.TabIndex = 5;
+			this.dtgCandidatos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.dtgCandidatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dtgCandidatos.Location = new System.Drawing.Point(9, 125);
+			this.dtgCandidatos.Name = "dtgCandidatos";
+			this.dtgCandidatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+			this.dtgCandidatos.Size = new System.Drawing.Size(1164, 346);
+			this.dtgCandidatos.TabIndex = 16;
+			this.dtgCandidatos.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.dtgCandidatos_UserDeletingRow);
+			// 
+			// label10
+			// 
+			this.label10.AutoSize = true;
+			this.label10.Location = new System.Drawing.Point(194, 20);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(58, 13);
+			this.label10.TabIndex = 15;
+			this.label10.Text = "Número";
+			// 
+			// txtNumeroCandidato
+			// 
+			this.txtNumeroCandidato.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.txtNumeroCandidato.Location = new System.Drawing.Point(179, 36);
+			this.txtNumeroCandidato.MaxLength = 2;
+			this.txtNumeroCandidato.Name = "txtNumeroCandidato";
+			this.txtNumeroCandidato.Size = new System.Drawing.Size(85, 21);
+			this.txtNumeroCandidato.TabIndex = 14;
 			// 
 			// txtNomeCandidato
 			// 
@@ -1195,15 +1172,51 @@
 			this.txtNomeCandidato.Size = new System.Drawing.Size(664, 21);
 			this.txtNomeCandidato.TabIndex = 7;
 			// 
-			// label7
+			// btnExcluirCandidato
 			// 
-			this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.label7.AutoSize = true;
-			this.label7.Location = new System.Drawing.Point(626, 20);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(44, 13);
-			this.label7.TabIndex = 9;
-			this.label7.Text = "Nome";
+			this.btnExcluirCandidato.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnExcluirCandidato.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnExcluirCandidato.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.btnExcluirCandidato.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnExcluirCandidato.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluirCandidato.Image")));
+			this.btnExcluirCandidato.Location = new System.Drawing.Point(1124, 75);
+			this.btnExcluirCandidato.Name = "btnExcluirCandidato";
+			this.btnExcluirCandidato.Size = new System.Drawing.Size(49, 44);
+			this.btnExcluirCandidato.TabIndex = 13;
+			this.btnExcluirCandidato.UseVisualStyleBackColor = false;
+			// 
+			// btnSalvarCandidato
+			// 
+			this.btnSalvarCandidato.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnSalvarCandidato.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnSalvarCandidato.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.btnSalvarCandidato.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnSalvarCandidato.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarCandidato.Image")));
+			this.btnSalvarCandidato.Location = new System.Drawing.Point(1028, 75);
+			this.btnSalvarCandidato.Name = "btnSalvarCandidato";
+			this.btnSalvarCandidato.Size = new System.Drawing.Size(90, 44);
+			this.btnSalvarCandidato.TabIndex = 12;
+			this.btnSalvarCandidato.Text = "Salvar";
+			this.btnSalvarCandidato.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.btnSalvarCandidato.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnSalvarCandidato.UseVisualStyleBackColor = false;
+			this.btnSalvarCandidato.Click += new System.EventHandler(this.btnSalvarCandidato_Click);
+			// 
+			// btnAlterarCandidato
+			// 
+			this.btnAlterarCandidato.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnAlterarCandidato.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnAlterarCandidato.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.btnAlterarCandidato.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnAlterarCandidato.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterarCandidato.Image")));
+			this.btnAlterarCandidato.Location = new System.Drawing.Point(925, 75);
+			this.btnAlterarCandidato.Name = "btnAlterarCandidato";
+			this.btnAlterarCandidato.Size = new System.Drawing.Size(97, 44);
+			this.btnAlterarCandidato.TabIndex = 11;
+			this.btnAlterarCandidato.Text = "Alterar";
+			this.btnAlterarCandidato.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.btnAlterarCandidato.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnAlterarCandidato.UseVisualStyleBackColor = false;
 			// 
 			// btnPesquisaCandidato
 			// 
@@ -1219,89 +1232,84 @@
 			this.btnPesquisaCandidato.UseVisualStyleBackColor = false;
 			this.btnPesquisaCandidato.Click += new System.EventHandler(this.button12_Click);
 			// 
-			// button11
+			// label7
 			// 
-			this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button11.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-			this.button11.Location = new System.Drawing.Point(925, 75);
-			this.button11.Name = "button11";
-			this.button11.Size = new System.Drawing.Size(97, 44);
-			this.button11.TabIndex = 11;
-			this.button11.Text = "Alterar";
-			this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.button11.UseVisualStyleBackColor = false;
+			this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.label7.AutoSize = true;
+			this.label7.Location = new System.Drawing.Point(626, 20);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(44, 13);
+			this.label7.TabIndex = 9;
+			this.label7.Text = "Nome";
 			// 
-			// button10
+			// label9
 			// 
-			this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button10.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-			this.button10.Location = new System.Drawing.Point(1028, 75);
-			this.button10.Name = "button10";
-			this.button10.Size = new System.Drawing.Size(90, 44);
-			this.button10.TabIndex = 12;
-			this.button10.Text = "Salvar";
-			this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.button10.UseVisualStyleBackColor = false;
-			// 
-			// button9
-			// 
-			this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button9.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-			this.button9.Location = new System.Drawing.Point(1124, 75);
-			this.button9.Name = "button9";
-			this.button9.Size = new System.Drawing.Size(49, 44);
-			this.button9.TabIndex = 13;
-			this.button9.UseVisualStyleBackColor = false;
-			// 
-			// txtNumeroCandidato
-			// 
-			this.txtNumeroCandidato.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.txtNumeroCandidato.Location = new System.Drawing.Point(179, 36);
-			this.txtNumeroCandidato.MaxLength = 2;
-			this.txtNumeroCandidato.Name = "txtNumeroCandidato";
-			this.txtNumeroCandidato.Size = new System.Drawing.Size(85, 21);
-			this.txtNumeroCandidato.TabIndex = 14;
-			// 
-			// label10
-			// 
-			this.label10.AutoSize = true;
-			this.label10.Location = new System.Drawing.Point(194, 20);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(58, 13);
-			this.label10.TabIndex = 15;
-			this.label10.Text = "Número";
-			// 
-			// dtgCandidatos
-			// 
-			this.dtgCandidatos.AllowUserToAddRows = false;
-			this.dtgCandidatos.AllowUserToDeleteRows = false;
-			this.dtgCandidatos.AllowUserToOrderColumns = true;
-			this.dtgCandidatos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+			this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.dtgCandidatos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.dtgCandidatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dtgCandidatos.Location = new System.Drawing.Point(9, 125);
-			this.dtgCandidatos.Name = "dtgCandidatos";
-			this.dtgCandidatos.Size = new System.Drawing.Size(1164, 346);
-			this.dtgCandidatos.TabIndex = 16;
+			this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.label9.Location = new System.Drawing.Point(11, 16);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(1162, 54);
+			this.label9.TabIndex = 5;
+			// 
+			// comboBox9
+			// 
+			this.comboBox9.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox9.FormattingEnabled = true;
+			this.comboBox9.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox9.Location = new System.Drawing.Point(612, 87);
+			this.comboBox9.Name = "comboBox9";
+			this.comboBox9.Size = new System.Drawing.Size(90, 21);
+			this.comboBox9.TabIndex = 4;
+			this.comboBox9.Text = "Cargo";
+			// 
+			// comboBox10
+			// 
+			this.comboBox10.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox10.FormattingEnabled = true;
+			this.comboBox10.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox10.Location = new System.Drawing.Point(503, 87);
+			this.comboBox10.Name = "comboBox10";
+			this.comboBox10.Size = new System.Drawing.Size(89, 21);
+			this.comboBox10.TabIndex = 3;
+			this.comboBox10.Text = "Sexo";
+			// 
+			// comboBox11
+			// 
+			this.comboBox11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+			this.comboBox11.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox11.FormattingEnabled = true;
+			this.comboBox11.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox11.Location = new System.Drawing.Point(218, 87);
+			this.comboBox11.Name = "comboBox11";
+			this.comboBox11.Size = new System.Drawing.Size(265, 21);
+			this.comboBox11.TabIndex = 2;
+			this.comboBox11.Text = "Cidade";
+			// 
+			// comboBox12
+			// 
+			this.comboBox12.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+			this.comboBox12.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox12.FormattingEnabled = true;
+			this.comboBox12.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox12.Location = new System.Drawing.Point(11, 87);
+			this.comboBox12.Name = "comboBox12";
+			this.comboBox12.Size = new System.Drawing.Size(187, 21);
+			this.comboBox12.TabIndex = 1;
 			// 
 			// tabEleitores
 			// 
 			this.tabEleitores.Controls.Add(this.btnExcluirEleitor);
 			this.tabEleitores.Controls.Add(this.btnSalvarEleitor);
-			this.tabEleitores.Controls.Add(this.btnAlteraEleitor);
+			this.tabEleitores.Controls.Add(this.btnAlterarEleitor);
 			this.tabEleitores.Controls.Add(this.btnPesquisaEleitor);
 			this.tabEleitores.Controls.Add(this.label4);
 			this.tabEleitores.Controls.Add(this.label5);
@@ -1322,6 +1330,170 @@
 			this.tabEleitores.Text = "Eleitores";
 			this.tabEleitores.UseVisualStyleBackColor = true;
 			this.tabEleitores.Enter += new System.EventHandler(this.tabEleitores_Enter);
+			// 
+			// btnExcluirEleitor
+			// 
+			this.btnExcluirEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnExcluirEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnExcluirEleitor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.btnExcluirEleitor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnExcluirEleitor.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluirEleitor.Image")));
+			this.btnExcluirEleitor.Location = new System.Drawing.Point(1124, 75);
+			this.btnExcluirEleitor.Name = "btnExcluirEleitor";
+			this.btnExcluirEleitor.Size = new System.Drawing.Size(49, 44);
+			this.btnExcluirEleitor.TabIndex = 13;
+			this.btnExcluirEleitor.UseVisualStyleBackColor = false;
+			// 
+			// btnSalvarEleitor
+			// 
+			this.btnSalvarEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnSalvarEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnSalvarEleitor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.btnSalvarEleitor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnSalvarEleitor.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarEleitor.Image")));
+			this.btnSalvarEleitor.Location = new System.Drawing.Point(1028, 75);
+			this.btnSalvarEleitor.Name = "btnSalvarEleitor";
+			this.btnSalvarEleitor.Size = new System.Drawing.Size(90, 44);
+			this.btnSalvarEleitor.TabIndex = 12;
+			this.btnSalvarEleitor.Text = "Salvar";
+			this.btnSalvarEleitor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.btnSalvarEleitor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnSalvarEleitor.UseVisualStyleBackColor = false;
+			this.btnSalvarEleitor.Click += new System.EventHandler(this.button6_Click);
+			// 
+			// btnAlterarEleitor
+			// 
+			this.btnAlterarEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnAlterarEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnAlterarEleitor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.btnAlterarEleitor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnAlterarEleitor.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterarEleitor.Image")));
+			this.btnAlterarEleitor.Location = new System.Drawing.Point(925, 75);
+			this.btnAlterarEleitor.Name = "btnAlterarEleitor";
+			this.btnAlterarEleitor.Size = new System.Drawing.Size(97, 44);
+			this.btnAlterarEleitor.TabIndex = 11;
+			this.btnAlterarEleitor.Text = "Alterar";
+			this.btnAlterarEleitor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.btnAlterarEleitor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnAlterarEleitor.UseVisualStyleBackColor = false;
+			this.btnAlterarEleitor.Click += new System.EventHandler(this.btnAlteraEleitor_Click);
+			// 
+			// btnPesquisaEleitor
+			// 
+			this.btnPesquisaEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnPesquisaEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnPesquisaEleitor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPesquisaEleitor.BackgroundImage")));
+			this.btnPesquisaEleitor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.btnPesquisaEleitor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnPesquisaEleitor.Location = new System.Drawing.Point(1131, 35);
+			this.btnPesquisaEleitor.Name = "btnPesquisaEleitor";
+			this.btnPesquisaEleitor.Size = new System.Drawing.Size(22, 21);
+			this.btnPesquisaEleitor.TabIndex = 10;
+			this.btnPesquisaEleitor.UseVisualStyleBackColor = false;
+			this.btnPesquisaEleitor.Click += new System.EventHandler(this.btnPesquisaEleitor_Click);
+			// 
+			// label4
+			// 
+			this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.label4.AutoSize = true;
+			this.label4.Location = new System.Drawing.Point(716, 20);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(44, 13);
+			this.label4.TabIndex = 9;
+			this.label4.Text = "Nome";
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Location = new System.Drawing.Point(113, 20);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(67, 13);
+			this.label5.TabIndex = 8;
+			this.label5.Text = "Matrícula";
+			// 
+			// txtNomeEleitor
+			// 
+			this.txtNomeEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.txtNomeEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.txtNomeEleitor.Location = new System.Drawing.Point(331, 36);
+			this.txtNomeEleitor.MaxLength = 50;
+			this.txtNomeEleitor.Name = "txtNomeEleitor";
+			this.txtNomeEleitor.Size = new System.Drawing.Size(794, 21);
+			this.txtNomeEleitor.TabIndex = 7;
+			// 
+			// txtMatEleitor
+			// 
+			this.txtMatEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.txtMatEleitor.Location = new System.Drawing.Point(26, 36);
+			this.txtMatEleitor.MaxLength = 8;
+			this.txtMatEleitor.Name = "txtMatEleitor";
+			this.txtMatEleitor.Size = new System.Drawing.Size(259, 21);
+			this.txtMatEleitor.TabIndex = 6;
+			// 
+			// label6
+			// 
+			this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.label6.Location = new System.Drawing.Point(11, 16);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(1162, 54);
+			this.label6.TabIndex = 5;
+			// 
+			// comboBox5
+			// 
+			this.comboBox5.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox5.FormattingEnabled = true;
+			this.comboBox5.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox5.Location = new System.Drawing.Point(612, 87);
+			this.comboBox5.Name = "comboBox5";
+			this.comboBox5.Size = new System.Drawing.Size(90, 21);
+			this.comboBox5.TabIndex = 4;
+			this.comboBox5.Text = "Votou ?";
+			// 
+			// comboBox6
+			// 
+			this.comboBox6.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox6.FormattingEnabled = true;
+			this.comboBox6.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox6.Location = new System.Drawing.Point(503, 87);
+			this.comboBox6.Name = "comboBox6";
+			this.comboBox6.Size = new System.Drawing.Size(89, 21);
+			this.comboBox6.TabIndex = 3;
+			this.comboBox6.Text = "Sexo";
+			// 
+			// comboBox7
+			// 
+			this.comboBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+			this.comboBox7.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox7.FormattingEnabled = true;
+			this.comboBox7.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox7.Location = new System.Drawing.Point(218, 87);
+			this.comboBox7.Name = "comboBox7";
+			this.comboBox7.Size = new System.Drawing.Size(265, 21);
+			this.comboBox7.TabIndex = 2;
+			this.comboBox7.Text = "Cidade";
+			// 
+			// comboBox8
+			// 
+			this.comboBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+			this.comboBox8.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.comboBox8.FormattingEnabled = true;
+			this.comboBox8.Items.AddRange(new object[] {
+            "Turma"});
+			this.comboBox8.Location = new System.Drawing.Point(11, 87);
+			this.comboBox8.Name = "comboBox8";
+			this.comboBox8.Size = new System.Drawing.Size(187, 21);
+			this.comboBox8.TabIndex = 1;
+			this.comboBox8.Text = "Turma";
 			// 
 			// dtgEleitores
 			// 
@@ -1354,431 +1526,6 @@
 			this.dtgEleitores.TabIndex = 0;
 			this.dtgEleitores.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgEleitores_CellClick);
 			this.dtgEleitores.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.dtgEleitores_UserDeletingRow);
-			// 
-			// comboBox8
-			// 
-			this.comboBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-			this.comboBox8.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox8.FormattingEnabled = true;
-			this.comboBox8.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox8.Location = new System.Drawing.Point(11, 87);
-			this.comboBox8.Name = "comboBox8";
-			this.comboBox8.Size = new System.Drawing.Size(187, 21);
-			this.comboBox8.TabIndex = 1;
-			this.comboBox8.Text = "Turma";
-			// 
-			// comboBox7
-			// 
-			this.comboBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-			this.comboBox7.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox7.FormattingEnabled = true;
-			this.comboBox7.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox7.Location = new System.Drawing.Point(218, 87);
-			this.comboBox7.Name = "comboBox7";
-			this.comboBox7.Size = new System.Drawing.Size(265, 21);
-			this.comboBox7.TabIndex = 2;
-			this.comboBox7.Text = "Cidade";
-			// 
-			// comboBox6
-			// 
-			this.comboBox6.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox6.FormattingEnabled = true;
-			this.comboBox6.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox6.Location = new System.Drawing.Point(503, 87);
-			this.comboBox6.Name = "comboBox6";
-			this.comboBox6.Size = new System.Drawing.Size(89, 21);
-			this.comboBox6.TabIndex = 3;
-			this.comboBox6.Text = "Sexo";
-			// 
-			// comboBox5
-			// 
-			this.comboBox5.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.comboBox5.FormattingEnabled = true;
-			this.comboBox5.Items.AddRange(new object[] {
-            "Turma"});
-			this.comboBox5.Location = new System.Drawing.Point(612, 87);
-			this.comboBox5.Name = "comboBox5";
-			this.comboBox5.Size = new System.Drawing.Size(90, 21);
-			this.comboBox5.TabIndex = 4;
-			this.comboBox5.Text = "Votou ?";
-			// 
-			// label6
-			// 
-			this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.label6.Location = new System.Drawing.Point(11, 16);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(1162, 54);
-			this.label6.TabIndex = 5;
-			// 
-			// txtMatEleitor
-			// 
-			this.txtMatEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.txtMatEleitor.Location = new System.Drawing.Point(26, 36);
-			this.txtMatEleitor.MaxLength = 8;
-			this.txtMatEleitor.Name = "txtMatEleitor";
-			this.txtMatEleitor.Size = new System.Drawing.Size(259, 21);
-			this.txtMatEleitor.TabIndex = 6;
-			// 
-			// txtNomeEleitor
-			// 
-			this.txtNomeEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.txtNomeEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.txtNomeEleitor.Location = new System.Drawing.Point(331, 36);
-			this.txtNomeEleitor.MaxLength = 50;
-			this.txtNomeEleitor.Name = "txtNomeEleitor";
-			this.txtNomeEleitor.Size = new System.Drawing.Size(794, 21);
-			this.txtNomeEleitor.TabIndex = 7;
-			// 
-			// label5
-			// 
-			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(113, 20);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(67, 13);
-			this.label5.TabIndex = 8;
-			this.label5.Text = "Matrícula";
-			// 
-			// label4
-			// 
-			this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(716, 20);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(44, 13);
-			this.label4.TabIndex = 9;
-			this.label4.Text = "Nome";
-			// 
-			// btnPesquisaEleitor
-			// 
-			this.btnPesquisaEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnPesquisaEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.btnPesquisaEleitor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPesquisaEleitor.BackgroundImage")));
-			this.btnPesquisaEleitor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.btnPesquisaEleitor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnPesquisaEleitor.Location = new System.Drawing.Point(1131, 35);
-			this.btnPesquisaEleitor.Name = "btnPesquisaEleitor";
-			this.btnPesquisaEleitor.Size = new System.Drawing.Size(22, 21);
-			this.btnPesquisaEleitor.TabIndex = 10;
-			this.btnPesquisaEleitor.UseVisualStyleBackColor = false;
-			this.btnPesquisaEleitor.Click += new System.EventHandler(this.btnPesquisaEleitor_Click);
-			// 
-			// btnAlteraEleitor
-			// 
-			this.btnAlteraEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnAlteraEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.btnAlteraEleitor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.btnAlteraEleitor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnAlteraEleitor.Image = ((System.Drawing.Image)(resources.GetObject("btnAlteraEleitor.Image")));
-			this.btnAlteraEleitor.Location = new System.Drawing.Point(925, 75);
-			this.btnAlteraEleitor.Name = "btnAlteraEleitor";
-			this.btnAlteraEleitor.Size = new System.Drawing.Size(97, 44);
-			this.btnAlteraEleitor.TabIndex = 11;
-			this.btnAlteraEleitor.Text = "Alterar";
-			this.btnAlteraEleitor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.btnAlteraEleitor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.btnAlteraEleitor.UseVisualStyleBackColor = false;
-			// 
-			// btnSalvarEleitor
-			// 
-			this.btnSalvarEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnSalvarEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.btnSalvarEleitor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.btnSalvarEleitor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnSalvarEleitor.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvarEleitor.Image")));
-			this.btnSalvarEleitor.Location = new System.Drawing.Point(1028, 75);
-			this.btnSalvarEleitor.Name = "btnSalvarEleitor";
-			this.btnSalvarEleitor.Size = new System.Drawing.Size(90, 44);
-			this.btnSalvarEleitor.TabIndex = 12;
-			this.btnSalvarEleitor.Text = "Salvar";
-			this.btnSalvarEleitor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.btnSalvarEleitor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.btnSalvarEleitor.UseVisualStyleBackColor = false;
-			this.btnSalvarEleitor.Click += new System.EventHandler(this.button6_Click);
-			// 
-			// btnExcluirEleitor
-			// 
-			this.btnExcluirEleitor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnExcluirEleitor.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.btnExcluirEleitor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.btnExcluirEleitor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.btnExcluirEleitor.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluirEleitor.Image")));
-			this.btnExcluirEleitor.Location = new System.Drawing.Point(1124, 75);
-			this.btnExcluirEleitor.Name = "btnExcluirEleitor";
-			this.btnExcluirEleitor.Size = new System.Drawing.Size(49, 44);
-			this.btnExcluirEleitor.TabIndex = 13;
-			this.btnExcluirEleitor.UseVisualStyleBackColor = false;
-			// 
-			// tabVotacao
-			// 
-			this.tabVotacao.Controls.Add(this.dtgVotacao);
-			this.tabVotacao.Controls.Add(this.pictureBox3);
-			this.tabVotacao.Controls.Add(this.button25);
-			this.tabVotacao.Controls.Add(this.label28);
-			this.tabVotacao.Controls.Add(this.radioButton5);
-			this.tabVotacao.Controls.Add(this.radioButton4);
-			this.tabVotacao.Controls.Add(this.radioButton3);
-			this.tabVotacao.Controls.Add(this.radioButton2);
-			this.tabVotacao.Controls.Add(this.radioButton1);
-			this.tabVotacao.Controls.Add(this.label26);
-			this.tabVotacao.Controls.Add(this.lblQuantVotos);
-			this.tabVotacao.Controls.Add(this.pictureBox2);
-			this.tabVotacao.Controls.Add(this.label24);
-			this.tabVotacao.Controls.Add(this.pictureBox1);
-			this.tabVotacao.Controls.Add(this.lblQuantEleitores);
-			this.tabVotacao.Controls.Add(this.label20);
-			this.tabVotacao.Controls.Add(this.label21);
-			this.tabVotacao.Controls.Add(this.label22);
-			this.tabVotacao.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.tabVotacao.Location = new System.Drawing.Point(4, 25);
-			this.tabVotacao.Name = "tabVotacao";
-			this.tabVotacao.Padding = new System.Windows.Forms.Padding(3);
-			this.tabVotacao.Size = new System.Drawing.Size(1184, 480);
-			this.tabVotacao.TabIndex = 10;
-			this.tabVotacao.Text = "Votação";
-			this.tabVotacao.UseVisualStyleBackColor = true;
-			// 
-			// label22
-			// 
-			this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.label22.Location = new System.Drawing.Point(11, 16);
-			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(1162, 206);
-			this.label22.TabIndex = 5;
-			// 
-			// label21
-			// 
-			this.label21.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.label21.AutoSize = true;
-			this.label21.Location = new System.Drawing.Point(432, 148);
-			this.label21.Name = "label21";
-			this.label21.Size = new System.Drawing.Size(140, 13);
-			this.label21.TabIndex = 8;
-			this.label21.Text = "Número de Eleitores";
-			// 
-			// label20
-			// 
-			this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.label20.AutoSize = true;
-			this.label20.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label20.Location = new System.Drawing.Point(1012, 173);
-			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(134, 26);
-			this.label20.TabIndex = 9;
-			this.label20.Text = "APURADO";
-			// 
-			// lblQuantEleitores
-			// 
-			this.lblQuantEleitores.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.lblQuantEleitores.AutoSize = true;
-			this.lblQuantEleitores.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblQuantEleitores.ForeColor = System.Drawing.Color.Red;
-			this.lblQuantEleitores.Location = new System.Drawing.Point(480, 173);
-			this.lblQuantEleitores.Name = "lblQuantEleitores";
-			this.lblQuantEleitores.Size = new System.Drawing.Size(34, 32);
-			this.lblQuantEleitores.TabIndex = 14;
-			this.lblQuantEleitores.Text = "0";
-			this.lblQuantEleitores.Click += new System.EventHandler(this.label23_Click);
-			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(451, 36);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(95, 97);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox1.TabIndex = 15;
-			this.pictureBox1.TabStop = false;
-			// 
-			// label24
-			// 
-			this.label24.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.label24.AutoSize = true;
-			this.label24.Location = new System.Drawing.Point(592, 148);
-			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(215, 13);
-			this.label24.TabIndex = 16;
-			this.label24.Text = "Quantidade de Votos Realizados";
-			this.label24.Click += new System.EventHandler(this.label24_Click);
-			// 
-			// pictureBox2
-			// 
-			this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.pictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.ErrorImage")));
-			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
-			this.pictureBox2.Location = new System.Drawing.Point(657, 36);
-			this.pictureBox2.Name = "pictureBox2";
-			this.pictureBox2.Size = new System.Drawing.Size(95, 97);
-			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox2.TabIndex = 17;
-			this.pictureBox2.TabStop = false;
-			// 
-			// lblQuantVotos
-			// 
-			this.lblQuantVotos.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.lblQuantVotos.AutoSize = true;
-			this.lblQuantVotos.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblQuantVotos.ForeColor = System.Drawing.Color.Red;
-			this.lblQuantVotos.Location = new System.Drawing.Point(687, 173);
-			this.lblQuantVotos.Name = "lblQuantVotos";
-			this.lblQuantVotos.Size = new System.Drawing.Size(34, 32);
-			this.lblQuantVotos.TabIndex = 18;
-			this.lblQuantVotos.Text = "0";
-			// 
-			// label26
-			// 
-			this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.label26.AutoSize = true;
-			this.label26.Font = new System.Drawing.Font("Verdana", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label26.ForeColor = System.Drawing.Color.Red;
-			this.label26.Location = new System.Drawing.Point(1037, 36);
-			this.label26.Name = "label26";
-			this.label26.Size = new System.Drawing.Size(97, 65);
-			this.label26.TabIndex = 19;
-			this.label26.Text = "%";
-			// 
-			// radioButton1
-			// 
-			this.radioButton1.AutoSize = true;
-			this.radioButton1.Location = new System.Drawing.Point(205, 243);
-			this.radioButton1.Name = "radioButton1";
-			this.radioButton1.Size = new System.Drawing.Size(60, 17);
-			this.radioButton1.TabIndex = 21;
-			this.radioButton1.TabStop = true;
-			this.radioButton1.Text = "Geral";
-			this.radioButton1.UseVisualStyleBackColor = true;
-			// 
-			// radioButton2
-			// 
-			this.radioButton2.AutoSize = true;
-			this.radioButton2.Location = new System.Drawing.Point(400, 242);
-			this.radioButton2.Name = "radioButton2";
-			this.radioButton2.Size = new System.Drawing.Size(63, 17);
-			this.radioButton2.TabIndex = 22;
-			this.radioButton2.TabStop = true;
-			this.radioButton2.Text = "Cargo";
-			this.radioButton2.UseVisualStyleBackColor = true;
-			// 
-			// radioButton3
-			// 
-			this.radioButton3.AutoSize = true;
-			this.radioButton3.Location = new System.Drawing.Point(304, 243);
-			this.radioButton3.Name = "radioButton3";
-			this.radioButton3.Size = new System.Drawing.Size(67, 17);
-			this.radioButton3.TabIndex = 23;
-			this.radioButton3.TabStop = true;
-			this.radioButton3.Text = "Turma";
-			this.radioButton3.UseVisualStyleBackColor = true;
-			// 
-			// radioButton4
-			// 
-			this.radioButton4.AutoSize = true;
-			this.radioButton4.Location = new System.Drawing.Point(503, 243);
-			this.radioButton4.Name = "radioButton4";
-			this.radioButton4.Size = new System.Drawing.Size(90, 17);
-			this.radioButton4.TabIndex = 24;
-			this.radioButton4.TabStop = true;
-			this.radioButton4.Text = "Candidato";
-			this.radioButton4.UseVisualStyleBackColor = true;
-			// 
-			// radioButton5
-			// 
-			this.radioButton5.AutoSize = true;
-			this.radioButton5.Location = new System.Drawing.Point(638, 243);
-			this.radioButton5.Name = "radioButton5";
-			this.radioButton5.Size = new System.Drawing.Size(153, 17);
-			this.radioButton5.TabIndex = 25;
-			this.radioButton5.TabStop = true;
-			this.radioButton5.Text = "Abstenção de Votos";
-			this.radioButton5.UseVisualStyleBackColor = true;
-			// 
-			// label28
-			// 
-			this.label28.AutoSize = true;
-			this.label28.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label28.Location = new System.Drawing.Point(8, 234);
-			this.label28.Name = "label28";
-			this.label28.Size = new System.Drawing.Size(156, 26);
-			this.label28.TabIndex = 26;
-			this.label28.Text = "Relatórios: ";
-			// 
-			// button25
-			// 
-			this.button25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button25.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-			this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button25.Image = ((System.Drawing.Image)(resources.GetObject("button25.Image")));
-			this.button25.Location = new System.Drawing.Point(1110, 227);
-			this.button25.Name = "button25";
-			this.button25.Size = new System.Drawing.Size(63, 44);
-			this.button25.TabIndex = 27;
-			this.button25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button25.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.button25.UseVisualStyleBackColor = false;
-			// 
-			// pictureBox3
-			// 
-			this.pictureBox3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.ErrorImage")));
-			this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-			this.pictureBox3.Location = new System.Drawing.Point(21, 26);
-			this.pictureBox3.Name = "pictureBox3";
-			this.pictureBox3.Size = new System.Drawing.Size(296, 186);
-			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox3.TabIndex = 28;
-			this.pictureBox3.TabStop = false;
-			// 
-			// dtgVotacao
-			// 
-			this.dtgVotacao.AllowUserToAddRows = false;
-			this.dtgVotacao.AllowUserToDeleteRows = false;
-			this.dtgVotacao.AllowUserToOrderColumns = true;
-			this.dtgVotacao.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.dtgVotacao.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.dtgVotacao.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dtgVotacao.Location = new System.Drawing.Point(9, 277);
-			this.dtgVotacao.Name = "dtgVotacao";
-			this.dtgVotacao.Size = new System.Drawing.Size(1164, 203);
-			this.dtgVotacao.TabIndex = 29;
-			// 
-			// tabControl2
-			// 
-			this.tabControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tabControl2.Controls.Add(this.tabVotacao);
-			this.tabControl2.Controls.Add(this.tabEleitores);
-			this.tabControl2.Controls.Add(this.tabCandidatos);
-			this.tabControl2.Controls.Add(this.tabMesarios);
-			this.tabControl2.Controls.Add(this.tabCargos);
-			this.tabControl2.Controls.Add(this.tabTurmas);
-			this.tabControl2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.tabControl2.Location = new System.Drawing.Point(4, 4);
-			this.tabControl2.Name = "tabControl2";
-			this.tabControl2.SelectedIndex = 0;
-			this.tabControl2.Size = new System.Drawing.Size(1192, 509);
-			this.tabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-			this.tabControl2.TabIndex = 0;
-			// 
-			// eleitorBindingSource
-			// 
-			this.eleitorBindingSource.DataSource = typeof(SistemaEleitoral.Model.Eleitor);
 			// 
 			// matriculaDataGridViewTextBoxColumn
 			// 
@@ -1932,6 +1679,268 @@
 			this.sexoDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
 			this.sexoDataGridViewTextBoxColumn.Width = 64;
 			// 
+			// eleitorBindingSource
+			// 
+			this.eleitorBindingSource.DataSource = typeof(SistemaEleitoral.Model.Eleitor);
+			// 
+			// tabVotacao
+			// 
+			this.tabVotacao.Controls.Add(this.dtgVotacao);
+			this.tabVotacao.Controls.Add(this.pictureBox3);
+			this.tabVotacao.Controls.Add(this.button25);
+			this.tabVotacao.Controls.Add(this.label28);
+			this.tabVotacao.Controls.Add(this.radioButton5);
+			this.tabVotacao.Controls.Add(this.radioButton4);
+			this.tabVotacao.Controls.Add(this.radioButton3);
+			this.tabVotacao.Controls.Add(this.radioButton2);
+			this.tabVotacao.Controls.Add(this.radioButton1);
+			this.tabVotacao.Controls.Add(this.label26);
+			this.tabVotacao.Controls.Add(this.lblQuantVotos);
+			this.tabVotacao.Controls.Add(this.pictureBox2);
+			this.tabVotacao.Controls.Add(this.label24);
+			this.tabVotacao.Controls.Add(this.pictureBox1);
+			this.tabVotacao.Controls.Add(this.lblQuantEleitores);
+			this.tabVotacao.Controls.Add(this.label20);
+			this.tabVotacao.Controls.Add(this.label21);
+			this.tabVotacao.Controls.Add(this.label22);
+			this.tabVotacao.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.tabVotacao.Location = new System.Drawing.Point(4, 25);
+			this.tabVotacao.Name = "tabVotacao";
+			this.tabVotacao.Padding = new System.Windows.Forms.Padding(3);
+			this.tabVotacao.Size = new System.Drawing.Size(1184, 480);
+			this.tabVotacao.TabIndex = 10;
+			this.tabVotacao.Text = "Votação";
+			this.tabVotacao.UseVisualStyleBackColor = true;
+			// 
+			// dtgVotacao
+			// 
+			this.dtgVotacao.AllowUserToAddRows = false;
+			this.dtgVotacao.AllowUserToDeleteRows = false;
+			this.dtgVotacao.AllowUserToOrderColumns = true;
+			this.dtgVotacao.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.dtgVotacao.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.dtgVotacao.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dtgVotacao.Location = new System.Drawing.Point(9, 277);
+			this.dtgVotacao.Name = "dtgVotacao";
+			this.dtgVotacao.Size = new System.Drawing.Size(1164, 203);
+			this.dtgVotacao.TabIndex = 29;
+			// 
+			// pictureBox3
+			// 
+			this.pictureBox3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.ErrorImage")));
+			this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+			this.pictureBox3.Location = new System.Drawing.Point(21, 26);
+			this.pictureBox3.Name = "pictureBox3";
+			this.pictureBox3.Size = new System.Drawing.Size(296, 186);
+			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox3.TabIndex = 28;
+			this.pictureBox3.TabStop = false;
+			// 
+			// button25
+			// 
+			this.button25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.button25.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+			this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button25.Image = ((System.Drawing.Image)(resources.GetObject("button25.Image")));
+			this.button25.Location = new System.Drawing.Point(1110, 227);
+			this.button25.Name = "button25";
+			this.button25.Size = new System.Drawing.Size(63, 44);
+			this.button25.TabIndex = 27;
+			this.button25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.button25.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.button25.UseVisualStyleBackColor = false;
+			// 
+			// label28
+			// 
+			this.label28.AutoSize = true;
+			this.label28.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label28.Location = new System.Drawing.Point(8, 234);
+			this.label28.Name = "label28";
+			this.label28.Size = new System.Drawing.Size(156, 26);
+			this.label28.TabIndex = 26;
+			this.label28.Text = "Relatórios: ";
+			// 
+			// radioButton5
+			// 
+			this.radioButton5.AutoSize = true;
+			this.radioButton5.Location = new System.Drawing.Point(638, 243);
+			this.radioButton5.Name = "radioButton5";
+			this.radioButton5.Size = new System.Drawing.Size(153, 17);
+			this.radioButton5.TabIndex = 25;
+			this.radioButton5.TabStop = true;
+			this.radioButton5.Text = "Abstenção de Votos";
+			this.radioButton5.UseVisualStyleBackColor = true;
+			// 
+			// radioButton4
+			// 
+			this.radioButton4.AutoSize = true;
+			this.radioButton4.Location = new System.Drawing.Point(503, 243);
+			this.radioButton4.Name = "radioButton4";
+			this.radioButton4.Size = new System.Drawing.Size(90, 17);
+			this.radioButton4.TabIndex = 24;
+			this.radioButton4.TabStop = true;
+			this.radioButton4.Text = "Candidato";
+			this.radioButton4.UseVisualStyleBackColor = true;
+			// 
+			// radioButton3
+			// 
+			this.radioButton3.AutoSize = true;
+			this.radioButton3.Location = new System.Drawing.Point(304, 243);
+			this.radioButton3.Name = "radioButton3";
+			this.radioButton3.Size = new System.Drawing.Size(67, 17);
+			this.radioButton3.TabIndex = 23;
+			this.radioButton3.TabStop = true;
+			this.radioButton3.Text = "Turma";
+			this.radioButton3.UseVisualStyleBackColor = true;
+			// 
+			// radioButton2
+			// 
+			this.radioButton2.AutoSize = true;
+			this.radioButton2.Location = new System.Drawing.Point(400, 242);
+			this.radioButton2.Name = "radioButton2";
+			this.radioButton2.Size = new System.Drawing.Size(63, 17);
+			this.radioButton2.TabIndex = 22;
+			this.radioButton2.TabStop = true;
+			this.radioButton2.Text = "Cargo";
+			this.radioButton2.UseVisualStyleBackColor = true;
+			// 
+			// radioButton1
+			// 
+			this.radioButton1.AutoSize = true;
+			this.radioButton1.Location = new System.Drawing.Point(205, 243);
+			this.radioButton1.Name = "radioButton1";
+			this.radioButton1.Size = new System.Drawing.Size(60, 17);
+			this.radioButton1.TabIndex = 21;
+			this.radioButton1.TabStop = true;
+			this.radioButton1.Text = "Geral";
+			this.radioButton1.UseVisualStyleBackColor = true;
+			// 
+			// label26
+			// 
+			this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.label26.AutoSize = true;
+			this.label26.Font = new System.Drawing.Font("Verdana", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label26.ForeColor = System.Drawing.Color.Red;
+			this.label26.Location = new System.Drawing.Point(1037, 36);
+			this.label26.Name = "label26";
+			this.label26.Size = new System.Drawing.Size(97, 65);
+			this.label26.TabIndex = 19;
+			this.label26.Text = "%";
+			// 
+			// lblQuantVotos
+			// 
+			this.lblQuantVotos.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblQuantVotos.AutoSize = true;
+			this.lblQuantVotos.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblQuantVotos.ForeColor = System.Drawing.Color.Red;
+			this.lblQuantVotos.Location = new System.Drawing.Point(687, 173);
+			this.lblQuantVotos.Name = "lblQuantVotos";
+			this.lblQuantVotos.Size = new System.Drawing.Size(34, 32);
+			this.lblQuantVotos.TabIndex = 18;
+			this.lblQuantVotos.Text = "0";
+			// 
+			// pictureBox2
+			// 
+			this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.pictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.ErrorImage")));
+			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+			this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
+			this.pictureBox2.Location = new System.Drawing.Point(657, 36);
+			this.pictureBox2.Name = "pictureBox2";
+			this.pictureBox2.Size = new System.Drawing.Size(95, 97);
+			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox2.TabIndex = 17;
+			this.pictureBox2.TabStop = false;
+			// 
+			// label24
+			// 
+			this.label24.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.label24.AutoSize = true;
+			this.label24.Location = new System.Drawing.Point(592, 148);
+			this.label24.Name = "label24";
+			this.label24.Size = new System.Drawing.Size(215, 13);
+			this.label24.TabIndex = 16;
+			this.label24.Text = "Quantidade de Votos Realizados";
+			this.label24.Click += new System.EventHandler(this.label24_Click);
+			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+			this.pictureBox1.Location = new System.Drawing.Point(451, 36);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(95, 97);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox1.TabIndex = 15;
+			this.pictureBox1.TabStop = false;
+			// 
+			// lblQuantEleitores
+			// 
+			this.lblQuantEleitores.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblQuantEleitores.AutoSize = true;
+			this.lblQuantEleitores.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblQuantEleitores.ForeColor = System.Drawing.Color.Red;
+			this.lblQuantEleitores.Location = new System.Drawing.Point(480, 173);
+			this.lblQuantEleitores.Name = "lblQuantEleitores";
+			this.lblQuantEleitores.Size = new System.Drawing.Size(34, 32);
+			this.lblQuantEleitores.TabIndex = 14;
+			this.lblQuantEleitores.Text = "0";
+			this.lblQuantEleitores.Click += new System.EventHandler(this.label23_Click);
+			// 
+			// label20
+			// 
+			this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.label20.AutoSize = true;
+			this.label20.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label20.Location = new System.Drawing.Point(1012, 173);
+			this.label20.Name = "label20";
+			this.label20.Size = new System.Drawing.Size(134, 26);
+			this.label20.TabIndex = 9;
+			this.label20.Text = "APURADO";
+			// 
+			// label21
+			// 
+			this.label21.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.label21.AutoSize = true;
+			this.label21.Location = new System.Drawing.Point(432, 148);
+			this.label21.Name = "label21";
+			this.label21.Size = new System.Drawing.Size(140, 13);
+			this.label21.TabIndex = 8;
+			this.label21.Text = "Número de Eleitores";
+			// 
+			// label22
+			// 
+			this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.label22.Location = new System.Drawing.Point(11, 16);
+			this.label22.Name = "label22";
+			this.label22.Size = new System.Drawing.Size(1162, 206);
+			this.label22.TabIndex = 5;
+			// 
+			// tabControl2
+			// 
+			this.tabControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tabControl2.Controls.Add(this.tabVotacao);
+			this.tabControl2.Controls.Add(this.tabEleitores);
+			this.tabControl2.Controls.Add(this.tabCandidatos);
+			this.tabControl2.Controls.Add(this.tabMesarios);
+			this.tabControl2.Controls.Add(this.tabCargos);
+			this.tabControl2.Controls.Add(this.tabTurmas);
+			this.tabControl2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.tabControl2.Location = new System.Drawing.Point(4, 4);
+			this.tabControl2.Name = "tabControl2";
+			this.tabControl2.SelectedIndex = 0;
+			this.tabControl2.Size = new System.Drawing.Size(1192, 509);
+			this.tabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+			this.tabControl2.TabIndex = 0;
+			// 
 			// frmDados
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1965,14 +1974,14 @@
 			this.tabEleitores.ResumeLayout(false);
 			this.tabEleitores.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgEleitores)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.eleitorBindingSource)).EndInit();
 			this.tabVotacao.ResumeLayout(false);
 			this.tabVotacao.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.dtgVotacao)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.tabControl2.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.eleitorBindingSource)).EndInit();
 			this.ResumeLayout(false);
 
         }
@@ -2043,9 +2052,9 @@
 		private System.Windows.Forms.ComboBox comboBox16;
 		private System.Windows.Forms.DataGridView dtgCargos;
 		private System.Windows.Forms.TabPage tabMesarios;
-		private System.Windows.Forms.Button button17;
-		private System.Windows.Forms.Button button18;
-		private System.Windows.Forms.Button button19;
+		private System.Windows.Forms.Button btnExcluirMesario;
+		private System.Windows.Forms.Button btnSalvarMesario;
+		private System.Windows.Forms.Button btnAlterarMesario;
 		private System.Windows.Forms.Button btnPesquisaMesario;
 		private System.Windows.Forms.Label label11;
 		private System.Windows.Forms.Label label15;
@@ -2061,9 +2070,9 @@
 		private System.Windows.Forms.Label label10;
 		private System.Windows.Forms.TextBox txtNumeroCandidato;
 		private System.Windows.Forms.TextBox txtNomeCandidato;
-		private System.Windows.Forms.Button button9;
-		private System.Windows.Forms.Button button10;
-		private System.Windows.Forms.Button button11;
+		private System.Windows.Forms.Button btnExcluirCandidato;
+		private System.Windows.Forms.Button btnSalvarCandidato;
+		private System.Windows.Forms.Button btnAlterarCandidato;
 		private System.Windows.Forms.Button btnPesquisaCandidato;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Label label9;
@@ -2074,7 +2083,7 @@
 		private System.Windows.Forms.TabPage tabEleitores;
 		private System.Windows.Forms.Button btnExcluirEleitor;
 		private System.Windows.Forms.Button btnSalvarEleitor;
-		private System.Windows.Forms.Button btnAlteraEleitor;
+		private System.Windows.Forms.Button btnAlterarEleitor;
 		private System.Windows.Forms.Button btnPesquisaEleitor;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label label5;
