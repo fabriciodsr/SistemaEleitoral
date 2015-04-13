@@ -44,6 +44,7 @@
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.btnNumero1 = new System.Windows.Forms.Button();
 			this.panel2 = new System.Windows.Forms.Panel();
+			this.lblErroCargo = new System.Windows.Forms.Label();
 			this.rtb_Nome_Candidato = new System.Windows.Forms.RichTextBox();
 			this.tb_2 = new System.Windows.Forms.TextBox();
 			this.tb_1 = new System.Windows.Forms.TextBox();
@@ -56,7 +57,6 @@
 			this.imageList1 = new System.Windows.Forms.ImageList(this.components);
 			this.imageList2 = new System.Windows.Forms.ImageList(this.components);
 			this.imageList3 = new System.Windows.Forms.ImageList(this.components);
-			this.lblErroCargo = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pbCandidato)).BeginInit();
@@ -299,6 +299,18 @@
 			this.panel2.Size = new System.Drawing.Size(582, 428);
 			this.panel2.TabIndex = 16;
 			// 
+			// lblErroCargo
+			// 
+			this.lblErroCargo.AutoSize = true;
+			this.lblErroCargo.Font = new System.Drawing.Font("Verdana", 14.75F, System.Drawing.FontStyle.Bold);
+			this.lblErroCargo.ForeColor = System.Drawing.Color.Red;
+			this.lblErroCargo.Location = new System.Drawing.Point(6, 383);
+			this.lblErroCargo.Name = "lblErroCargo";
+			this.lblErroCargo.Size = new System.Drawing.Size(80, 25);
+			this.lblErroCargo.TabIndex = 11;
+			this.lblErroCargo.Text = "label2";
+			this.lblErroCargo.Visible = false;
+			// 
 			// rtb_Nome_Candidato
 			// 
 			this.rtb_Nome_Candidato.BackColor = System.Drawing.SystemColors.InactiveBorder;
@@ -429,23 +441,12 @@
 			this.imageList3.Images.SetKeyName(2, "Tiririca.jpg");
 			this.imageList3.Images.SetKeyName(3, "Mallandro.jpg");
 			// 
-			// lblErroCargo
-			// 
-			this.lblErroCargo.AutoSize = true;
-			this.lblErroCargo.Font = new System.Drawing.Font("Verdana", 14.75F, System.Drawing.FontStyle.Bold);
-			this.lblErroCargo.ForeColor = System.Drawing.Color.Red;
-			this.lblErroCargo.Location = new System.Drawing.Point(6, 383);
-			this.lblErroCargo.Name = "lblErroCargo";
-			this.lblErroCargo.Size = new System.Drawing.Size(80, 25);
-			this.lblErroCargo.TabIndex = 11;
-			this.lblErroCargo.Text = "label2";
-			this.lblErroCargo.Visible = false;
-			// 
 			// frmVotacao
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(1081, 695);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.panel2);

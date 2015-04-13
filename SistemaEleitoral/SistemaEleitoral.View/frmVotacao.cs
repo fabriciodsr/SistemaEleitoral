@@ -87,7 +87,7 @@ namespace SistemaEleitoral
 					//  System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"\imagens\urna.wav");
 					//
 					Votar(MatEleitor);
-                    MessageBox.Show("VOTO REALIZADO COM SUCESSO", "VOTAÇÃO FINALIZADA");
+                    MessageBox.Show("Voto realizado com sucesso!", "Votação Finalizada", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     System.Threading.Thread.Sleep(2000);
                     frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
                     frm.Show();
@@ -331,7 +331,6 @@ namespace SistemaEleitoral
             if (e.KeyChar == (char)Keys.Escape)
             {
                 frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
-                ///frm.MdiParent = this;
                 frm.Show();
                 Close();
             }

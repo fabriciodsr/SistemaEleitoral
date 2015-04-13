@@ -43,7 +43,7 @@ namespace SistemaEleitoral
 		private int ContagemVotos()
 		{
 			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
-			string SQL = "SELECT COUNT(DISTINCT VotoRepresentante) FROM Eleitor";
+			string SQL = "SELECT COUNT(VotoRepresentante + VotoCoordenador + VotoDiretor) FROM Eleitor";
 
 			SqlCommand oComando = new SqlCommand(SQL, oCn);
 			int QuantVotos;
@@ -130,6 +130,11 @@ namespace SistemaEleitoral
 		}
 
 		private void label23_Click(object sender, EventArgs e)
+		{
+			
+		}
+
+		private void btnCargos_Click(object sender, EventArgs e)
 		{
 			
 		}

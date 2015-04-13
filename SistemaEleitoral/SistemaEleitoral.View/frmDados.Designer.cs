@@ -148,7 +148,7 @@
 			this.button13 = new System.Windows.Forms.Button();
 			this.button14 = new System.Windows.Forms.Button();
 			this.button15 = new System.Windows.Forms.Button();
-			this.button16 = new System.Windows.Forms.Button();
+			this.btnCargos = new System.Windows.Forms.Button();
 			this.label12 = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
 			this.textBox9 = new System.Windows.Forms.TextBox();
@@ -1546,7 +1546,7 @@
 			this.tabCargos.Controls.Add(this.button13);
 			this.tabCargos.Controls.Add(this.button14);
 			this.tabCargos.Controls.Add(this.button15);
-			this.tabCargos.Controls.Add(this.button16);
+			this.tabCargos.Controls.Add(this.btnCargos);
 			this.tabCargos.Controls.Add(this.label12);
 			this.tabCargos.Controls.Add(this.label13);
 			this.tabCargos.Controls.Add(this.textBox9);
@@ -1608,18 +1608,19 @@
 			this.button15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.button15.UseVisualStyleBackColor = false;
 			// 
-			// button16
+			// btnCargos
 			// 
-			this.button16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button16.BackColor = System.Drawing.SystemColors.InactiveBorder;
-			this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
-			this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button16.Location = new System.Drawing.Point(914, 35);
-			this.button16.Name = "button16";
-			this.button16.Size = new System.Drawing.Size(22, 21);
-			this.button16.TabIndex = 10;
-			this.button16.UseVisualStyleBackColor = false;
+			this.btnCargos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnCargos.BackColor = System.Drawing.SystemColors.InactiveBorder;
+			this.btnCargos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCargos.BackgroundImage")));
+			this.btnCargos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.btnCargos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnCargos.Location = new System.Drawing.Point(914, 35);
+			this.btnCargos.Name = "btnCargos";
+			this.btnCargos.Size = new System.Drawing.Size(22, 21);
+			this.btnCargos.TabIndex = 10;
+			this.btnCargos.UseVisualStyleBackColor = false;
+			this.btnCargos.Click += new System.EventHandler(this.btnCargos_Click);
 			// 
 			// label12
 			// 
@@ -2014,7 +2015,7 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button btnCargos;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox9;
