@@ -16,8 +16,7 @@ namespace SistemaEleitoral
 {
     public partial class frmAutentica_Eleitor_Matricula : Form
     {
-
-        private SoundPlayer player2;
+		private SoundPlayer player2;
         public frmAutentica_Eleitor_Matricula()
         {
             InitializeComponent();
@@ -35,24 +34,34 @@ namespace SistemaEleitoral
 
         }
 
-        private void tb_Matricula_Autentica_Eleitor_KeyPress(object sender, KeyPressEventArgs e)
-        {
+		private int VerificaMat()
+		{
 			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
 			string SQL = "SELECT COUNT(Matricula) FROM Eleitor WHERE Matricula = @mat";
 
 			SqlCommand oComando = new SqlCommand(SQL, oCn);
 			oComando.Parameters.Add("@mat", SqlDbType.VarChar).Value = tb_Matricula_Autentica_Eleitor.Text;
 
-			int v = (int)oComando.ExecuteScalar();
+			int QuantMat;
 
-			if (e.KeyChar == 13 && v > 0)
+			QuantMat = Convert.ToInt32(oComando.ExecuteScalar());
+
+			oCn.Close();
+			return QuantMat;
+		}
+
+		private void tb_Matricula_Autentica_Eleitor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+			VerificaMat();
+
+            if (e.KeyChar == 13 && VerificaMat() > 0)
 			{
 				player2.Play();
-                frmVotacao frm = new frmVotacao();
-                frm.Show();
-                this.Close();
-            }
-            else if (e.KeyChar == (char)Keys.Escape)
+				frmVotacao frm = new frmVotacao(tb_Matricula_Autentica_Eleitor.Text);
+				frm.Show();
+				this.Close();
+			}
+			else if (e.KeyChar == (char)Keys.Escape)
             {
                 frmAutentica_Eleitor_Senha frm = new frmAutentica_Eleitor_Senha();
                 frm.Show();

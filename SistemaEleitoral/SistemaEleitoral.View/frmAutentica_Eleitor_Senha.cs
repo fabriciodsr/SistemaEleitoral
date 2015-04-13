@@ -35,17 +35,27 @@ namespace SistemaEleitoral
 
         }
 
-        private void tb_Senha_Autentica_Eleitor_KeyPress(object sender, KeyPressEventArgs e)
-        {
+		private int VerificaSenha()
+		{
 			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
 			string SQL = "SELECT COUNT(Codigo) FROM Mesario WHERE Senha = @senha";
 
 			SqlCommand oComando = new SqlCommand(SQL, oCn);
 			oComando.Parameters.Add("@senha", SqlDbType.VarChar).Value = tb_Senha_Autentica_Eleitor.Text;
 
-			int v = (int)oComando.ExecuteScalar();
+			int QuantSenha;
 
-			if (e.KeyChar == 13 && v > 0)
+			QuantSenha = Convert.ToInt32(oComando.ExecuteScalar());
+
+			oCn.Close();
+			return QuantSenha;
+		}
+
+		private void tb_Senha_Autentica_Eleitor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+			VerificaSenha();
+
+			if (e.KeyChar == 13 && VerificaSenha() > 0)
 			{
 				player2.Play();
 				frmAutentica_Eleitor_Matricula frm = new frmAutentica_Eleitor_Matricula();

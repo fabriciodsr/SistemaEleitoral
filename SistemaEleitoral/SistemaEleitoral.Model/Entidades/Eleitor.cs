@@ -9,7 +9,7 @@ namespace SistemaEleitoral.Model
 	public partial class Eleitor
 	{
 		private string strMatricula, strNome, strCPF, strTelefone, strIdentidade, strEndereco, strBairro, strCidade, strCep,
-		strEstado, strEmail, strDataNasc, strSexo, strVotoRepresentante, strVotoCoordenador, strVotoDiretor;
+		strEstado, strEmail, strDataNasc, strSexo, strVotoRepresentante, strVotoCoordenador, strVotoDiretor, strMatVot;
 
 		public string Matricula
 		{
@@ -90,6 +90,11 @@ namespace SistemaEleitoral.Model
 		{
 			get { return strVotoDiretor; }
 			set { strVotoDiretor = value; }
+		}
+		public string MatVot
+		{
+			get { return strMatVot; }
+			set { strMatVot = value; }
 		}
 
 	}

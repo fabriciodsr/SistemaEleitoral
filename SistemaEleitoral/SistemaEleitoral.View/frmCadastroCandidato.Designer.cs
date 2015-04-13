@@ -470,12 +470,12 @@
 			this.cmbCargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
 			this.cmbCargo.FormattingEnabled = true;
 			this.cmbCargo.Items.AddRange(new object[] {
-            "Representante",
-            "Coordenador",
-            "Diretor"});
+            "REPRESENTANTE DE TURMA",
+            "COORDENADOR",
+            "DIRETOR"});
 			this.cmbCargo.Location = new System.Drawing.Point(323, 28);
 			this.cmbCargo.Name = "cmbCargo";
-			this.cmbCargo.Size = new System.Drawing.Size(153, 26);
+			this.cmbCargo.Size = new System.Drawing.Size(325, 26);
 			this.cmbCargo.TabIndex = 57;
 			// 
 			// dtpDataNasc
