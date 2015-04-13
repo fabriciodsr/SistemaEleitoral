@@ -357,7 +357,7 @@
 			// 
 			this.txtConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
 			this.txtConfirmaSenha.Location = new System.Drawing.Point(499, 61);
-			this.txtConfirmaSenha.MaxLength = 8;
+			this.txtConfirmaSenha.MaxLength = 10;
 			this.txtConfirmaSenha.Name = "txtConfirmaSenha";
 			this.txtConfirmaSenha.Size = new System.Drawing.Size(149, 24);
 			this.txtConfirmaSenha.TabIndex = 3;
@@ -379,7 +379,7 @@
 			// 
 			this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
 			this.txtSenha.Location = new System.Drawing.Point(140, 61);
-			this.txtSenha.MaxLength = 8;
+			this.txtSenha.MaxLength = 10;
 			this.txtSenha.Name = "txtSenha";
 			this.txtSenha.Size = new System.Drawing.Size(149, 24);
 			this.txtSenha.TabIndex = 2;

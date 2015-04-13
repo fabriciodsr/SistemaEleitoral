@@ -56,6 +56,12 @@ namespace SistemaEleitoral
 
 		private void frmDados_Load(object sender, EventArgs e)
 		{
+			// TODO: This line of code loads data into the 'sistemaEleitoralDataSet2.Mesario' table. You can move, or remove it, as needed.
+			this.mesarioTableAdapter.Fill(this.sistemaEleitoralDataSet2.Mesario);
+			// TODO: This line of code loads data into the 'sistemaEleitoralDataSet1.Candidato' table. You can move, or remove it, as needed.
+			this.candidatoTableAdapter.Fill(this.sistemaEleitoralDataSet1.Candidato);
+			// TODO: This line of code loads data into the 'sistemaEleitoralDataSet.Eleitor' table. You can move, or remove it, as needed.
+			this.eleitorTableAdapter.Fill(this.sistemaEleitoralDataSet.Eleitor);
 			lblQuantEleitores.Text = ContagemEleitores().ToString();
 			lblQuantVotos.Text = ContagemVotos().ToString();
         }
@@ -137,6 +143,14 @@ namespace SistemaEleitoral
 		private void btnCargos_Click(object sender, EventArgs e)
 		{
 			dtgCargos.DataSource = CSistemaEleitoral.SelecionarTodos();
+		}
+
+		private void dtgEleitores_CellClick(object sender, DataGridViewCellEventArgs e)
+		{
+			/*if (dtgEleitores.Rows[e.RowIndex].DataBoundItem != null)
+			{
+				Eleitor oEleitor = (Eleitor)dtgEleitores.Rows[e.RowIndex].DataBoundItem;
+			}*/
 		}
 	}
 }

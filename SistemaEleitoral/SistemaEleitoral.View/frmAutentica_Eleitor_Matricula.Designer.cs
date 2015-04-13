@@ -84,6 +84,7 @@
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.tb_Matricula_Autentica_Eleitor);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "frmAutentica_Eleitor_Matricula";
 			this.Text = "frmAutentica_Eleitor_Matricula";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

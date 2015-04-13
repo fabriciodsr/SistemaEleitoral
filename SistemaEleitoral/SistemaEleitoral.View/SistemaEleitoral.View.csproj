@@ -11,6 +11,21 @@
     <AssemblyName>SistemaEleitoral</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>urnaicone.ico</ApplicationIcon>
+    <ApplicationIcon>siees.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -115,6 +130,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SistemaEleitoralDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaEleitoralDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaEleitoralDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaEleitoralDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaEleitoralDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaEleitoralDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemaEleitoralDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SistemaEleitoralDataSet3.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmAutentica_Eleitor_Matricula.resx">
       <DependentUpon>frmAutentica_Eleitor_Matricula.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,7 +191,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Properties\DataSources\SistemaEleitoral.Model.Mesario.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -166,11 +203,58 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SistemaEleitoralDataSet11.xsc">
+      <DependentUpon>SistemaEleitoralDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaEleitoralDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaEleitoralDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaEleitoralDataSet11.xss">
+      <DependentUpon>SistemaEleitoralDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaEleitoralDataSet2.xsc">
+      <DependentUpon>SistemaEleitoralDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaEleitoralDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaEleitoralDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaEleitoralDataSet2.xss">
+      <DependentUpon>SistemaEleitoralDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaEleitoralDataSet21.xsc">
+      <DependentUpon>SistemaEleitoralDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaEleitoralDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaEleitoralDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaEleitoralDataSet21.xss">
+      <DependentUpon>SistemaEleitoralDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaEleitoralDataSet3.xsc">
+      <DependentUpon>SistemaEleitoralDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SistemaEleitoralDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SistemaEleitoralDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemaEleitoralDataSet3.xss">
+      <DependentUpon>SistemaEleitoralDataSet3.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Fundo_Tela_Login.jpg" />
+    <None Include="Resources\download.png" />
+    <Content Include="siees.ico" />
     <Content Include="urnaicone.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +266,18 @@
       <Project>{53211112-89fd-4b29-9d6a-754516095335}</Project>
       <Name>SistemaEleitoral.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

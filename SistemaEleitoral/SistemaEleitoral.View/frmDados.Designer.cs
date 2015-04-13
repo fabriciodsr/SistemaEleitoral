@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDados));
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -66,6 +67,26 @@
 			this.tabPage5 = new System.Windows.Forms.TabPage();
 			this.tabPage6 = new System.Windows.Forms.TabPage();
 			this.tabCandidatos = new System.Windows.Forms.TabPage();
+			this.dtgCandidatos = new System.Windows.Forms.DataGridView();
+			this.numeroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cargoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewComboBoxColumn();
+			this.nomeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cPFDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.telefoneDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.identidadeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.enderecoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.bairroDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cidadeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cepDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.estadoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+			this.emailDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.dataNascDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.sexoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+			this.fotoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
+			this.dataGridViewButtonColumn2 = new System.Windows.Forms.DataGridViewButtonColumn();
+			this.candidatoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.sistemaEleitoralDataSet1 = new SistemaEleitoral.SistemaEleitoralDataSet1();
 			this.label10 = new System.Windows.Forms.Label();
 			this.txtNumeroCandidato = new System.Windows.Forms.TextBox();
 			this.button9 = new System.Windows.Forms.Button();
@@ -79,7 +100,6 @@
 			this.comboBox10 = new System.Windows.Forms.ComboBox();
 			this.comboBox11 = new System.Windows.Forms.ComboBox();
 			this.comboBox12 = new System.Windows.Forms.ComboBox();
-			this.dtgCandidatos = new System.Windows.Forms.DataGridView();
 			this.tabPage8 = new System.Windows.Forms.TabPage();
 			this.button5 = new System.Windows.Forms.Button();
 			this.button6 = new System.Windows.Forms.Button();
@@ -95,24 +115,26 @@
 			this.comboBox7 = new System.Windows.Forms.ComboBox();
 			this.comboBox8 = new System.Windows.Forms.ComboBox();
 			this.dtgEleitores = new System.Windows.Forms.DataGridView();
+			this.matriculaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cPFDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.telefoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.identidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.enderecoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.bairroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cepDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.estadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewComboBoxColumn();
+			this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.dataNascDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.sexoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewComboBoxColumn();
+			this.Alterar = new System.Windows.Forms.DataGridViewButtonColumn();
+			this.Excluir = new System.Windows.Forms.DataGridViewButtonColumn();
+			this.eleitorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.sistemaEleitoralDataSet = new SistemaEleitoral.SistemaEleitoralDataSet();
 			this.tabControl2 = new System.Windows.Forms.TabControl();
 			this.tabVotacao = new System.Windows.Forms.TabPage();
 			this.dtgVotacao = new System.Windows.Forms.DataGridView();
-			this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn56 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn57 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn58 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn59 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn60 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn61 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn62 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn63 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn64 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn65 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
 			this.button25 = new System.Windows.Forms.Button();
 			this.label28 = new System.Windows.Forms.Label();
@@ -144,6 +166,22 @@
 			this.comboBox14 = new System.Windows.Forms.ComboBox();
 			this.comboBox15 = new System.Windows.Forms.ComboBox();
 			this.dtgMesarios = new System.Windows.Forms.DataGridView();
+			this.codigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.nomeDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cPFDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.telefoneDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.identidadeDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.enderecoDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.bairroDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cidadeDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.cepDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.estadoDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.emailDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.dataNascDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.sexoDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.senhaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.mesarioBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+			this.sistemaEleitoralDataSet2 = new SistemaEleitoral.SistemaEleitoralDataSet2();
 			this.tabCargos = new System.Windows.Forms.TabPage();
 			this.button13 = new System.Windows.Forms.Button();
 			this.button14 = new System.Windows.Forms.Button();
@@ -171,13 +209,22 @@
 			this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.eleitorTableAdapter = new SistemaEleitoral.SistemaEleitoralDataSetTableAdapters.EleitorTableAdapter();
+			this.sistemaEleitoralDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.candidatoTableAdapter = new SistemaEleitoral.SistemaEleitoralDataSet1TableAdapters.CandidatoTableAdapter();
+			this.mesarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.mesarioTableAdapter = new SistemaEleitoral.SistemaEleitoralDataSet2TableAdapters.MesarioTableAdapter();
 			this.tabControl1.SuspendLayout();
 			this.tabPage2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			this.tabCandidatos.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgCandidatos)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.candidatoBindingSource)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.sistemaEleitoralDataSet1)).BeginInit();
 			this.tabPage8.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgEleitores)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.eleitorBindingSource)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.sistemaEleitoralDataSet)).BeginInit();
 			this.tabControl2.SuspendLayout();
 			this.tabVotacao.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgVotacao)).BeginInit();
@@ -186,10 +233,14 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.tabMesarios.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgMesarios)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.mesarioBindingSource1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.sistemaEleitoralDataSet2)).BeginInit();
 			this.tabCargos.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgCargos)).BeginInit();
 			this.tabTurmas.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.sistemaEleitoralDataSetBindingSource)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.mesarioBindingSource)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// tabControl1
@@ -579,6 +630,7 @@
 			// 
 			// tabCandidatos
 			// 
+			this.tabCandidatos.Controls.Add(this.dtgCandidatos);
 			this.tabCandidatos.Controls.Add(this.label10);
 			this.tabCandidatos.Controls.Add(this.txtNumeroCandidato);
 			this.tabCandidatos.Controls.Add(this.button9);
@@ -592,7 +644,6 @@
 			this.tabCandidatos.Controls.Add(this.comboBox10);
 			this.tabCandidatos.Controls.Add(this.comboBox11);
 			this.tabCandidatos.Controls.Add(this.comboBox12);
-			this.tabCandidatos.Controls.Add(this.dtgCandidatos);
 			this.tabCandidatos.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.tabCandidatos.Location = new System.Drawing.Point(4, 25);
 			this.tabCandidatos.Name = "tabCandidatos";
@@ -601,6 +652,238 @@
 			this.tabCandidatos.TabIndex = 6;
 			this.tabCandidatos.Text = "Candidatos";
 			this.tabCandidatos.UseVisualStyleBackColor = true;
+			// 
+			// dtgCandidatos
+			// 
+			this.dtgCandidatos.AllowUserToAddRows = false;
+			this.dtgCandidatos.AllowUserToDeleteRows = false;
+			this.dtgCandidatos.AllowUserToOrderColumns = true;
+			this.dtgCandidatos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.dtgCandidatos.AutoGenerateColumns = false;
+			this.dtgCandidatos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.dtgCandidatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dtgCandidatos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.numeroDataGridViewTextBoxColumn,
+            this.cargoDataGridViewTextBoxColumn,
+            this.nomeDataGridViewTextBoxColumn1,
+            this.cPFDataGridViewTextBoxColumn1,
+            this.telefoneDataGridViewTextBoxColumn1,
+            this.identidadeDataGridViewTextBoxColumn1,
+            this.enderecoDataGridViewTextBoxColumn1,
+            this.bairroDataGridViewTextBoxColumn1,
+            this.cidadeDataGridViewTextBoxColumn1,
+            this.cepDataGridViewTextBoxColumn1,
+            this.estadoDataGridViewTextBoxColumn1,
+            this.emailDataGridViewTextBoxColumn1,
+            this.dataNascDataGridViewTextBoxColumn1,
+            this.sexoDataGridViewTextBoxColumn1,
+            this.fotoDataGridViewTextBoxColumn,
+            this.dataGridViewButtonColumn1,
+            this.dataGridViewButtonColumn2});
+			this.dtgCandidatos.DataSource = this.candidatoBindingSource;
+			this.dtgCandidatos.Location = new System.Drawing.Point(9, 125);
+			this.dtgCandidatos.Name = "dtgCandidatos";
+			this.dtgCandidatos.Size = new System.Drawing.Size(947, 346);
+			this.dtgCandidatos.TabIndex = 16;
+			// 
+			// numeroDataGridViewTextBoxColumn
+			// 
+			this.numeroDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.numeroDataGridViewTextBoxColumn.DataPropertyName = "Numero";
+			this.numeroDataGridViewTextBoxColumn.HeaderText = "Numero";
+			this.numeroDataGridViewTextBoxColumn.MaxInputLength = 2;
+			this.numeroDataGridViewTextBoxColumn.Name = "numeroDataGridViewTextBoxColumn";
+			this.numeroDataGridViewTextBoxColumn.ReadOnly = true;
+			this.numeroDataGridViewTextBoxColumn.Width = 83;
+			// 
+			// cargoDataGridViewTextBoxColumn
+			// 
+			this.cargoDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.cargoDataGridViewTextBoxColumn.DataPropertyName = "Cargo";
+			this.cargoDataGridViewTextBoxColumn.HeaderText = "Cargo";
+			this.cargoDataGridViewTextBoxColumn.Items.AddRange(new object[] {
+            "REPRESENTANTE DE TURMA",
+            "COORDENADOR",
+            "DIRETOR"});
+			this.cargoDataGridViewTextBoxColumn.MaxDropDownItems = 3;
+			this.cargoDataGridViewTextBoxColumn.Name = "cargoDataGridViewTextBoxColumn";
+			this.cargoDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+			this.cargoDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+			this.cargoDataGridViewTextBoxColumn.Width = 70;
+			// 
+			// nomeDataGridViewTextBoxColumn1
+			// 
+			this.nomeDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.nomeDataGridViewTextBoxColumn1.DataPropertyName = "Nome";
+			this.nomeDataGridViewTextBoxColumn1.HeaderText = "Nome";
+			this.nomeDataGridViewTextBoxColumn1.MaxInputLength = 50;
+			this.nomeDataGridViewTextBoxColumn1.Name = "nomeDataGridViewTextBoxColumn1";
+			this.nomeDataGridViewTextBoxColumn1.Width = 69;
+			// 
+			// cPFDataGridViewTextBoxColumn1
+			// 
+			this.cPFDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.cPFDataGridViewTextBoxColumn1.DataPropertyName = "CPF";
+			this.cPFDataGridViewTextBoxColumn1.HeaderText = "CPF";
+			this.cPFDataGridViewTextBoxColumn1.MaxInputLength = 11;
+			this.cPFDataGridViewTextBoxColumn1.Name = "cPFDataGridViewTextBoxColumn1";
+			this.cPFDataGridViewTextBoxColumn1.Width = 56;
+			// 
+			// telefoneDataGridViewTextBoxColumn1
+			// 
+			this.telefoneDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.telefoneDataGridViewTextBoxColumn1.DataPropertyName = "Telefone";
+			this.telefoneDataGridViewTextBoxColumn1.HeaderText = "Telefone";
+			this.telefoneDataGridViewTextBoxColumn1.MaxInputLength = 15;
+			this.telefoneDataGridViewTextBoxColumn1.Name = "telefoneDataGridViewTextBoxColumn1";
+			this.telefoneDataGridViewTextBoxColumn1.Width = 89;
+			// 
+			// identidadeDataGridViewTextBoxColumn1
+			// 
+			this.identidadeDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.identidadeDataGridViewTextBoxColumn1.DataPropertyName = "Identidade";
+			this.identidadeDataGridViewTextBoxColumn1.HeaderText = "Identidade";
+			this.identidadeDataGridViewTextBoxColumn1.MaxInputLength = 10;
+			this.identidadeDataGridViewTextBoxColumn1.Name = "identidadeDataGridViewTextBoxColumn1";
+			this.identidadeDataGridViewTextBoxColumn1.Width = 103;
+			// 
+			// enderecoDataGridViewTextBoxColumn1
+			// 
+			this.enderecoDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.enderecoDataGridViewTextBoxColumn1.DataPropertyName = "Endereco";
+			this.enderecoDataGridViewTextBoxColumn1.HeaderText = "Endereco";
+			this.enderecoDataGridViewTextBoxColumn1.MaxInputLength = 3276750;
+			this.enderecoDataGridViewTextBoxColumn1.Name = "enderecoDataGridViewTextBoxColumn1";
+			this.enderecoDataGridViewTextBoxColumn1.Width = 93;
+			// 
+			// bairroDataGridViewTextBoxColumn1
+			// 
+			this.bairroDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.bairroDataGridViewTextBoxColumn1.DataPropertyName = "Bairro";
+			this.bairroDataGridViewTextBoxColumn1.HeaderText = "Bairro";
+			this.bairroDataGridViewTextBoxColumn1.MaxInputLength = 30;
+			this.bairroDataGridViewTextBoxColumn1.Name = "bairroDataGridViewTextBoxColumn1";
+			this.bairroDataGridViewTextBoxColumn1.Width = 72;
+			// 
+			// cidadeDataGridViewTextBoxColumn1
+			// 
+			this.cidadeDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.cidadeDataGridViewTextBoxColumn1.DataPropertyName = "Cidade";
+			this.cidadeDataGridViewTextBoxColumn1.HeaderText = "Cidade";
+			this.cidadeDataGridViewTextBoxColumn1.MaxInputLength = 30;
+			this.cidadeDataGridViewTextBoxColumn1.Name = "cidadeDataGridViewTextBoxColumn1";
+			this.cidadeDataGridViewTextBoxColumn1.Width = 76;
+			// 
+			// cepDataGridViewTextBoxColumn1
+			// 
+			this.cepDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.cepDataGridViewTextBoxColumn1.DataPropertyName = "Cep";
+			this.cepDataGridViewTextBoxColumn1.HeaderText = "Cep";
+			this.cepDataGridViewTextBoxColumn1.MaxInputLength = 10;
+			this.cepDataGridViewTextBoxColumn1.Name = "cepDataGridViewTextBoxColumn1";
+			this.cepDataGridViewTextBoxColumn1.Width = 56;
+			// 
+			// estadoDataGridViewTextBoxColumn1
+			// 
+			this.estadoDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.estadoDataGridViewTextBoxColumn1.DataPropertyName = "Estado";
+			this.estadoDataGridViewTextBoxColumn1.HeaderText = "Estado";
+			this.estadoDataGridViewTextBoxColumn1.Items.AddRange(new object[] {
+            "Acre - AC",
+            "Alagoas - AL",
+            "Amapá - AP",
+            "Amazonas - AM",
+            "Bahia  - BA",
+            "Ceará - CE",
+            "Distrito Federal  - DF",
+            "Espírito Santo - ES",
+            "Goiás - GO",
+            "Maranhão - MA",
+            "Mato Grosso - MT",
+            "Mato Grosso do Sul - MS",
+            "Minas Gerais - MG",
+            "Pará - PA",
+            "Paraíba - PB",
+            "Paraná - PR",
+            "Pernambuco - PE",
+            "Piauí - PI",
+            "Rio de Janeiro - RJ",
+            "Rio Grande do Norte - RN",
+            "Rio Grande do Sul - RS",
+            "Rondônia - RO",
+            "Roraima - RR",
+            "Santa Catarina - SC",
+            "São Paulo - SP",
+            "Sergipe - SE",
+            "Tocantins - TO"});
+			this.estadoDataGridViewTextBoxColumn1.MaxDropDownItems = 28;
+			this.estadoDataGridViewTextBoxColumn1.Name = "estadoDataGridViewTextBoxColumn1";
+			this.estadoDataGridViewTextBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+			this.estadoDataGridViewTextBoxColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+			this.estadoDataGridViewTextBoxColumn1.Width = 76;
+			// 
+			// emailDataGridViewTextBoxColumn1
+			// 
+			this.emailDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.emailDataGridViewTextBoxColumn1.DataPropertyName = "Email";
+			this.emailDataGridViewTextBoxColumn1.HeaderText = "Email";
+			this.emailDataGridViewTextBoxColumn1.MaxInputLength = 50;
+			this.emailDataGridViewTextBoxColumn1.Name = "emailDataGridViewTextBoxColumn1";
+			this.emailDataGridViewTextBoxColumn1.Width = 68;
+			// 
+			// dataNascDataGridViewTextBoxColumn1
+			// 
+			this.dataNascDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.dataNascDataGridViewTextBoxColumn1.DataPropertyName = "DataNasc";
+			this.dataNascDataGridViewTextBoxColumn1.HeaderText = "DataNasc";
+			this.dataNascDataGridViewTextBoxColumn1.MaxInputLength = 10;
+			this.dataNascDataGridViewTextBoxColumn1.Name = "dataNascDataGridViewTextBoxColumn1";
+			this.dataNascDataGridViewTextBoxColumn1.Width = 93;
+			// 
+			// sexoDataGridViewTextBoxColumn1
+			// 
+			this.sexoDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.sexoDataGridViewTextBoxColumn1.DataPropertyName = "Sexo";
+			this.sexoDataGridViewTextBoxColumn1.HeaderText = "Sexo";
+			this.sexoDataGridViewTextBoxColumn1.Items.AddRange(new object[] {
+            "Masculino",
+            "Feminino"});
+			this.sexoDataGridViewTextBoxColumn1.Name = "sexoDataGridViewTextBoxColumn1";
+			this.sexoDataGridViewTextBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+			this.sexoDataGridViewTextBoxColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+			this.sexoDataGridViewTextBoxColumn1.Width = 64;
+			// 
+			// fotoDataGridViewTextBoxColumn
+			// 
+			this.fotoDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.fotoDataGridViewTextBoxColumn.DataPropertyName = "Foto";
+			this.fotoDataGridViewTextBoxColumn.HeaderText = "Foto";
+			this.fotoDataGridViewTextBoxColumn.MaxInputLength = 100;
+			this.fotoDataGridViewTextBoxColumn.Name = "fotoDataGridViewTextBoxColumn";
+			this.fotoDataGridViewTextBoxColumn.Width = 61;
+			// 
+			// dataGridViewButtonColumn1
+			// 
+			this.dataGridViewButtonColumn1.HeaderText = "Alterar";
+			this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
+			this.dataGridViewButtonColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+			// 
+			// dataGridViewButtonColumn2
+			// 
+			this.dataGridViewButtonColumn2.HeaderText = "Excluir";
+			this.dataGridViewButtonColumn2.Name = "dataGridViewButtonColumn2";
+			// 
+			// candidatoBindingSource
+			// 
+			this.candidatoBindingSource.DataMember = "Candidato";
+			this.candidatoBindingSource.DataSource = this.sistemaEleitoralDataSet1;
+			// 
+			// sistemaEleitoralDataSet1
+			// 
+			this.sistemaEleitoralDataSet1.DataSetName = "SistemaEleitoralDataSet1";
+			this.sistemaEleitoralDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
 			// 
 			// label10
 			// 
@@ -763,19 +1046,6 @@
 			this.comboBox12.Size = new System.Drawing.Size(187, 21);
 			this.comboBox12.TabIndex = 1;
 			this.comboBox12.Text = "Turma";
-			// 
-			// dtgCandidatos
-			// 
-			this.dtgCandidatos.AllowUserToOrderColumns = true;
-			this.dtgCandidatos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.dtgCandidatos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.dtgCandidatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dtgCandidatos.Location = new System.Drawing.Point(10, 123);
-			this.dtgCandidatos.Name = "dtgCandidatos";
-			this.dtgCandidatos.Size = new System.Drawing.Size(947, 346);
-			this.dtgCandidatos.TabIndex = 0;
 			// 
 			// tabPage8
 			// 
@@ -972,12 +1242,204 @@
 			this.dtgEleitores.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+			this.dtgEleitores.AutoGenerateColumns = false;
 			this.dtgEleitores.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.dtgEleitores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dtgEleitores.Location = new System.Drawing.Point(10, 123);
+			this.dtgEleitores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.matriculaDataGridViewTextBoxColumn,
+            this.nomeDataGridViewTextBoxColumn,
+            this.cPFDataGridViewTextBoxColumn,
+            this.telefoneDataGridViewTextBoxColumn,
+            this.identidadeDataGridViewTextBoxColumn,
+            this.enderecoDataGridViewTextBoxColumn,
+            this.bairroDataGridViewTextBoxColumn,
+            this.cidadeDataGridViewTextBoxColumn,
+            this.cepDataGridViewTextBoxColumn,
+            this.estadoDataGridViewTextBoxColumn,
+            this.emailDataGridViewTextBoxColumn,
+            this.dataNascDataGridViewTextBoxColumn,
+            this.sexoDataGridViewTextBoxColumn,
+            this.Alterar,
+            this.Excluir});
+			this.dtgEleitores.DataSource = this.eleitorBindingSource;
+			this.dtgEleitores.Location = new System.Drawing.Point(9, 125);
 			this.dtgEleitores.Name = "dtgEleitores";
 			this.dtgEleitores.Size = new System.Drawing.Size(947, 346);
 			this.dtgEleitores.TabIndex = 0;
+			this.dtgEleitores.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgEleitores_CellClick);
+			// 
+			// matriculaDataGridViewTextBoxColumn
+			// 
+			this.matriculaDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.matriculaDataGridViewTextBoxColumn.DataPropertyName = "Matricula";
+			this.matriculaDataGridViewTextBoxColumn.HeaderText = "Matricula";
+			this.matriculaDataGridViewTextBoxColumn.MaxInputLength = 8;
+			this.matriculaDataGridViewTextBoxColumn.Name = "matriculaDataGridViewTextBoxColumn";
+			this.matriculaDataGridViewTextBoxColumn.ReadOnly = true;
+			this.matriculaDataGridViewTextBoxColumn.Width = 92;
+			// 
+			// nomeDataGridViewTextBoxColumn
+			// 
+			this.nomeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.nomeDataGridViewTextBoxColumn.DataPropertyName = "Nome";
+			this.nomeDataGridViewTextBoxColumn.HeaderText = "Nome";
+			this.nomeDataGridViewTextBoxColumn.MaxInputLength = 50;
+			this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
+			this.nomeDataGridViewTextBoxColumn.Width = 69;
+			// 
+			// cPFDataGridViewTextBoxColumn
+			// 
+			this.cPFDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.cPFDataGridViewTextBoxColumn.DataPropertyName = "CPF";
+			this.cPFDataGridViewTextBoxColumn.HeaderText = "CPF";
+			this.cPFDataGridViewTextBoxColumn.MaxInputLength = 11;
+			this.cPFDataGridViewTextBoxColumn.Name = "cPFDataGridViewTextBoxColumn";
+			this.cPFDataGridViewTextBoxColumn.Width = 56;
+			// 
+			// telefoneDataGridViewTextBoxColumn
+			// 
+			this.telefoneDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.telefoneDataGridViewTextBoxColumn.DataPropertyName = "Telefone";
+			this.telefoneDataGridViewTextBoxColumn.HeaderText = "Telefone";
+			this.telefoneDataGridViewTextBoxColumn.MaxInputLength = 15;
+			this.telefoneDataGridViewTextBoxColumn.Name = "telefoneDataGridViewTextBoxColumn";
+			this.telefoneDataGridViewTextBoxColumn.Width = 89;
+			// 
+			// identidadeDataGridViewTextBoxColumn
+			// 
+			this.identidadeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.identidadeDataGridViewTextBoxColumn.DataPropertyName = "Identidade";
+			this.identidadeDataGridViewTextBoxColumn.HeaderText = "Identidade";
+			this.identidadeDataGridViewTextBoxColumn.MaxInputLength = 10;
+			this.identidadeDataGridViewTextBoxColumn.Name = "identidadeDataGridViewTextBoxColumn";
+			this.identidadeDataGridViewTextBoxColumn.Width = 103;
+			// 
+			// enderecoDataGridViewTextBoxColumn
+			// 
+			this.enderecoDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.enderecoDataGridViewTextBoxColumn.DataPropertyName = "Endereco";
+			this.enderecoDataGridViewTextBoxColumn.HeaderText = "Endereco";
+			this.enderecoDataGridViewTextBoxColumn.MaxInputLength = 50;
+			this.enderecoDataGridViewTextBoxColumn.Name = "enderecoDataGridViewTextBoxColumn";
+			this.enderecoDataGridViewTextBoxColumn.Width = 93;
+			// 
+			// bairroDataGridViewTextBoxColumn
+			// 
+			this.bairroDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.bairroDataGridViewTextBoxColumn.DataPropertyName = "Bairro";
+			this.bairroDataGridViewTextBoxColumn.HeaderText = "Bairro";
+			this.bairroDataGridViewTextBoxColumn.MaxInputLength = 30;
+			this.bairroDataGridViewTextBoxColumn.Name = "bairroDataGridViewTextBoxColumn";
+			this.bairroDataGridViewTextBoxColumn.Width = 72;
+			// 
+			// cidadeDataGridViewTextBoxColumn
+			// 
+			this.cidadeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.cidadeDataGridViewTextBoxColumn.DataPropertyName = "Cidade";
+			this.cidadeDataGridViewTextBoxColumn.HeaderText = "Cidade";
+			this.cidadeDataGridViewTextBoxColumn.MaxInputLength = 30;
+			this.cidadeDataGridViewTextBoxColumn.Name = "cidadeDataGridViewTextBoxColumn";
+			this.cidadeDataGridViewTextBoxColumn.Width = 76;
+			// 
+			// cepDataGridViewTextBoxColumn
+			// 
+			this.cepDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.cepDataGridViewTextBoxColumn.DataPropertyName = "Cep";
+			this.cepDataGridViewTextBoxColumn.HeaderText = "Cep";
+			this.cepDataGridViewTextBoxColumn.MaxInputLength = 10;
+			this.cepDataGridViewTextBoxColumn.Name = "cepDataGridViewTextBoxColumn";
+			this.cepDataGridViewTextBoxColumn.Width = 56;
+			// 
+			// estadoDataGridViewTextBoxColumn
+			// 
+			this.estadoDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.estadoDataGridViewTextBoxColumn.DataPropertyName = "Estado";
+			this.estadoDataGridViewTextBoxColumn.HeaderText = "Estado";
+			this.estadoDataGridViewTextBoxColumn.Items.AddRange(new object[] {
+            "Acre - AC",
+            "Alagoas - AL",
+            "Amapá - AP",
+            "Amazonas - AM",
+            "Bahia  - BA",
+            "Ceará - CE",
+            "Distrito Federal  - DF",
+            "Espírito Santo - ES",
+            "Goiás - GO",
+            "Maranhão - MA",
+            "Mato Grosso - MT",
+            "Mato Grosso do Sul - MS",
+            "Minas Gerais - MG",
+            "Pará - PA",
+            "Paraíba - PB",
+            "Paraná - PR",
+            "Pernambuco - PE",
+            "Piauí - PI",
+            "Rio de Janeiro - RJ",
+            "Rio Grande do Norte - RN",
+            "Rio Grande do Sul - RS",
+            "Rondônia - RO",
+            "Roraima - RR",
+            "Santa Catarina - SC",
+            "São Paulo - SP",
+            "Sergipe - SE",
+            "Tocantins - TO"});
+			this.estadoDataGridViewTextBoxColumn.MaxDropDownItems = 28;
+			this.estadoDataGridViewTextBoxColumn.Name = "estadoDataGridViewTextBoxColumn";
+			this.estadoDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+			this.estadoDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+			this.estadoDataGridViewTextBoxColumn.Width = 76;
+			// 
+			// emailDataGridViewTextBoxColumn
+			// 
+			this.emailDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.emailDataGridViewTextBoxColumn.DataPropertyName = "Email";
+			this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
+			this.emailDataGridViewTextBoxColumn.MaxInputLength = 40;
+			this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
+			this.emailDataGridViewTextBoxColumn.Width = 68;
+			// 
+			// dataNascDataGridViewTextBoxColumn
+			// 
+			this.dataNascDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.dataNascDataGridViewTextBoxColumn.DataPropertyName = "DataNasc";
+			this.dataNascDataGridViewTextBoxColumn.HeaderText = "DataNasc";
+			this.dataNascDataGridViewTextBoxColumn.MaxInputLength = 10;
+			this.dataNascDataGridViewTextBoxColumn.Name = "dataNascDataGridViewTextBoxColumn";
+			this.dataNascDataGridViewTextBoxColumn.Width = 93;
+			// 
+			// sexoDataGridViewTextBoxColumn
+			// 
+			this.sexoDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+			this.sexoDataGridViewTextBoxColumn.DataPropertyName = "Sexo";
+			this.sexoDataGridViewTextBoxColumn.HeaderText = "Sexo";
+			this.sexoDataGridViewTextBoxColumn.Items.AddRange(new object[] {
+            "Masculino",
+            "Feminino"});
+			this.sexoDataGridViewTextBoxColumn.Name = "sexoDataGridViewTextBoxColumn";
+			this.sexoDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+			this.sexoDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+			this.sexoDataGridViewTextBoxColumn.Width = 64;
+			// 
+			// Alterar
+			// 
+			this.Alterar.HeaderText = "Alterar";
+			this.Alterar.Name = "Alterar";
+			this.Alterar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+			// 
+			// Excluir
+			// 
+			this.Excluir.HeaderText = "Excluir";
+			this.Excluir.Name = "Excluir";
+			// 
+			// eleitorBindingSource
+			// 
+			this.eleitorBindingSource.DataMember = "Eleitor";
+			this.eleitorBindingSource.DataSource = this.sistemaEleitoralDataSet;
+			// 
+			// sistemaEleitoralDataSet
+			// 
+			this.sistemaEleitoralDataSet.DataSetName = "SistemaEleitoralDataSet";
+			this.sistemaEleitoralDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
 			// 
 			// tabControl2
 			// 
@@ -1037,126 +1499,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.dtgVotacao.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.dtgVotacao.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dtgVotacao.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn51,
-            this.dataGridViewTextBoxColumn52,
-            this.dataGridViewTextBoxColumn53,
-            this.dataGridViewTextBoxColumn54,
-            this.dataGridViewTextBoxColumn55,
-            this.dataGridViewTextBoxColumn56,
-            this.dataGridViewTextBoxColumn57,
-            this.dataGridViewTextBoxColumn58,
-            this.dataGridViewTextBoxColumn59,
-            this.dataGridViewTextBoxColumn60,
-            this.dataGridViewTextBoxColumn61,
-            this.dataGridViewTextBoxColumn62,
-            this.dataGridViewTextBoxColumn63,
-            this.dataGridViewTextBoxColumn64,
-            this.dataGridViewTextBoxColumn65});
 			this.dtgVotacao.Location = new System.Drawing.Point(9, 277);
 			this.dtgVotacao.Name = "dtgVotacao";
 			this.dtgVotacao.Size = new System.Drawing.Size(947, 203);
 			this.dtgVotacao.TabIndex = 29;
-			// 
-			// dataGridViewTextBoxColumn51
-			// 
-			this.dataGridViewTextBoxColumn51.HeaderText = "Matrícula";
-			this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
-			this.dataGridViewTextBoxColumn51.ReadOnly = true;
-			this.dataGridViewTextBoxColumn51.Width = 80;
-			// 
-			// dataGridViewTextBoxColumn52
-			// 
-			this.dataGridViewTextBoxColumn52.HeaderText = "Nome";
-			this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
-			this.dataGridViewTextBoxColumn52.ReadOnly = true;
-			this.dataGridViewTextBoxColumn52.Width = 250;
-			// 
-			// dataGridViewTextBoxColumn53
-			// 
-			this.dataGridViewTextBoxColumn53.HeaderText = "CPF";
-			this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
-			this.dataGridViewTextBoxColumn53.ReadOnly = true;
-			// 
-			// dataGridViewTextBoxColumn54
-			// 
-			this.dataGridViewTextBoxColumn54.HeaderText = "IDT";
-			this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
-			this.dataGridViewTextBoxColumn54.ReadOnly = true;
-			// 
-			// dataGridViewTextBoxColumn55
-			// 
-			this.dataGridViewTextBoxColumn55.HeaderText = "Endereço";
-			this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
-			this.dataGridViewTextBoxColumn55.ReadOnly = true;
-			this.dataGridViewTextBoxColumn55.Width = 300;
-			// 
-			// dataGridViewTextBoxColumn56
-			// 
-			this.dataGridViewTextBoxColumn56.HeaderText = "Bairro";
-			this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
-			this.dataGridViewTextBoxColumn56.ReadOnly = true;
-			this.dataGridViewTextBoxColumn56.Width = 200;
-			// 
-			// dataGridViewTextBoxColumn57
-			// 
-			this.dataGridViewTextBoxColumn57.HeaderText = "Cidade";
-			this.dataGridViewTextBoxColumn57.Name = "dataGridViewTextBoxColumn57";
-			this.dataGridViewTextBoxColumn57.ReadOnly = true;
-			this.dataGridViewTextBoxColumn57.Width = 200;
-			// 
-			// dataGridViewTextBoxColumn58
-			// 
-			this.dataGridViewTextBoxColumn58.HeaderText = "CEP";
-			this.dataGridViewTextBoxColumn58.Name = "dataGridViewTextBoxColumn58";
-			this.dataGridViewTextBoxColumn58.ReadOnly = true;
-			this.dataGridViewTextBoxColumn58.Width = 80;
-			// 
-			// dataGridViewTextBoxColumn59
-			// 
-			this.dataGridViewTextBoxColumn59.HeaderText = "UF";
-			this.dataGridViewTextBoxColumn59.Name = "dataGridViewTextBoxColumn59";
-			this.dataGridViewTextBoxColumn59.ReadOnly = true;
-			this.dataGridViewTextBoxColumn59.Width = 40;
-			// 
-			// dataGridViewTextBoxColumn60
-			// 
-			this.dataGridViewTextBoxColumn60.HeaderText = "e-mail";
-			this.dataGridViewTextBoxColumn60.Name = "dataGridViewTextBoxColumn60";
-			this.dataGridViewTextBoxColumn60.ReadOnly = true;
-			this.dataGridViewTextBoxColumn60.Width = 200;
-			// 
-			// dataGridViewTextBoxColumn61
-			// 
-			this.dataGridViewTextBoxColumn61.HeaderText = "Data Nasc";
-			this.dataGridViewTextBoxColumn61.Name = "dataGridViewTextBoxColumn61";
-			this.dataGridViewTextBoxColumn61.ReadOnly = true;
-			// 
-			// dataGridViewTextBoxColumn62
-			// 
-			this.dataGridViewTextBoxColumn62.HeaderText = "Tel Fixo";
-			this.dataGridViewTextBoxColumn62.Name = "dataGridViewTextBoxColumn62";
-			this.dataGridViewTextBoxColumn62.ReadOnly = true;
-			// 
-			// dataGridViewTextBoxColumn63
-			// 
-			this.dataGridViewTextBoxColumn63.HeaderText = "Tel Cel";
-			this.dataGridViewTextBoxColumn63.Name = "dataGridViewTextBoxColumn63";
-			this.dataGridViewTextBoxColumn63.ReadOnly = true;
-			// 
-			// dataGridViewTextBoxColumn64
-			// 
-			this.dataGridViewTextBoxColumn64.HeaderText = "Sexo";
-			this.dataGridViewTextBoxColumn64.Name = "dataGridViewTextBoxColumn64";
-			this.dataGridViewTextBoxColumn64.ReadOnly = true;
-			this.dataGridViewTextBoxColumn64.Width = 60;
-			// 
-			// dataGridViewTextBoxColumn65
-			// 
-			this.dataGridViewTextBoxColumn65.HeaderText = "Voto";
-			this.dataGridViewTextBoxColumn65.Name = "dataGridViewTextBoxColumn65";
-			this.dataGridViewTextBoxColumn65.ReadOnly = true;
-			this.dataGridViewTextBoxColumn65.Width = 50;
 			// 
 			// pictureBox3
 			// 
@@ -1531,12 +1877,123 @@
 			this.dtgMesarios.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+			this.dtgMesarios.AutoGenerateColumns = false;
 			this.dtgMesarios.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.dtgMesarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dtgMesarios.Location = new System.Drawing.Point(10, 123);
+			this.dtgMesarios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.codigoDataGridViewTextBoxColumn,
+            this.nomeDataGridViewTextBoxColumn2,
+            this.cPFDataGridViewTextBoxColumn2,
+            this.telefoneDataGridViewTextBoxColumn2,
+            this.identidadeDataGridViewTextBoxColumn2,
+            this.enderecoDataGridViewTextBoxColumn2,
+            this.bairroDataGridViewTextBoxColumn2,
+            this.cidadeDataGridViewTextBoxColumn2,
+            this.cepDataGridViewTextBoxColumn2,
+            this.estadoDataGridViewTextBoxColumn2,
+            this.emailDataGridViewTextBoxColumn2,
+            this.dataNascDataGridViewTextBoxColumn2,
+            this.sexoDataGridViewTextBoxColumn2,
+            this.senhaDataGridViewTextBoxColumn});
+			this.dtgMesarios.DataSource = this.mesarioBindingSource1;
+			this.dtgMesarios.Location = new System.Drawing.Point(9, 125);
 			this.dtgMesarios.Name = "dtgMesarios";
 			this.dtgMesarios.Size = new System.Drawing.Size(947, 346);
 			this.dtgMesarios.TabIndex = 0;
+			// 
+			// codigoDataGridViewTextBoxColumn
+			// 
+			this.codigoDataGridViewTextBoxColumn.DataPropertyName = "Codigo";
+			this.codigoDataGridViewTextBoxColumn.HeaderText = "Codigo";
+			this.codigoDataGridViewTextBoxColumn.Name = "codigoDataGridViewTextBoxColumn";
+			// 
+			// nomeDataGridViewTextBoxColumn2
+			// 
+			this.nomeDataGridViewTextBoxColumn2.DataPropertyName = "Nome";
+			this.nomeDataGridViewTextBoxColumn2.HeaderText = "Nome";
+			this.nomeDataGridViewTextBoxColumn2.Name = "nomeDataGridViewTextBoxColumn2";
+			// 
+			// cPFDataGridViewTextBoxColumn2
+			// 
+			this.cPFDataGridViewTextBoxColumn2.DataPropertyName = "CPF";
+			this.cPFDataGridViewTextBoxColumn2.HeaderText = "CPF";
+			this.cPFDataGridViewTextBoxColumn2.Name = "cPFDataGridViewTextBoxColumn2";
+			// 
+			// telefoneDataGridViewTextBoxColumn2
+			// 
+			this.telefoneDataGridViewTextBoxColumn2.DataPropertyName = "Telefone";
+			this.telefoneDataGridViewTextBoxColumn2.HeaderText = "Telefone";
+			this.telefoneDataGridViewTextBoxColumn2.Name = "telefoneDataGridViewTextBoxColumn2";
+			// 
+			// identidadeDataGridViewTextBoxColumn2
+			// 
+			this.identidadeDataGridViewTextBoxColumn2.DataPropertyName = "Identidade";
+			this.identidadeDataGridViewTextBoxColumn2.HeaderText = "Identidade";
+			this.identidadeDataGridViewTextBoxColumn2.Name = "identidadeDataGridViewTextBoxColumn2";
+			// 
+			// enderecoDataGridViewTextBoxColumn2
+			// 
+			this.enderecoDataGridViewTextBoxColumn2.DataPropertyName = "Endereco";
+			this.enderecoDataGridViewTextBoxColumn2.HeaderText = "Endereco";
+			this.enderecoDataGridViewTextBoxColumn2.Name = "enderecoDataGridViewTextBoxColumn2";
+			// 
+			// bairroDataGridViewTextBoxColumn2
+			// 
+			this.bairroDataGridViewTextBoxColumn2.DataPropertyName = "Bairro";
+			this.bairroDataGridViewTextBoxColumn2.HeaderText = "Bairro";
+			this.bairroDataGridViewTextBoxColumn2.Name = "bairroDataGridViewTextBoxColumn2";
+			// 
+			// cidadeDataGridViewTextBoxColumn2
+			// 
+			this.cidadeDataGridViewTextBoxColumn2.DataPropertyName = "Cidade";
+			this.cidadeDataGridViewTextBoxColumn2.HeaderText = "Cidade";
+			this.cidadeDataGridViewTextBoxColumn2.Name = "cidadeDataGridViewTextBoxColumn2";
+			// 
+			// cepDataGridViewTextBoxColumn2
+			// 
+			this.cepDataGridViewTextBoxColumn2.DataPropertyName = "Cep";
+			this.cepDataGridViewTextBoxColumn2.HeaderText = "Cep";
+			this.cepDataGridViewTextBoxColumn2.Name = "cepDataGridViewTextBoxColumn2";
+			// 
+			// estadoDataGridViewTextBoxColumn2
+			// 
+			this.estadoDataGridViewTextBoxColumn2.DataPropertyName = "Estado";
+			this.estadoDataGridViewTextBoxColumn2.HeaderText = "Estado";
+			this.estadoDataGridViewTextBoxColumn2.Name = "estadoDataGridViewTextBoxColumn2";
+			// 
+			// emailDataGridViewTextBoxColumn2
+			// 
+			this.emailDataGridViewTextBoxColumn2.DataPropertyName = "Email";
+			this.emailDataGridViewTextBoxColumn2.HeaderText = "Email";
+			this.emailDataGridViewTextBoxColumn2.Name = "emailDataGridViewTextBoxColumn2";
+			// 
+			// dataNascDataGridViewTextBoxColumn2
+			// 
+			this.dataNascDataGridViewTextBoxColumn2.DataPropertyName = "DataNasc";
+			this.dataNascDataGridViewTextBoxColumn2.HeaderText = "DataNasc";
+			this.dataNascDataGridViewTextBoxColumn2.Name = "dataNascDataGridViewTextBoxColumn2";
+			// 
+			// sexoDataGridViewTextBoxColumn2
+			// 
+			this.sexoDataGridViewTextBoxColumn2.DataPropertyName = "Sexo";
+			this.sexoDataGridViewTextBoxColumn2.HeaderText = "Sexo";
+			this.sexoDataGridViewTextBoxColumn2.Name = "sexoDataGridViewTextBoxColumn2";
+			// 
+			// senhaDataGridViewTextBoxColumn
+			// 
+			this.senhaDataGridViewTextBoxColumn.DataPropertyName = "Senha";
+			this.senhaDataGridViewTextBoxColumn.HeaderText = "Senha";
+			this.senhaDataGridViewTextBoxColumn.Name = "senhaDataGridViewTextBoxColumn";
+			// 
+			// mesarioBindingSource1
+			// 
+			this.mesarioBindingSource1.DataMember = "Mesario";
+			this.mesarioBindingSource1.DataSource = this.sistemaEleitoralDataSet2;
+			// 
+			// sistemaEleitoralDataSet2
+			// 
+			this.sistemaEleitoralDataSet2.DataSetName = "SistemaEleitoralDataSet2";
+			this.sistemaEleitoralDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
 			// 
 			// tabCargos
 			// 
@@ -1871,6 +2328,27 @@
 			this.dataGridViewTextBoxColumn50.ReadOnly = true;
 			this.dataGridViewTextBoxColumn50.Width = 1500;
 			// 
+			// eleitorTableAdapter
+			// 
+			this.eleitorTableAdapter.ClearBeforeFill = true;
+			// 
+			// sistemaEleitoralDataSetBindingSource
+			// 
+			this.sistemaEleitoralDataSetBindingSource.DataSource = this.sistemaEleitoralDataSet;
+			this.sistemaEleitoralDataSetBindingSource.Position = 0;
+			// 
+			// candidatoTableAdapter
+			// 
+			this.candidatoTableAdapter.ClearBeforeFill = true;
+			// 
+			// mesarioBindingSource
+			// 
+			this.mesarioBindingSource.DataSource = typeof(SistemaEleitoral.Model.Mesario);
+			// 
+			// mesarioTableAdapter
+			// 
+			this.mesarioTableAdapter.ClearBeforeFill = true;
+			// 
 			// frmDados
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1892,9 +2370,13 @@
 			this.tabCandidatos.ResumeLayout(false);
 			this.tabCandidatos.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgCandidatos)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.candidatoBindingSource)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.sistemaEleitoralDataSet1)).EndInit();
 			this.tabPage8.ResumeLayout(false);
 			this.tabPage8.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgEleitores)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.eleitorBindingSource)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.sistemaEleitoralDataSet)).EndInit();
 			this.tabControl2.ResumeLayout(false);
 			this.tabVotacao.ResumeLayout(false);
 			this.tabVotacao.PerformLayout();
@@ -1905,12 +2387,16 @@
 			this.tabMesarios.ResumeLayout(false);
 			this.tabMesarios.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgMesarios)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.mesarioBindingSource1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.sistemaEleitoralDataSet2)).EndInit();
 			this.tabCargos.ResumeLayout(false);
 			this.tabCargos.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtgCargos)).EndInit();
 			this.tabTurmas.ResumeLayout(false);
 			this.tabTurmas.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.sistemaEleitoralDataSetBindingSource)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.mesarioBindingSource)).EndInit();
 			this.ResumeLayout(false);
 
         }
@@ -1967,7 +2453,6 @@
         private System.Windows.Forms.ComboBox comboBox10;
         private System.Windows.Forms.ComboBox comboBox11;
         private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.DataGridView dtgCandidatos;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
@@ -2044,20 +2529,63 @@
         private System.Windows.Forms.Label lblQuantVotos;
         private System.Windows.Forms.PictureBox pictureBox3;
 		private System.Windows.Forms.DataGridView dtgVotacao;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn51;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn52;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn53;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn54;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn55;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn56;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn57;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn58;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn59;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn60;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn61;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn62;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn63;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn64;
-		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn65;
+		private SistemaEleitoralDataSet sistemaEleitoralDataSet;
+		private System.Windows.Forms.BindingSource eleitorBindingSource;
+		private SistemaEleitoralDataSetTableAdapters.EleitorTableAdapter eleitorTableAdapter;
+		private System.Windows.Forms.DataGridViewTextBoxColumn matriculaDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cPFDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn telefoneDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn identidadeDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn enderecoDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn bairroDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cidadeDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cepDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewComboBoxColumn estadoDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn dataNascDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewComboBoxColumn sexoDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewButtonColumn Alterar;
+		private System.Windows.Forms.DataGridViewButtonColumn Excluir;
+		private System.Windows.Forms.DataGridView dtgCandidatos;
+		private System.Windows.Forms.BindingSource sistemaEleitoralDataSetBindingSource;
+		private SistemaEleitoralDataSet1 sistemaEleitoralDataSet1;
+		private System.Windows.Forms.BindingSource candidatoBindingSource;
+		private SistemaEleitoralDataSet1TableAdapters.CandidatoTableAdapter candidatoTableAdapter;
+		private System.Windows.Forms.DataGridViewTextBoxColumn numeroDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewComboBoxColumn cargoDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cPFDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn telefoneDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn identidadeDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn enderecoDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn bairroDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cidadeDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cepDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewComboBoxColumn estadoDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn dataNascDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewComboBoxColumn sexoDataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn fotoDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn1;
+		private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn codigoDataGridViewTextBoxColumn;
+		private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cPFDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn telefoneDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn identidadeDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn enderecoDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn bairroDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cidadeDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn cepDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn estadoDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn dataNascDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn sexoDataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn senhaDataGridViewTextBoxColumn;
+		private System.Windows.Forms.BindingSource mesarioBindingSource;
+		private SistemaEleitoralDataSet2 sistemaEleitoralDataSet2;
+		private System.Windows.Forms.BindingSource mesarioBindingSource1;
+		private SistemaEleitoralDataSet2TableAdapters.MesarioTableAdapter mesarioTableAdapter;
 	}
 }

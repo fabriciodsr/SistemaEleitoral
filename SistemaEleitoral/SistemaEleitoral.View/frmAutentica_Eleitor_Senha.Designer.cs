@@ -85,6 +85,7 @@
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.tb_Senha_Autentica_Eleitor);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "frmAutentica_Eleitor_Senha";
 			this.Text = "frmAutentica_Eleitor_Senha";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -27,5 +27,19 @@ namespace SistemaEleitoral.Controller
 			Candidato.Incluir(oCandidato);
 		}
 
-	}
+		public static int Alterar(Eleitor oEleitor)
+		{
+			return Eleitor.Alterar(oEleitor);
+		}
+
+		public static int Excluir(string Matricula)
+		{
+			return Eleitor.Excluir(Matricula);
+		}
+
+		public static Eleitor Selecionar(string Matricula)
+		{
+			return Eleitor.Selecionar(Matricula);
+		}
+    }
 }
