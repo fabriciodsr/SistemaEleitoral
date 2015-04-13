@@ -58,5 +58,11 @@ namespace SistemaEleitoral
         {
             Close();
         }
-    }
+
+		private void pictureBox7_MouseClick(object sender, MouseEventArgs e)
+		{
+			frmCadastroTurma frm = new frmCadastroTurma();
+			frm.Show();
+		}
+	}
 }

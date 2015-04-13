@@ -41,5 +41,10 @@ namespace SistemaEleitoral.Controller
 		{
 			return Eleitor.Selecionar(Matricula);
 		}
-    }
+
+		public static void Incluir(Turma oTurma)
+		{
+			Turma.Incluir(oTurma);
+		}
+	}
 }

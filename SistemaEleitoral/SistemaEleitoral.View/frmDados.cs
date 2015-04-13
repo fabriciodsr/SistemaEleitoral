@@ -104,6 +104,28 @@ namespace SistemaEleitoral
 			dtgMesarios.DataSource = bsource;
 		}
 
+		public void CarregarDadosTurmas()
+		{
+			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+			SQL = "SELECT * FROM Turma";
+			
+			adapter = new SqlDataAdapter(SQL, oCn);
+			dataSet = new DataSet();
+			SqlCommandBuilder oCommand = new SqlCommandBuilder(adapter);
+			adapter.Fill(dataSet, "Turma");
+			bsource.DataSource = dataSet.Tables["Turma"];
+			dtgTurmas.DataSource = bsource;
+
+			SqlCommand sqlCmd = new SqlCommand("SELECT DISTINCT * FROM Turma", oCn);
+			SqlDataReader sqlReader = sqlCmd.ExecuteReader();
+
+			while (sqlReader.Read())
+			{
+				cmbAnoTurma.Items.Add(sqlReader["Ano"].ToString());
+			}
+			sqlReader.Close();
+		}
+
 
 		private void button12_Click(object sender, EventArgs e)
 		{
@@ -328,6 +350,73 @@ namespace SistemaEleitoral
 				bsource.DataSource = dataSet.Tables["Candidato"];
 				dtgVotacao.DataSource = bsource;
 			}
+			else if (rdbTurmaVotacao.Checked)
+			{
+				SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+				SQL = "SELECT * FROM Turma";
+
+				adapter = new SqlDataAdapter(SQL, oCn);
+				dataSet = new DataSet();
+				SqlCommandBuilder oCommand = new SqlCommandBuilder(adapter);
+				adapter.Fill(dataSet, "Turma");
+				bsource.DataSource = dataSet.Tables["Turma"];
+				dtgVotacao.DataSource = bsource;
 			}
+		}
+
+		private void tabTurmas_Enter(object sender, EventArgs e)
+		{
+			CarregarDadosTurmas();
+		}
+
+		private void button24_Click(object sender, EventArgs e)
+		{
+			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+			string SQL = "SELECT * FROM Turma WHERE Numero = @num OR Descricao = @desc OR Ano = @ano";
+
+			SqlCommand oComando = new SqlCommand(SQL, oCn);
+			oComando.Parameters.Add("@num", SqlDbType.VarChar).Value = txtNumeroTurma.Text;
+			oComando.Parameters.Add("@ano", SqlDbType.VarChar).Value = cmbAnoTurma.Text;
+			oComando.Parameters.Add("@desc", SqlDbType.VarChar).Value = txtDescricaoTuma.Text;
+
+			oComando.Connection = oCn;
+			oComando.CommandText = SQL;
+
+			SqlDataAdapter adapter = new SqlDataAdapter();
+			adapter.SelectCommand = oComando;
+
+			DataSet dataSet = new DataSet();
+			adapter.Fill(dataSet);
+
+			dtgTurmas.DataSource = dataSet;
+			dtgTurmas.DataMember = dataSet.Tables[0].TableName;
+			oCn.Close();
+		}
+
+		private void dtgTurmas_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
+		{
+			if (!e.Row.IsNewRow)
+			{
+				DialogResult res = MessageBox.Show("Tem certeza de que deseja deletar esta linha ?", "Deletar?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+				if (res == DialogResult.No)
+					e.Cancel = true;
+			}
+		}
+
+		private void btnSalvarTurma_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				DataTable dt = dataSet.Tables["Turma"];
+				this.dtgEleitores.BindingContext[dt].EndCurrentEdit();
+				this.adapter.Update(dt);
+				MessageBox.Show("Banco de dados Atualizado com sucesso", "Atualizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				//dtgTurmas.Enabled = false;
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Erro : " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
 	}
 }

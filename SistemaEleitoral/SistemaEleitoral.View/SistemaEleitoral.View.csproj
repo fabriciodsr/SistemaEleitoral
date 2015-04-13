@@ -74,6 +74,12 @@
     <Compile Include="frmAutentica_Eleitor_Senha.Designer.cs">
       <DependentUpon>frmAutentica_Eleitor_Senha.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCadastroTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroTurma.Designer.cs">
+      <DependentUpon>frmCadastroTurma.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCadastroCandidato.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +142,9 @@
     <EmbeddedResource Include="frmAutentica_Eleitor_Senha.resx">
       <DependentUpon>frmAutentica_Eleitor_Senha.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroTurma.resx">
+      <DependentUpon>frmCadastroTurma.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCadastroCandidato.resx">
       <DependentUpon>frmCadastroCandidato.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +185,7 @@
     <None Include="Properties\DataSources\SistemaEleitoral.Model.Candidato.datasource" />
     <None Include="Properties\DataSources\SistemaEleitoral.Model.Eleitor.datasource" />
     <None Include="Properties\DataSources\SistemaEleitoral.Model.Mesario.datasource" />
+    <None Include="Properties\DataSources\SistemaEleitoral.Model.Turma.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

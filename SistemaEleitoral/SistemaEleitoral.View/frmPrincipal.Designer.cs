@@ -39,26 +39,26 @@
 			this.Label2 = new System.Windows.Forms.Label();
 			this.PictureBox6 = new System.Windows.Forms.PictureBox();
 			this.PictureBox2 = new System.Windows.Forms.PictureBox();
-			this.PictureBox7 = new System.Windows.Forms.PictureBox();
 			this.PictureBox5 = new System.Windows.Forms.PictureBox();
 			this.PictureBox4 = new System.Windows.Forms.PictureBox();
 			this.PictureBox3 = new System.Windows.Forms.PictureBox();
 			this.PictureBox1 = new System.Windows.Forms.PictureBox();
 			this.btnFechar = new System.Windows.Forms.Button();
+			this.label1 = new System.Windows.Forms.Label();
+			this.pictureBox7 = new System.Windows.Forms.PictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox8)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox5)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// PictureBox8
 			// 
 			this.PictureBox8.BackColor = System.Drawing.Color.Transparent;
-			this.PictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.PictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.PictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox8.Image")));
 			this.PictureBox8.Location = new System.Drawing.Point(534, 446);
@@ -109,13 +109,13 @@
 			// 
 			this.Label5.AutoSize = true;
 			this.Label5.BackColor = System.Drawing.Color.Transparent;
-			this.Label5.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Label5.Font = new System.Drawing.Font("Verdana", 26.25F, System.Drawing.FontStyle.Bold);
 			this.Label5.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.Label5.Location = new System.Drawing.Point(257, 269);
+			this.Label5.Location = new System.Drawing.Point(159, 192);
 			this.Label5.Name = "Label5";
-			this.Label5.Size = new System.Drawing.Size(30, 200);
+			this.Label5.Size = new System.Drawing.Size(191, 42);
 			this.Label5.TabIndex = 29;
-			this.Label5.Text = "C\r\nA\r\nD\r\nA\r\nS\r\nT\r\nR\r\nO";
+			this.Label5.Text = "Cadastro";
 			// 
 			// Label4
 			// 
@@ -123,7 +123,7 @@
 			this.Label4.BackColor = System.Drawing.Color.Transparent;
 			this.Label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Label4.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.Label4.Location = new System.Drawing.Point(329, 411);
+			this.Label4.Location = new System.Drawing.Point(125, 392);
 			this.Label4.Name = "Label4";
 			this.Label4.Size = new System.Drawing.Size(97, 18);
 			this.Label4.TabIndex = 28;
@@ -135,7 +135,7 @@
 			this.Label3.BackColor = System.Drawing.Color.Transparent;
 			this.Label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Label3.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.Label3.Location = new System.Drawing.Point(339, 292);
+			this.Label3.Location = new System.Drawing.Point(291, 255);
 			this.Label3.Name = "Label3";
 			this.Label3.Size = new System.Drawing.Size(77, 18);
 			this.Label3.TabIndex = 27;
@@ -147,7 +147,7 @@
 			this.Label2.BackColor = System.Drawing.Color.Transparent;
 			this.Label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Label2.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-			this.Label2.Location = new System.Drawing.Point(345, 173);
+			this.Label2.Location = new System.Drawing.Point(141, 255);
 			this.Label2.Name = "Label2";
 			this.Label2.Size = new System.Drawing.Size(64, 18);
 			this.Label2.TabIndex = 26;
@@ -159,7 +159,7 @@
 			this.PictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox6.Image")));
-			this.PictureBox6.Location = new System.Drawing.Point(303, 430);
+			this.PictureBox6.Location = new System.Drawing.Point(99, 411);
 			this.PictureBox6.Name = "PictureBox6";
 			this.PictureBox6.Size = new System.Drawing.Size(150, 100);
 			this.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -173,7 +173,7 @@
 			this.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-			this.PictureBox2.Location = new System.Drawing.Point(303, 311);
+			this.PictureBox2.Location = new System.Drawing.Point(255, 274);
 			this.PictureBox2.Name = "PictureBox2";
 			this.PictureBox2.Size = new System.Drawing.Size(150, 100);
 			this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -181,23 +181,13 @@
 			this.PictureBox2.TabStop = false;
 			this.PictureBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PictureBox2_MouseClick);
 			// 
-			// PictureBox7
-			// 
-			this.PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox7.Image")));
-			this.PictureBox7.Location = new System.Drawing.Point(26, 192);
-			this.PictureBox7.Name = "PictureBox7";
-			this.PictureBox7.Size = new System.Drawing.Size(208, 338);
-			this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.PictureBox7.TabIndex = 23;
-			this.PictureBox7.TabStop = false;
-			// 
 			// PictureBox5
 			// 
 			this.PictureBox5.BackColor = System.Drawing.SystemColors.ActiveCaption;
 			this.PictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox5.Image")));
-			this.PictureBox5.Location = new System.Drawing.Point(303, 192);
+			this.PictureBox5.Location = new System.Drawing.Point(99, 274);
 			this.PictureBox5.Name = "PictureBox5";
 			this.PictureBox5.Size = new System.Drawing.Size(150, 100);
 			this.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -260,12 +250,40 @@
 			this.btnFechar.UseVisualStyleBackColor = false;
 			this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
 			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.BackColor = System.Drawing.Color.Transparent;
+			this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+			this.label1.Location = new System.Drawing.Point(291, 392);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(66, 18);
+			this.label1.TabIndex = 36;
+			this.label1.Text = "Turma";
+			// 
+			// pictureBox7
+			// 
+			this.pictureBox7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+			this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+			this.pictureBox7.Location = new System.Drawing.Point(255, 411);
+			this.pictureBox7.Name = "pictureBox7";
+			this.pictureBox7.Size = new System.Drawing.Size(150, 100);
+			this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox7.TabIndex = 35;
+			this.pictureBox7.TabStop = false;
+			this.pictureBox7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox7_MouseClick);
+			// 
 			// frmPrincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(768, 540);
+			this.Controls.Add(this.label1);
+			this.Controls.Add(this.pictureBox7);
 			this.Controls.Add(this.btnFechar);
 			this.Controls.Add(this.PictureBox8);
 			this.Controls.Add(this.Label6);
@@ -277,7 +295,6 @@
 			this.Controls.Add(this.Label2);
 			this.Controls.Add(this.PictureBox6);
 			this.Controls.Add(this.PictureBox2);
-			this.Controls.Add(this.PictureBox7);
 			this.Controls.Add(this.PictureBox5);
 			this.Controls.Add(this.PictureBox4);
 			this.Controls.Add(this.PictureBox3);
@@ -290,11 +307,11 @@
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox8)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -312,11 +329,12 @@
         internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.PictureBox PictureBox6;
         internal System.Windows.Forms.PictureBox PictureBox2;
-        internal System.Windows.Forms.PictureBox PictureBox7;
         internal System.Windows.Forms.PictureBox PictureBox5;
         internal System.Windows.Forms.PictureBox PictureBox4;
         internal System.Windows.Forms.PictureBox PictureBox3;
         internal System.Windows.Forms.PictureBox PictureBox1;
         private System.Windows.Forms.Button btnFechar;
-    }
+		internal System.Windows.Forms.Label label1;
+		internal System.Windows.Forms.PictureBox pictureBox7;
+	}
 }
