@@ -122,11 +122,11 @@
 			this.radioButton2 = new System.Windows.Forms.RadioButton();
 			this.radioButton1 = new System.Windows.Forms.RadioButton();
 			this.label26 = new System.Windows.Forms.Label();
-			this.label25 = new System.Windows.Forms.Label();
+			this.lblQuantVotos = new System.Windows.Forms.Label();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.label24 = new System.Windows.Forms.Label();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.label23 = new System.Windows.Forms.Label();
+			this.lblQuantEleitores = new System.Windows.Forms.Label();
 			this.label20 = new System.Windows.Forms.Label();
 			this.label21 = new System.Windows.Forms.Label();
 			this.label22 = new System.Windows.Forms.Label();
@@ -1013,11 +1013,11 @@
 			this.tabVotacao.Controls.Add(this.radioButton2);
 			this.tabVotacao.Controls.Add(this.radioButton1);
 			this.tabVotacao.Controls.Add(this.label26);
-			this.tabVotacao.Controls.Add(this.label25);
+			this.tabVotacao.Controls.Add(this.lblQuantVotos);
 			this.tabVotacao.Controls.Add(this.pictureBox2);
 			this.tabVotacao.Controls.Add(this.label24);
 			this.tabVotacao.Controls.Add(this.pictureBox1);
-			this.tabVotacao.Controls.Add(this.label23);
+			this.tabVotacao.Controls.Add(this.lblQuantEleitores);
 			this.tabVotacao.Controls.Add(this.label20);
 			this.tabVotacao.Controls.Add(this.label21);
 			this.tabVotacao.Controls.Add(this.label22);
@@ -1264,17 +1264,17 @@
 			this.label26.TabIndex = 19;
 			this.label26.Text = "%";
 			// 
-			// label25
+			// lblQuantVotos
 			// 
-			this.label25.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.label25.AutoSize = true;
-			this.label25.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label25.ForeColor = System.Drawing.Color.Red;
-			this.label25.Location = new System.Drawing.Point(578, 173);
-			this.label25.Name = "label25";
-			this.label25.Size = new System.Drawing.Size(34, 32);
-			this.label25.TabIndex = 18;
-			this.label25.Text = "0";
+			this.lblQuantVotos.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblQuantVotos.AutoSize = true;
+			this.lblQuantVotos.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblQuantVotos.ForeColor = System.Drawing.Color.Red;
+			this.lblQuantVotos.Location = new System.Drawing.Point(578, 173);
+			this.lblQuantVotos.Name = "lblQuantVotos";
+			this.lblQuantVotos.Size = new System.Drawing.Size(34, 32);
+			this.lblQuantVotos.TabIndex = 18;
+			this.lblQuantVotos.Text = "0";
 			// 
 			// pictureBox2
 			// 
@@ -1312,17 +1312,18 @@
 			this.pictureBox1.TabIndex = 15;
 			this.pictureBox1.TabStop = false;
 			// 
-			// label23
+			// lblQuantEleitores
 			// 
-			this.label23.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.label23.AutoSize = true;
-			this.label23.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label23.ForeColor = System.Drawing.Color.Red;
-			this.label23.Location = new System.Drawing.Point(371, 173);
-			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(34, 32);
-			this.label23.TabIndex = 14;
-			this.label23.Text = "0";
+			this.lblQuantEleitores.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblQuantEleitores.AutoSize = true;
+			this.lblQuantEleitores.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblQuantEleitores.ForeColor = System.Drawing.Color.Red;
+			this.lblQuantEleitores.Location = new System.Drawing.Point(371, 173);
+			this.lblQuantEleitores.Name = "lblQuantEleitores";
+			this.lblQuantEleitores.Size = new System.Drawing.Size(34, 32);
+			this.lblQuantEleitores.TabIndex = 14;
+			this.lblQuantEleitores.Text = "0";
+			this.lblQuantEleitores.Click += new System.EventHandler(this.label23_Click);
 			// 
 			// label20
 			// 
@@ -2054,7 +2055,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn49;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn50;
         private System.Windows.Forms.TabPage tabVotacao;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label lblQuantEleitores;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
@@ -2069,7 +2070,7 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label lblQuantVotos;
         private System.Windows.Forms.PictureBox pictureBox3;
 		private System.Windows.Forms.DataGridView dtgVotacao;
 		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn51;

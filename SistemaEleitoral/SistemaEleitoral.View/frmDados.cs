@@ -15,7 +15,8 @@ namespace SistemaEleitoral
 {
     public partial class frmDados : Form
     {
-        public frmDados()
+
+		public frmDados()
         {
             InitializeComponent();
         }
@@ -25,10 +26,39 @@ namespace SistemaEleitoral
 
         }
 
+		private int ContagemEleitores()
+		{
+			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+			string SQL = "SELECT COUNT(*) FROM Eleitor";
+
+			SqlCommand oComando = new SqlCommand(SQL, oCn);
+			int QuantEleitores;
+
+			QuantEleitores = Convert.ToInt32(oComando.ExecuteScalar());
+			
+			oCn.Close();
+			return QuantEleitores;
+		}
+
+		private int ContagemVotos()
+		{
+			SqlConnection oCn = Model.Data.Conexao.ConexaoSqlServer();
+			string SQL = "SELECT COUNT(DISTINCT VotoRepresentante) FROM Eleitor";
+
+			SqlCommand oComando = new SqlCommand(SQL, oCn);
+			int QuantVotos;
+
+			QuantVotos = Convert.ToInt32(oComando.ExecuteScalar());
+
+			oCn.Close();
+			return QuantVotos;
+		}
+
 		private void frmDados_Load(object sender, EventArgs e)
 		{
-
-		}
+			lblQuantEleitores.Text = ContagemEleitores().ToString();
+			lblQuantVotos.Text = ContagemVotos().ToString();
+        }
 
 		private void button12_Click(object sender, EventArgs e)
 		{
@@ -97,6 +127,11 @@ namespace SistemaEleitoral
 			dtgMesarios.DataSource = dataSet;
 			dtgMesarios.DataMember = dataSet.Tables[0].TableName;
 			oCn.Close();
+		}
+
+		private void label23_Click(object sender, EventArgs e)
+		{
+			
 		}
 	}
 }
